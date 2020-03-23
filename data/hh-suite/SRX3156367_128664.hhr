@@ -1,0 +1,150 @@
+Query         SRX3156367_128664
+Match_columns 194
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 14:49:48 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_128664.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_128664.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_128664.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF03685.13 ; UPF0147 ; Unchara  17.1     6.4  0.0015   22.9   0.0   20   16-35      9-28  (81)
+  2 PF10635.9 ; DisA-linker ; DisA  16.4     6.6  0.0016   24.4   0.0   27  164-190    15-41  (135)
+  3 PF15684.5 ; AROS ; Active regu   8.7      17  0.0039   21.8   0.0   36  112-150    51-86  (117)
+  4 PF10374.9 ; EST1 ; Telomerase    7.5      16  0.0046   19.0   0.0   13  162-174   109-121 (122)
+  5 PF17436.2 ; DUF5415 ; Family o   7.5      23  0.0047   20.6   0.0   17  144-160     6-22  (66)
+  6 PF09750.9 ; DRY_EERY ; Alterna   6.5      23  0.0057   20.5   0.0   26  162-187    66-91  (128)
+  7 PF04930.15 ; FUN14 ; FUN14 fam   6.3      22  0.0058   18.6   0.0   26   31-56     32-57  (99)
+  8 PF12001.8 ; DUF3496 ; Domain o   6.2      28   0.006   21.2   0.0   15  164-178    26-40  (106)
+  9 PF17840.1 ; Tugs ; Tethering U   5.6      30  0.0068   17.5   0.0   23  169-191    23-45  (47)
+ 10 PF18743.1 ; AHJR-like ; REase_   5.6      24  0.0069   18.0   0.0   58   62-130    41-98  (125)
+
+No 1
+>PF03685.13 ; UPF0147 ; Uncharacterised protein family (UPF0147)
+Probab=17.07  E-value=6.4  Score=22.92  Aligned_cols=20  Identities=30%  Similarity=0.595  Sum_probs=16.5  Template_Neff=5.400
+
+Q SRX3156367_128   16 KKSLKELSKDNSVPANIQYM   35 (194)
+Q Consensus        16 kkslkelskdnsvpaniqym   35 (194)
+                      ...|.++..|++||-||.-.
+T Consensus         9 ~~~L~~i~~D~sVPrNIr~~   28 (81)
+T B8GH00_METPE/4    9 IQMLQHIMEDNTIPRNIRRV   28 (81)
+T ss_pred             HHHHHHHHhCCCCCHHHHHH
+Confidence            44578899999999999864
+
+
+No 2
+>PF10635.9 ; DisA-linker ; DisA bacterial checkpoint controller linker region
+Probab=16.39  E-value=6.6  Score=24.44  Aligned_cols=27  Identities=22%  Similarity=0.337  Sum_probs=24.1  Template_Neff=5.800
+
+Q SRX3156367_128  164 LYDLERYKKLYFKDIHTYTEEEFEEYA  190 (194)
+Q Consensus       164 lydlerykklyfkdihtyteeefeeya  190 (194)
+                      |--||||+..+.+.+...|.-||+.++
+T Consensus        15 L~tLEkyr~~ld~~l~~L~~lE~~d~V   41 (135)
+T D9SXC5_CLOC7/1   15 IQTLEKYVAVLDRIISNVNVLEFQDMV   41 (135)
+T ss_pred             HHHHHHHHHHHHHHHHHhhHHHHCCCc
+Confidence            567999999999999999999998765
+
+
+No 3
+>PF15684.5 ; AROS ; Active regulator of SIRT1, or 40S ribosomal protein S19-binding 1
+Probab=8.66  E-value=17  Score=21.84  Aligned_cols=36  Identities=22%  Similarity=0.229  Sum_probs=24.2  Template_Neff=5.700
+
+Q SRX3156367_128  112 ISYTRENAEFVLVYNEEKNPLPNQLTKGIVQEAPSRTAI  150 (194)
+Q Consensus       112 isytrenaefvlvyneeknplpnqltkgivqeapsrtai  150 (194)
+                      .+.+.+|..+.+.-...   +....++-|++.+..|-+.
+T Consensus        51 ~d~~~~Nlk~l~~ls~~---~d~~~~~KIl~~~~~r~~~   86 (117)
+T F7CWR8_ORNAN/2   51 KNHLKANLRFMTLSCDI---ADPQVTKTILTQNRGRKAK   86 (117)
+T ss_pred             hchHHHHHHHHHHHccc---CCHHHHHHHHHHHhccccc
+Confidence            45677787777655443   6677788888887666443
+
+
+No 4
+>PF10374.9 ; EST1 ; Telomerase activating protein Est1
+Probab=7.54  E-value=16  Score=19.00  Aligned_cols=13  Identities=46%  Similarity=0.741  Sum_probs=9.4  Template_Neff=9.100
+
+Q SRX3156367_128  162 FILYDLERYKKLY  174 (194)
+Q Consensus       162 filydlerykkly  174 (194)
+                      ..|-||.||+..+
+T Consensus       109 i~LGDL~RY~~~~  121 (122)
+T K3X593_PYTUL/5  109 IFLGDLARYRELH  121 (122)
+T ss_pred             HHHHHHHHHHHhc
+Confidence            4466999998654
+
+
+No 5
+>PF17436.2 ; DUF5415 ; Family of unknown function (DUF5415)
+Probab=7.53  E-value=23  Score=20.63  Aligned_cols=17  Identities=41%  Similarity=0.593  Sum_probs=14.5  Template_Neff=3.500
+
+Q SRX3156367_128  144 APSRTAISKILAQKGKQ  160 (194)
+Q Consensus       144 apsrtaiskilaqkgkq  160 (194)
+                      +|-..|+++||.++|+.
+T Consensus         6 sp~q~A~~~IL~k~g~t   22 (66)
+T Q3Y0Z0_ENTFC/1    6 TPFEKAASKILERRGVS   22 (66)
+T ss_pred             CHHHHHHHHHHHHhCCC
+Confidence            67778999999999975
+
+
+No 6
+>PF09750.9 ; DRY_EERY ; Alternative splicing regulator
+Probab=6.47  E-value=23  Score=20.50  Aligned_cols=26  Identities=27%  Similarity=0.336  Sum_probs=20.0  Template_Neff=6.800
+
+Q SRX3156367_128  162 FILYDLERYKKLYFKDIHTYTEEEFE  187 (194)
+Q Consensus       162 filydlerykklyfkdihtyteeefe  187 (194)
+                      -...|-|||+.|+-.+.+..+++|+.
+T Consensus        66 e~~l~~ERYrdL~~~~~~~~~eee~l   91 (128)
+T J9K405_ACYPI/4   66 ERHLNYERYRILVQNEFLTISESKFL   91 (128)
+T ss_pred             HHHHhHHHHHHHhhhhhhccchhHHH
+Confidence            35778999999998887777766543
+
+
+No 7
+>PF04930.15 ; FUN14 ; FUN14 family
+Probab=6.32  E-value=22  Score=18.60  Aligned_cols=26  Identities=8%  Similarity=0.233  Sum_probs=18.8  Template_Neff=8.100
+
+Q SRX3156367_128   31 NIQYMTISEVQAIDFDRVKSIYEDNL   56 (194)
+Q Consensus        31 niqymtisevqaidfdrvksiyednl   56 (194)
+                      -+||+.-..+-.||++++++.+....
+T Consensus        32 ~lq~l~~~G~i~i~w~~l~~~~~~~~   57 (99)
+T B7FVP0_PHATC/2   32 GLQTAASMGYIVVDWEKIRVSVVSSI   57 (99)
+T ss_pred             HHHHHHHCCCeeecHHHHHHHHHHHH
+Confidence            35677777777788999888776543
+
+
+No 8
+>PF12001.8 ; DUF3496 ; Domain of unknown function (DUF3496)
+Probab=6.19  E-value=28  Score=21.18  Aligned_cols=15  Identities=33%  Similarity=0.864  Sum_probs=11.9  Template_Neff=4.500
+
+Q SRX3156367_128  164 LYDLERYKKLYFKDI  178 (194)
+Q Consensus       164 lydlerykklyfkdi  178 (194)
+                      --.||+||.+|....
+T Consensus        26 ~~ELEkYkqly~eEl   40 (106)
+T G1P850_MYOLU/8   26 RSKLEKYERLYLEEL   40 (106)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            557999999998543
+
+
+No 9
+>PF17840.1 ; Tugs ; Tethering Ubl4a to BAGS domain
+Probab=5.60  E-value=30  Score=17.52  Aligned_cols=23  Identities=17%  Similarity=0.297  Sum_probs=11.0  Template_Neff=5.600
+
+Q SRX3156367_128  169 RYKKLYFKDIHTYTEEEFEEYAR  191 (194)
+Q Consensus       169 rykklyfkdihtyteeefeeyar  191 (194)
+                      .+.+.+-.-+...+-++.|..|.
+T Consensus        23 ~f~k~~~~~l~~lSLDDiERLA~   45 (47)
+T W5NEX1_LEPOC/8   23 QLIKDYERSLRQLSLDDIERLAS   45 (47)
+T ss_pred             HHHHHHHHHHhhCCHHHHHHHHh
+Confidence            34444444444555555555443
+
+
+No 10
+>PF18743.1 ; AHJR-like ; REase_AHJR-like
+Probab=5.58  E-value=24  Score=17.99  Aligned_cols=58  Identities=16%  Similarity=0.260  Sum_probs=33.6  Template_Neff=9.400
+
+Q SRX3156367_128   62 HASSVDAISQTQDKTIFIEFKNGKMKSEIRKVKEKLRDSVLLFGDIVEKTISYTRENAEFVLVYNEEKN  130 (194)
+Q Consensus        62 hassvdaisqtqdktifiefkngkmkseirkvkeklrdsvllfgdivektisytrenaefvlvyneekn  130 (194)
+                      +.-..|.+....+..+|||.|........  -.+++....-.|..         +....|.++..++..
+T Consensus        41 ~~y~pDii~~~~g~~~~iEVK~~~~~~~~--~~~~l~~~~~~~~~---------~~g~~f~vi~~~~~~   98 (125)
+T L8LT49_9CYAN/1   41 KNYRLDLVVRNKDETVVIEVRSRASLNPA--STQYLRNLTKIIEQ---------HPGWRLELVMTNPED   98 (125)
+T ss_pred             ccceecEEEEeCCEEEEEEEEecccCChh--cHHHHHHHHHHHHh---------CCCceEEEEEeCcch
+Confidence            34567788888889999999987654221  12222222111211         136788888865543
+
+

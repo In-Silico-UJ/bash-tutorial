@@ -1,0 +1,654 @@
+Query         SRX3156367_102557
+Match_columns 152
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 119
+Date          Wed Mar 11 15:26:58 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_102557.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_102557.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_102557.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF06859.12 ; Bin3 ; Bicoid-int  96.4 3.8E-06 1.2E-09   44.6   0.0   44   13-57      1-47  (109)
+  2 PF17987.1 ; PMT2_N ; Phosphoet  91.7  0.0025 7.6E-07   34.4   0.0   42   11-53     24-68  (130)
+  3 PF01234.17 ; NNMT_PNMT_TEMT ;   90.1  0.0049 1.6E-06   35.4   0.0   46   11-57    156-202 (260)
+  4 PF05430.11 ; Methyltransf_30 ;  89.8  0.0056 1.7E-06   32.4   0.0   43   11-55     48-91  (123)
+  5 PF07942.12 ; N2227 ; N2227-lik  87.8    0.01 3.3E-06   34.5   0.0   39   10-52    163-201 (268)
+  6 PF12345.8 ; DUF3641 ; Protein   86.0   0.023 5.1E-06   37.6   0.0   26    4-30     68-93  (133)
+  7 PF05185.16 ; PRMT5 ; PRMT5 arg  85.5   0.017 5.7E-06   29.8   0.0   39   10-50    132-170 (170)
+  8 PF05175.14 ; MTS ; Methyltrans  85.2   0.018   6E-06   30.1   0.0   48   11-59     95-144 (168)
+  9 PF05401.11 ; NodS ; Nodulation  83.8   0.024 7.8E-06   30.8   0.0   46   10-56    104-149 (201)
+ 10 PF06080.12 ; DUF938 ; Protein   82.8   0.027 9.3E-06   28.7   0.0   44   11-56    101-144 (204)
+ 11 PF02390.17 ; Methyltransf_4 ;   81.2   0.035 1.2E-05   28.1   0.0   24   32-55    104-127 (181)
+ 12 PF03269.14 ; DUF268 ; Caenorha  81.0   0.041 1.2E-05   31.4   0.0   46   11-57     61-114 (176)
+ 13 PF12692.7 ; Methyltransf_17 ;   78.9   0.051 1.6E-05   28.5   0.0   40   19-58     96-137 (158)
+ 14 PF04672.12 ; Methyltransf_19 ;  78.7   0.054 1.7E-05   31.5   0.0   39   20-58    155-193 (263)
+ 15 PF10017.9 ; Methyltransf_33 ;   77.6   0.063 1.9E-05   32.4   0.0   41   15-56    141-181 (304)
+ 16 PF16803.5 ; DRE2_N ; Fe-S clus  77.4   0.066   2E-05   28.8   0.0   44   10-56     48-91  (126)
+ 17 PF05724.11 ; TPMT ; Thiopurine  76.9   0.066 2.1E-05   29.9   0.0   41   12-54    122-162 (222)
+ 18 PF08003.11 ; Methyltransf_9 ;   75.7   0.077 2.4E-05   31.9   0.0   47    8-58    179-225 (316)
+ 19 PF05891.12 ; Methyltransf_PK ;  74.4   0.082 2.7E-05   28.0   0.0   41   11-53    118-158 (214)
+ 20 PF01739.18 ; CheR ; CheR methy  72.9   0.096 3.1E-05   27.8   0.0   39   12-52    135-173 (195)
+ 21 PF01728.19 ; FtsJ ; FtsJ-like   71.5    0.11 3.6E-05   27.5   0.0   28   30-57    118-145 (183)
+ 22 PF13489.6 ; Methyltransf_23 ;   71.2    0.11 3.7E-05   25.3   0.0   41   12-56     82-122 (164)
+ 23 PF08468.11 ; MTS_N ; Methyltra  70.6    0.13 3.9E-05   28.4   0.0   39   11-54     67-105 (155)
+ 24 PF00891.18 ; Methyltransf_2 ;   67.7    0.15 4.9E-05   27.1   0.0   40   12-53    128-167 (211)
+ 25 PF00107.26 ; ADH_zinc_N ; Zinc  65.0    0.19 6.1E-05   25.0   0.0   22   32-53     78-99  (139)
+ 26 PF01564.17 ; Spermine_synth ;   64.2     0.2 6.5E-05   25.7   0.0   24   32-55    111-134 (181)
+ 27 PF03848.14 ; TehB ; Tellurite   64.1     0.2 6.5E-05   26.6   0.0   41   10-52     93-133 (193)
+ 28 PF11968.8 ; Bmt2 ; 25S rRNA (a  63.9    0.21 6.6E-05   27.4   0.0   43   10-53    105-152 (221)
+ 29 PF06460.12 ; NSP16 ; Coronavir  63.3    0.24 6.9E-05   30.5   0.0   41   23-63    140-180 (297)
+ 30 PF06325.13 ; PrmA ; Ribosomal   60.2    0.29 8.5E-05   30.1   0.0   52   12-70    238-289 (308)
+ 31 PF11899.8 ; DUF3419 ; Protein   59.7    0.35 8.8E-05   33.5   0.0   41   11-53    295-337 (381)
+ 32 PF04989.12 ; CmcI ; Cephalospo  59.7    0.29 8.9E-05   27.7   0.0   26   29-54    138-163 (221)
+ 33 PF12147.8 ; Methyltransf_20 ;   59.6    0.29 8.9E-05   28.6   0.0   45   12-57    207-251 (309)
+ 34 PF03492.15 ; Methyltransf_7 ;   58.7    0.34 9.4E-05   30.8   0.0   27   32-58    156-182 (326)
+ 35 PF13847.6 ; Methyltransf_31 ;   55.9    0.36 0.00011   24.8   0.0   30   27-56     92-121 (168)
+ 36 PF02527.15 ; GidB ; rRNA small  55.2    0.38 0.00012   25.5   0.0   27   30-56    126-152 (185)
+ 37 PF05711.11 ; TylF ; Macrocin-O  54.9    0.39 0.00012   27.2   0.0   24   30-53    187-210 (245)
+ 38 PF02353.20 ; CMAS ; Mycolic ac  53.1    0.42 0.00014   26.3   0.0   44   12-57    122-165 (262)
+ 39 PF03291.16 ; Pox_MCEL ; mRNA c  52.7    0.46 0.00014   28.1   0.0   47   12-59    133-180 (307)
+ 40 PF01269.17 ; Fibrillarin ; Fib  51.5    0.47 0.00015   25.7   0.0   38   11-54    141-178 (228)
+ 41 PF10672.9 ; Methyltrans_SAM ;   49.0     0.6 0.00017   28.2   0.0   28   30-57    215-242 (286)
+ 42 PF01209.18 ; Ubie_methyltran ;  48.9    0.54 0.00018   25.4   0.0   41   11-55    134-174 (251)
+ 43 PF05148.15 ; Methyltransf_8 ;   48.3    0.57 0.00018   25.1   0.0   39   11-54    121-159 (219)
+ 44 PF01596.17 ; Methyltransf_3 ;   46.7    0.62  0.0002   24.5   0.0   27   29-55    132-158 (211)
+ 45 PF08704.10 ; GCD14 ; tRNA meth  44.9    0.75 0.00022   26.7   0.0   39   32-70    126-164 (247)
+ 46 PF07530.11 ; PRE_C2HC ; Associ  30.8     2.1 0.00052   22.6   0.0   23  113-135     1-23  (69)
+
+No 1
+>PF06859.12 ; Bin3 ; Bicoid-interacting protein 3 (Bin3)
+Probab=96.40  E-value=3.8e-06  Score=44.60  Aligned_cols=44  Identities=23%  Similarity=0.352  Sum_probs=33.2  Template_Neff=11.200
+
+Q SRX3156367_102   13 YDGILCLCDSF---NYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        13 ydgilclcdsf---nyllkkeqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      ||-++| +.++   ++....++..+++..+.+.|+++|.+++...+..
+T Consensus         1 fD~v~~-~~~l~~~h~~~~~~~~~~~l~~~~~~l~~gG~~~i~~~~~~   47 (109)
+T C3XPI0_BRAFL/7    1 YDVILA-LSLTKWIHLNWGDAAMKRTFQRVFRQLRPGGRFIVEPQPWK   47 (109)
+T ss_pred             CCEEEE-ccccchhhcCCChHHHHHHHHHHHHheeeeeEEEEecCCHH
+Confidence            455566 5666   5545567788999999999999999998766543
+
+
+No 2
+>PF17987.1 ; PMT2_N ; Phosphoethanolamine N-methyltransferase 2 N-terminal
+Probab=91.73  E-value=0.0025  Score=34.44  Aligned_cols=42  Identities=12%  Similarity=0.245  Sum_probs=34.3  Template_Neff=10.600
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYL---LKKEQVQKLFNQVKSHLNKDGVFIMDM   53 (152)
+Q Consensus        11 vsydgilclcdsfnyl---lkkeqvqklfnqvkshlnkdgvfimdm   53 (152)
+                      -+||-|+|. .++.++   -.+++.++++.++.+.|+++|.+++-.
+T Consensus        24 ~~~D~v~~~-~~l~~~~~~~~~~~~~~~l~~i~~~LkpgG~~~~~~   68 (130)
+T A0A0K0EPS3_STR   24 KNLDFLLFN-NILDVTDAIKEEKKLNTIIDSALISLKEGGCLIIRE   68 (130)
+T ss_pred             CCeeEEEEc-chHHhccccCCHHHHHHHHHHHHHheEeeEEEEEEe
+Confidence            577877764 466666   588899999999999999999998753
+
+
+No 3
+>PF01234.17 ; NNMT_PNMT_TEMT ; NNMT/PNMT/TEMT family
+Probab=90.12  E-value=0.0049  Score=35.37  Aligned_cols=46  Identities=9%  Similarity=0.049  Sum_probs=31.9  Template_Neff=11.500
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLK-KEQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        11 vsydgilclcdsfnyllk-keqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      -++|-|+|. ..+.++.. .++..+++..+.+.|+++|++++--....
+T Consensus       156 ~~~D~i~~~-~~l~~~~~~~~~~~~~l~~~~~~l~pgG~l~~~~~~~~  202 (260)
+T INMT_MOUSE/1-2  156 PLADCVLTF-LAMECACPDIDTYRAALRRLAGLLKPGGHLVTLVTLRF  202 (260)
+T ss_pred             CCCcEEEEE-hhHHHhCCCHHHHHHHHHHHHhcEeeccEEEEEEEcCC
+Confidence            346666553 34444322 56788999999999999999988765443
+
+
+No 4
+>PF05430.11 ; Methyltransf_30 ; S-adenosyl-L-methionine-dependent methyltransferase
+Probab=89.85  E-value=0.0056  Score=32.35  Aligned_cols=43  Identities=14%  Similarity=0.126  Sum_probs=28.2  Template_Neff=10.700
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQV-QKLFNQVKSHLNKDGVFIMDMHS   55 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqv-qklfnqvkshlnkdgvfimdmhs   55 (152)
+                      -+||-|++  |++......+.. .+++.++.++|+++|++++-...
+T Consensus        48 ~~~d~i~~--~~~~~~~~~~~~~~~~l~~~~~~l~~~G~l~~~~~~   91 (123)
+T Q9RTT4_DEIRA/1   48 YWATALYL--DGFSPTRNPEVWTPDFVARLAGALAPGGVLTTYSAA   91 (123)
+T ss_pred             hcCCEEEE--cCCCCCCChhhcCHHHHHHHHHhccccEEEEEeccH
+Confidence            35666664  555444433222 37899999999999999885443
+
+
+No 5
+>PF07942.12 ; N2227 ; N2227-like protein
+Probab=87.83  E-value=0.01  Score=34.47  Aligned_cols=39  Identities=23%  Similarity=0.331  Sum_probs=26.7  Template_Neff=11.200
+
+Q SRX3156367_102   10 DVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMD   52 (152)
+Q Consensus        10 dvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimd   52 (152)
+                      +-++|-|+|. ..+.   .-+....++..+.+.|+++|++++-
+T Consensus       163 ~~~fD~i~~~-~~l~---~~~~~~~~l~~~~~~LkpgG~lv~~  201 (268)
+T O62483_CAEEL/9  163 DTTFDVIVTA-WFID---TAHNVLEYIDAIYSTLEPGGVWINV  201 (268)
+T ss_pred             CCCccEEEEh-hhhh---ccccHHHHHHHHHhheeeeEEEEEE
+Confidence            3467777665 2222   2345668889999999999988754
+
+
+No 6
+>PF12345.8 ; DUF3641 ; Protein of unknown function (DUF3641)
+Probab=85.98  E-value=0.023  Score=37.63  Aligned_cols=26  Identities=46%  Similarity=0.896  Sum_probs=23.6  Template_Neff=4.700
+
+Q SRX3156367_102    4 MCDFQVDVSYDGILCLCDSFNYLLKKE   30 (152)
+Q Consensus         4 mcdfqvdvsydgilclcdsfnyllkke   30 (152)
+                      ||--++.|+|||.|-=|| ||..|.-.
+T Consensus        68 MCR~~iSV~wdG~lyDCD-FNq~L~l~   93 (133)
+T I4B8I8_TURPD/1   68 MCRSQISVGYDGKIYDCD-FNQMLEMT   93 (133)
+T ss_pred             cccCceEEcCCCeEEcCC-HHHHcCCC
+Confidence            899999999999999999 99887654
+
+
+No 7
+>PF05185.16 ; PRMT5 ; PRMT5 arginine-N-methyltransferase
+Probab=85.49  E-value=0.017  Score=29.80  Aligned_cols=39  Identities=21%  Similarity=0.303  Sum_probs=29.5  Template_Neff=12.000
+
+Q SRX3156367_102   10 DVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFI   50 (152)
+Q Consensus        10 dvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfi   50 (152)
+                      +-++|-++|  +.+..++..+...+++..+...|+++|+++
+T Consensus       132 ~~~~D~i~~--~~~~~~~~~~~~~~~l~~~~~~l~~gG~~~  170 (170)
+T Q5CY57_CRYPI/3  132 DEKYDLIIS--ELIGSFGDNELSPECLIFAQRFLKPSGIMI  170 (170)
+T ss_pred             CCCeeEEEE--eCcccCCCcccCHHHHHHHHHheeecceeC
+Confidence            345665554  446667777888899999999999999875
+
+
+No 8
+>PF05175.14 ; MTS ; Methyltransferase small domain
+Probab=85.24  E-value=0.018  Score=30.09  Aligned_cols=48  Identities=25%  Similarity=0.277  Sum_probs=32.4  Template_Neff=11.700
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLK--KEQVQKLFNQVKSHLNKDGVFIMDMHSMDRL   59 (152)
+Q Consensus        11 vsydgilclcdsfnyllk--keqvqklfnqvkshlnkdgvfimdmhsmdrl   59 (152)
+                      -++|-|+|. ..+.++-.  .++.+++++++.++|+++|.+++-..+....
+T Consensus        95 ~~~D~i~~~-~~~~~~~~~~~~~~~~~l~~~~~~l~~gG~~~~~~~~~~~~  144 (168)
+T RSMC_HAEIN/160   95 GKFDLIISN-PPFHDGIDTAYRAVTELITQAKWHLNQGGELRIVANSFLPY  144 (168)
+T ss_pred             cCccEEEEc-CCcccCCChhHHHHHHHHHHHHHheecCeEEEEEecCCCCc
+Confidence            456655543 33444422  3567889999999999999999876654433
+
+
+No 9
+>PF05401.11 ; NodS ; Nodulation protein S (NodS)
+Probab=83.84  E-value=0.024  Score=30.75  Aligned_cols=46  Identities=15%  Similarity=0.254  Sum_probs=34.7  Template_Neff=11.500
+
+Q SRX3156367_102   10 DVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        10 dvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      +-++|-|+|. ..+.++...+...+++.++.+.|+++|+++.-.+..
+T Consensus       104 ~~~~D~v~~~-~~l~~~~~~~~~~~~l~~~~~~l~~~g~~~~~~~~~  149 (201)
+T Q8KLG2_RHIEC/5  104 DERFDLIVVA-EVLYYIGGIAEMRGAVRNLVRMLAPDGYLVFGSARD  149 (201)
+T ss_pred             CCCEEEEEEe-CcHHhcCCHHHHHHHHHHHHHhEEecEEEEEEeCCC
+Confidence            4466665553 566777678888899999999999999998755443
+
+
+No 10
+>PF06080.12 ; DUF938 ; Protein of unknown function (DUF938)
+Probab=82.82  E-value=0.027  Score=28.72  Aligned_cols=44  Identities=18%  Similarity=0.133  Sum_probs=30.9  Template_Neff=12.700
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      -++|-++| +.++ +.+..+...+++.++.+.|+++|.+++.....
+T Consensus       101 ~~~D~v~~-~~~l-~~~~~~~~~~~l~~~~~~l~~gg~~~~~~~~~  144 (204)
+T U585_DROME/18-  101 ASYDYMFN-SNMM-HISPWSCSIGLFRAAGQLLKKGGRMFTYGPYA  144 (204)
+T ss_pred             CceeEEEE-cCCc-ccCChhHHHHHHHHHHHHeeEccEEEEEeecC
+Confidence            34554443 3444 45566778899999999999999998855443
+
+
+No 11
+>PF02390.17 ; Methyltransf_4 ; Putative methyltransferase
+Probab=81.17  E-value=0.035  Score=28.09  Aligned_cols=24  Identities=17%  Similarity=0.195  Sum_probs=21.0  Template_Neff=12.400
+
+Q SRX3156367_102   32 VQKLFNQVKSHLNKDGVFIMDMHS   55 (152)
+Q Consensus        32 vqklfnqvkshlnkdgvfimdmhs   55 (152)
+                      .+++++++.+.|+++|++++..+.
+T Consensus       104 ~~~~l~~~~~~L~~gG~l~~~~~~  127 (181)
+T TRMB_YEAST/95-  104 TNTLLSEYAYVLKEGGVVYTITDV  127 (181)
+T ss_pred             HHHHHHHHHHhEeeeEEEEEEeCC
+Confidence            568999999999999999988764
+
+
+No 12
+>PF03269.14 ; DUF268 ; Caenorhabditis protein of unknown function, DUF268
+Probab=81.05  E-value=0.041  Score=31.40  Aligned_cols=46  Identities=11%  Similarity=0.101  Sum_probs=35.0  Template_Neff=9.900
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYL--------LKKEQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        11 vsydgilclcdsfnyl--------lkkeqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      -++|.++| +.++.++        ...+...+.+..+.+.|+++|.++.-..+..
+T Consensus        61 ~~fD~v~~-~~~l~~~~~~~~~~~~~~~~~~~~l~~~~~~Lk~gG~l~~~~~~~~  114 (176)
+T A0A2H2IKF9_CAE   61 DTFNFAAS-FSSIEHSGLGRYGDPMDPIGDIREILKIKCVLKKGGLLFLGFPLGT  114 (176)
+T ss_pred             CceeEEEE-ecchhhcccCccCCCCChhhHHHHHHHHHHhEEEcEEEEEEeeCCC
+Confidence            46777776 4567777        5666778888999999999999987666554
+
+
+No 13
+>PF12692.7 ; Methyltransf_17 ; S-adenosyl-L-methionine methyltransferase
+Probab=78.89  E-value=0.051  Score=28.53  Aligned_cols=40  Identities=13%  Similarity=-0.027  Sum_probs=28.5  Template_Neff=11.200
+
+Q SRX3156367_102   19 LCDSFNYLL--KKEQVQKLFNQVKSHLNKDGVFIMDMHSMDR   58 (152)
+Q Consensus        19 lcdsfnyll--kkeqvqklfnqvkshlnkdgvfimdmhsmdr   58 (152)
+                      .++.+.++.  ....+.++++++.+.|+++|.++.-.++.+.
+T Consensus        96 ~~~~~~~~~~~~~~~~~~~l~~~~~~L~~~G~~~i~~~~~~~  137 (158)
+T B9JT03_AGRVS/1   96 HADIGTGYPDRDAVTLTWLPDMVAGMLRPGGYALSGLPLDHE  137 (158)
+T ss_pred             EecCCCCCCCCChhhHhhHHHHHHhccccceEEEEeecCCcc
+Confidence            455555553  3334668999999999999999976655443
+
+
+No 14
+>PF04672.12 ; Methyltransf_19 ; S-adenosyl methyltransferase
+Probab=78.66  E-value=0.054  Score=31.47  Aligned_cols=39  Identities=5%  Similarity=0.183  Sum_probs=29.6  Template_Neff=10.800
+
+Q SRX3156367_102   20 CDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMDR   58 (152)
+Q Consensus        20 cdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsmdr   58 (152)
+                      ...+.++-..+...++++.+.+.|+++|++++...+...
+T Consensus       155 ~~~l~~~~~~~~~~~~l~~~~~~L~~gG~l~~~~~~~~~  193 (263)
+T O86540_STRCO/3  155 VAVVHFVADAQDPAGIVATLRDALPAGSYLVLSHATGDV  193 (263)
+T ss_pred             EehhHhccCCCCHHHHHHHHHHhCCCCcEEEEEecCCCC
+Confidence            445555544467889999999999999999987766543
+
+
+No 15
+>PF10017.9 ; Methyltransf_33 ; Histidine-specific methyltransferase, SAM-dependent
+Probab=77.58  E-value=0.063  Score=32.43  Aligned_cols=41  Identities=10%  Similarity=0.186  Sum_probs=30.7  Template_Neff=10.400
+
+Q SRX3156367_102   15 GILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        15 gilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      .++++...+.++ ..++..+++.++.+.|+++|.++++.+..
+T Consensus       141 ~~v~~~~~l~~~-~~~~~~~~l~~l~~~l~~gg~l~i~~~~~  181 (304)
+T A7HV78_PARL1/2  141 AGFFPGSTIGNF-TREEAVSFLAGARGLLGSGSVMIVGADLV  181 (304)
+T ss_pred             EEEEcCchhhCC-CHHHHHHHHHHHHHhhCCCCEEEEEEeCC
+Confidence            334444455554 66778889999999999999999987654
+
+
+No 16
+>PF16803.5 ; DRE2_N ; Fe-S cluster assembly protein DRE2 N-terminus
+Probab=77.35  E-value=0.066  Score=28.78  Aligned_cols=44  Identities=14%  Similarity=0.156  Sum_probs=30.4  Template_Neff=9.900
+
+Q SRX3156367_102   10 DVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        10 dvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      +-+||.|+|..-. ..  ..+...++++++++.|+++|.+++-....
+T Consensus        48 ~~~fD~Ii~~~~~-~~--~~~~~~~~l~~i~~~LkpgG~l~i~~~~~   91 (126)
+T DRE2_MAGO7/22-   48 PAAYDLVLVLASG-AD--PLLSRRDVFAKIADAMKPGAKLRSRDGSP   91 (126)
+T ss_pred             hhhccEEEEEcCC-CC--chHcHHHHHHHHHHHhCcCcEEEEEcCCC
+Confidence            4478888774332 11  23345789999999999999998755443
+
+
+No 17
+>PF05724.11 ; TPMT ; Thiopurine S-methyltransferase (TPMT)
+Probab=76.87  E-value=0.066  Score=29.94  Aligned_cols=41  Identities=12%  Similarity=0.115  Sum_probs=29.3  Template_Neff=11.000
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMH   54 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmh   54 (152)
+                      ++|-|+| +.++.++- .+...++++.+.+.|+++|.+++-..
+T Consensus       122 ~fD~v~~-~~~~~~~~-~~~~~~~l~~~~~~LkpgG~l~~~~~  162 (222)
+T TPMT_RAT/19-24  122 KFDRIWD-RGALVAVN-PGDRDRYADIILSLLRKGYHYLLVVL  162 (222)
+T ss_pred             CccEEEE-ecceeecC-HHHHHHHHHHHHHHhccCeEEEEEEE
+Confidence            4566554 45665554 36788899999999999999766443
+
+
+No 18
+>PF08003.11 ; Methyltransf_9 ; Protein of unknown function (DUF1698)
+Probab=75.67  E-value=0.077  Score=31.88  Aligned_cols=47  Identities=17%  Similarity=0.233  Sum_probs=31.7  Template_Neff=10.600
+
+Q SRX3156367_102    8 QVDVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMDR   58 (152)
+Q Consensus         8 qvdvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsmdr   58 (152)
+                      ..+-++|.|+| ++.+.++   ...+++++++.+.|+++|.+++-..+...
+T Consensus       179 ~~~~~~D~i~~-~~~l~~~---~~~~~~l~~~~~~Lk~gG~l~~~~~~~~~  225 (316)
+T CMOB_PHOPR/7-3  179 PELKAFDTVFS-MGVLYHR---RSPLDHIIQLKNQLRKDGEVILETLVIEG  225 (316)
+T ss_pred             CccCCcCEEEE-echHHcC---CCHHHHHHHHHHheEcceEEEEEEeccCC
+Confidence            33557777765 3444432   24467888999999999999987666543
+
+
+No 19
+>PF05891.12 ; Methyltransf_PK ; AdoMet dependent proline di-methyltransferase
+Probab=74.36  E-value=0.082  Score=27.99  Aligned_cols=41  Identities=15%  Similarity=0.170  Sum_probs=30.2  Template_Neff=11.900
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDM   53 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdm   53 (152)
+                      -++|-|+| +..+.++ ..+++.+++..+.+.|+++|.+++-.
+T Consensus       118 ~~~D~v~~-~~~l~~~-~~~~~~~~l~~~~~~l~~~g~~~~~~  158 (214)
+T NTM1_SCHPO/2-2  118 NRYGLIWN-QWCLSHL-TDEDLIAYLSRCCEAIQEKGVICVKE  158 (214)
+T ss_pred             CceEEEEE-eCchhhC-CHHHHHHHHHHHHHHhccccEEEEEE
+Confidence            46676665 3455555 44678899999999999999988743
+
+
+No 20
+>PF01739.18 ; CheR ; CheR methyltransferase, SAM binding domain
+Probab=72.94  E-value=0.096  Score=27.83  Aligned_cols=39  Identities=21%  Similarity=0.419  Sum_probs=27.7  Template_Neff=11.500
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMD   52 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimd   52 (152)
+                      +||-|+| ..++.++ ..+....+++++.+.|+++|++++-
+T Consensus       135 ~~D~i~~-~~~l~~~-~~~~~~~~l~~~~~~L~~gG~l~~~  173 (195)
+T O29225_ARCFU/6  135 FLDIVFC-RNVMIYF-SEQQKAKVVNDFYNALVDGGYLVIG  173 (195)
+T ss_pred             CceEEEE-eccHHhC-CHHHHHHHHHHHHHHeeeCcEEEEc
+Confidence            4555433 3445544 4566688999999999999999874
+
+
+No 21
+>PF01728.19 ; FtsJ ; FtsJ-like methyltransferase
+Probab=71.53  E-value=0.11  Score=27.54  Aligned_cols=28  Identities=18%  Similarity=0.312  Sum_probs=22.2  Template_Neff=11.300
+
+Q SRX3156367_102   30 EQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        30 eqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      +....++..+.++|+++|+++.-...-.
+T Consensus       118 ~~~~~~l~~~~~~L~p~G~~~~~~~~~~  145 (183)
+T A7RWX8_NEMVE/2  118 DLCDSAFEFGQKTLRPGGVFLCKLWDGR  145 (183)
+T ss_pred             HHHHHHHHHHHHheeeeeEEEEEecCCC
+Confidence            4467788899999999999998666533
+
+
+No 22
+>PF13489.6 ; Methyltransf_23 ; Methyltransferase domain
+Probab=71.23  E-value=0.11  Score=25.26  Aligned_cols=41  Identities=10%  Similarity=0.219  Sum_probs=27.1  Template_Neff=12.600
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      ++|-++|. .++.++-   ...++++++.+.|+++|.+++.....
+T Consensus        82 ~~D~v~~~-~~l~~~~---~~~~~l~~~~~~l~~gG~l~~~~~~~  122 (164)
+T Q39YH9_GEOMG/9   82 LTDIVTLW-DVYEHIA---DLPGLLTTLSRRVKSGGQVLIQTPRA  122 (164)
+T ss_pred             cceeeehh-HHHHhcc---CHHHHHHHHHHhcccCeEEEEEeCCC
+Confidence            45555442 3333332   36788999999999999988765543
+
+
+No 23
+>PF08468.11 ; MTS_N ; Methyltransferase small domain N-terminal
+Probab=70.58  E-value=0.13  Score=28.38  Aligned_cols=39  Identities=13%  Similarity=0.056  Sum_probs=29.9  Template_Neff=9.900
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMH   54 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmh   54 (152)
+                      -+||.|++...     ..+++..++++++.+.|+++|.+++...
+T Consensus        67 ~~fD~iv~~~~-----~~~~~~~~~l~~~~~~l~~~G~l~i~~~  105 (155)
+T E1SQJ3_FERBD/7   67 IQADAAILRIP-----KAREQLRYLAALACAVLPQGAPVYLVGE  105 (155)
+T ss_pred             CCccEEEEeCC-----chHHHHHHHHHHHHHcCCCCCcEEEEec
+Confidence            45777775533     4567888999999999999998887654
+
+
+No 24
+>PF00891.18 ; Methyltransf_2 ; O-methyltransferase domain
+Probab=67.66  E-value=0.15  Score=27.13  Aligned_cols=40  Identities=10%  Similarity=0.081  Sum_probs=28.0  Template_Neff=11.600
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDM   53 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdm   53 (152)
+                      ++|-|+|. ..+.++ ...++.+++..+.+.|+++|.+++-.
+T Consensus       128 ~~D~v~~~-~~l~~~-~~~~~~~~l~~~~~~l~~~g~~~~~~  167 (211)
+T ASMT_BOVIN/117  128 EADLYILA-RVLHDW-TDAKCSHLLQRVYRACRTGGGILVIE  167 (211)
+T ss_pred             CccEEEEe-cchhhC-CHHHHHHHHHHHHHHhCCCcEEEEEE
+Confidence            56655543 444443 55667789999999999999877643
+
+
+No 25
+>PF00107.26 ; ADH_zinc_N ; Zinc-binding dehydrogenase
+Probab=65.02  E-value=0.19  Score=24.99  Aligned_cols=22  Identities=14%  Similarity=0.217  Sum_probs=18.6  Template_Neff=11.500
+
+Q SRX3156367_102   32 VQKLFNQVKSHLNKDGVFIMDM   53 (152)
+Q Consensus        32 vqklfnqvkshlnkdgvfimdm   53 (152)
+                      ..+++.++.+.|+++|.++.-.
+T Consensus        78 ~~~~l~~~~~~l~~~G~l~~~~   99 (139)
+T Q23624_CAEEL/1   78 SPRTVTRSLKCLAEGGVLFVGG   99 (139)
+T ss_pred             cHHHHHHHHHHheeceEEEEEc
+Confidence            5678899999999999887755
+
+
+No 26
+>PF01564.17 ; Spermine_synth ; Spermine/spermidine synthase domain
+Probab=64.17  E-value=0.2  Score=25.65  Aligned_cols=24  Identities=29%  Similarity=0.639  Sum_probs=19.7  Template_Neff=11.800
+
+Q SRX3156367_102   32 VQKLFNQVKSHLNKDGVFIMDMHS   55 (152)
+Q Consensus        32 vqklfnqvkshlnkdgvfimdmhs   55 (152)
+                      ..+++..+.+.|+++|++++..++
+T Consensus       111 ~~~~l~~~~~~l~~~G~~~~~~~~  134 (181)
+T SPEE1_AQUAE/60  111 TEDFFRHVYKALKEDGIFVAQTES  134 (181)
+T ss_pred             cHHHHHHHHHHeecceeEEEecCC
+Confidence            557888899999999999986643
+
+
+No 27
+>PF03848.14 ; TehB ; Tellurite resistance protein TehB
+Probab=64.10  E-value=0.2  Score=26.56  Aligned_cols=41  Identities=20%  Similarity=0.308  Sum_probs=28.8  Template_Neff=11.300
+
+Q SRX3156367_102   10 DVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMD   52 (152)
+Q Consensus        10 dvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimd   52 (152)
+                      +-++|-++|. +++.++ ..+.+.+++.++.+.|+++|.++.-
+T Consensus        93 ~~~~d~i~~~-~~~~~~-~~~~~~~~l~~~~~~l~~~g~~~i~  133 (193)
+T Q9ZC59_YERPE/9   93 DERYDFILST-VVLMFL-QPERIPHIISNMQECTLPGGYNLII  133 (193)
+T ss_pred             CCCeeEEEEE-ccHHhC-CHhHHHHHHHHHHHhccceEEEEEE
+Confidence            4566755543 555554 4566778999999999999986543
+
+
+No 28
+>PF11968.8 ; Bmt2 ; 25S rRNA (adenine(2142)-N(1))-methyltransferase, Bmt2
+Probab=63.93  E-value=0.21  Score=27.39  Aligned_cols=43  Identities=14%  Similarity=0.274  Sum_probs=31.5  Template_Neff=11.100
+
+Q SRX3156367_102   10 DVSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGV-----FIMDM   53 (152)
+Q Consensus        10 dvsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgv-----fimdm   53 (152)
+                      +-+||-|+|. ..+.++-..++..+++.++.+.|+++|+     ++...
+T Consensus       105 ~~~~D~v~~~-~~~~~~~~~~~~~~~l~~~~~~L~~~G~~~~~~~~~~~  152 (221)
+T A5DPU1_PICGU/1  105 SEKFNLISCS-LVINFVPSPSQRGDMLKRITQFLKPPRNGSMSTLFMVL  152 (221)
+T ss_pred             CCCeeEEEEE-hhHhhCCCHHHHHHHHHHHHHhcCCCccccceeEEEEe
+Confidence            3466766654 4667766566777999999999999998     66543
+
+
+No 29
+>PF06460.12 ; NSP16 ; Coronavirus NSP16
+Probab=63.33  E-value=0.24  Score=30.46  Aligned_cols=41  Identities=12%  Similarity=0.044  Sum_probs=30.2  Template_Neff=9.600
+
+Q SRX3156367_102   23 FNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMDRLLEFA   63 (152)
+Q Consensus        23 fnyllkkeqvqklfnqvkshlnkdgvfimdmhsmdrllefa   63 (152)
+                      +..+...+...++++.+.++|+++|.+++....+....+..
+T Consensus       140 ~~~~~~~~~~~~~l~~~~~~L~~gG~l~v~~~~~~~~~~l~  180 (297)
+T R1AB_CVHSA/677  140 KENDSKEGFFTYLCGFIKQKLALGGSIAVKITEHSWNADLY  180 (297)
+T ss_pred             ccchhhHHHHHHHHHHHHHheeeceEEEEEEcCCccHHHHH
+Confidence            34444556677999999999999999998777666544433
+
+
+No 30
+>PF06325.13 ; PrmA ; Ribosomal protein L11 methyltransferase (PrmA)
+Probab=60.22  E-value=0.29  Score=30.13  Aligned_cols=52  Identities=13%  Similarity=0.252  Sum_probs=35.2  Template_Neff=9.600
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMDRLLEFAEEYNEAG   70 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsmdrllefaeeyneag   70 (152)
+                      ++|.++| +..+.++      .+++.++.+.|+++|.+++..+.+..+.++.+.+.++|
+T Consensus       238 ~~Dvii~-~~~~~~~------~~~l~~l~~~l~pgg~lvi~~~~~~~~~~~~~~l~~~G  289 (308)
+T PRMA_STAA8/2-3  238 KFDIVIA-NILAHII------DEMIEDAYNTLNEGGYFITSGIIKEKYEGIQSHMERVG  289 (308)
+T ss_pred             CcCEEEE-cChHHHH------HHHHHHHHHheEEeeEEEEEccchhhHHHHHHHHHHcC
+Confidence            4555554 3334443      67888899999999999998777776655555554444
+
+
+No 31
+>PF11899.8 ; DUF3419 ; Protein of unknown function (DUF3419)
+Probab=59.75  E-value=0.35  Score=33.48  Aligned_cols=41  Identities=15%  Similarity=0.260  Sum_probs=34.1  Template_Neff=7.300
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKK--EQVQKLFNQVKSHLNKDGVFIMDM   53 (152)
+Q Consensus        11 vsydgilclcdsfnyllkk--eqvqklfnqvkshlnkdgvfimdm   53 (152)
+                      -+||.+ .|.|.+.|+ .+  ++...+++.+.++|+++|++++--
+T Consensus       295 ~~fd~i-~LSDi~e~~-~~~~~~~~~~l~~l~~~l~pggrii~R~  337 (381)
+T A3LWZ4_PICST/3  295 KSLTIA-IIMDHMDWF-DHDSKDVNDEISVLKESLVDGGRVLLRS  337 (381)
+T ss_pred             CceeEE-EEecchhhc-CCCcHHHHHHHHHHHHhcccceEEEEEe
+Confidence            456654 578999999 66  899999999999999999998743
+
+
+No 32
+>PF04989.12 ; CmcI ; Cephalosporin hydroxylase
+Probab=59.67  E-value=0.29  Score=27.75  Aligned_cols=26  Identities=12%  Similarity=0.042  Sum_probs=20.9  Template_Neff=10.300
+
+Q SRX3156367_102   29 KEQVQKLFNQVKSHLNKDGVFIMDMH   54 (152)
+Q Consensus        29 keqvqklfnqvkshlnkdgvfimdmh   54 (152)
+                      .+.....++.+.+.|+++|+++++--
+T Consensus       138 ~~~~~~~l~~~~~~l~~gg~ii~~d~  163 (221)
+T A1WR60_VEREI/3  138 HEHVLGELNAYAPLVTPGSYCVVFDT  163 (221)
+T ss_pred             hHHHHHHHHHHHhhcccCeEEEEecc
+Confidence            35677889999999999999887643
+
+
+No 33
+>PF12147.8 ; Methyltransf_20 ; Putative methyltransferase
+Probab=59.57  E-value=0.29  Score=28.59  Aligned_cols=45  Identities=4%  Similarity=0.105  Sum_probs=31.6  Template_Neff=10.800
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      ++|-++| ...+.++-..+.+.++++.+.+.|+++|.+++..+...
+T Consensus       207 ~~d~v~~-~~~~~~~~~~~~~~~~l~~~~~~l~~gG~lii~~~~~~  251 (309)
+T A6X2Y7_OCHA4/2  207 QPDLAIV-SGLYELFPDNALINRSLSGLARVQKPGSLLIYTNQPWH  251 (309)
+T ss_pred             CCCEEEE-eCcHHhCCCHHHHHHHHHHHHHhceeceEEEEeCCCCC
+Confidence            4443333 33555555557889999999999999999998755433
+
+
+No 34
+>PF03492.15 ; Methyltransf_7 ; SAM dependent carboxyl methyltransferase
+Probab=58.74  E-value=0.34  Score=30.83  Aligned_cols=27  Identities=4%  Similarity=0.128  Sum_probs=22.4  Template_Neff=9.000
+
+Q SRX3156367_102   32 VQKLFNQVKSHLNKDGVFIMDMHSMDR   58 (152)
+Q Consensus        32 vqklfnqvkshlnkdgvfimdmhsmdr   58 (152)
+                      ..++++.+.+.|+++|.+++.+.....
+T Consensus       156 ~~~~l~~~~~~LkpgG~l~i~~~~~~~  182 (326)
+T M0UAH6_MUSAM/4  156 LSGFLRCRHAELSYGARMVLSFLGRKG  182 (326)
+T ss_pred             HHHHHHHHHHHhccCcEEEEEeeecCC
+Confidence            348899999999999999988776553
+
+
+No 35
+>PF13847.6 ; Methyltransf_31 ; Methyltransferase domain
+Probab=55.87  E-value=0.36  Score=24.84  Aligned_cols=30  Identities=7%  Similarity=0.061  Sum_probs=23.0  Template_Neff=11.300
+
+Q SRX3156367_102   27 LKKEQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        27 lkkeqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      ...+....++.++.+.|+++|.+++-.+..
+T Consensus        92 ~~~~~~~~~l~~~~~~l~~~g~~~~~~~~~  121 (168)
+T A7RWN9_NEMVE/4   92 AAETAFCAVLVEACRVLKSEGTILQFSDES  121 (168)
+T ss_pred             cchhHHHHHHHHHHHhEeccEEEEEEeCCC
+Confidence            345666788999999999999988654443
+
+
+No 36
+>PF02527.15 ; GidB ; rRNA small subunit methyltransferase G
+Probab=55.24  E-value=0.38  Score=25.53  Aligned_cols=27  Identities=11%  Similarity=0.156  Sum_probs=21.7  Template_Neff=11.000
+
+Q SRX3156367_102   30 EQVQKLFNQVKSHLNKDGVFIMDMHSM   56 (152)
+Q Consensus        30 eqvqklfnqvkshlnkdgvfimdmhsm   56 (152)
+                      ....+++.++.+.|+++|++++-....
+T Consensus       126 ~~~~~~l~~~~~~l~~~g~~ii~~~~~  152 (185)
+T RSMG_BORBU/20-  126 RNMNEYALILKNLLKGGGLIMAYKGKF  152 (185)
+T ss_pred             ccHHHHHHHHHHhceecEEEEEEeCCC
+Confidence            566788899999999999988765443
+
+
+No 37
+>PF05711.11 ; TylF ; Macrocin-O-methyltransferase (TylF)
+Probab=54.91  E-value=0.39  Score=27.17  Aligned_cols=24  Identities=29%  Similarity=0.441  Sum_probs=18.8  Template_Neff=10.600
+
+Q SRX3156367_102   30 EQVQKLFNQVKSHLNKDGVFIMDM   53 (152)
+Q Consensus        30 eqvqklfnqvkshlnkdgvfimdm   53 (152)
+                      +...+.++.+.++|+++|+++++-
+T Consensus       187 ~~~~~~l~~~~~~L~~gG~li~~d  210 (245)
+T Q98ID4_RHILO/1  187 ESTIVALNSLYPKLSRGGVVIIDD  210 (245)
+T ss_pred             HHHHHHHHHHHHheeeeEEEEEeC
+Confidence            456677788888999999988763
+
+
+No 38
+>PF02353.20 ; CMAS ; Mycolic acid cyclopropane synthetase
+Probab=53.13  E-value=0.42  Score=26.25  Aligned_cols=44  Identities=18%  Similarity=0.437  Sum_probs=30.3  Template_Neff=11.400
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        12 sydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      ++|-|+| +.++.++ ..++.+++++.+.+.|+++|.++.-.....
+T Consensus       122 ~~D~v~~-~~~l~~~-~~~~~~~~l~~~~~~l~~gG~~~i~~~~~~  165 (262)
+T CFA_ECOLI/107-  122 QFDRIVS-VGMFEHV-GPKNYDTYFAVVDRNLKPEGIFLLHTIGSK  165 (262)
+T ss_pred             cccEEEE-ecchhhc-ChhhHHHHHHHHHHhceeeEEEEEEecCCC
+Confidence            5565543 3445444 456778899999999999999876554433
+
+
+No 39
+>PF03291.16 ; Pox_MCEL ; mRNA capping enzyme
+Probab=52.67  E-value=0.46  Score=28.07  Aligned_cols=47  Identities=23%  Similarity=0.385  Sum_probs=31.5  Template_Neff=10.400
+
+Q SRX3156367_102   12 SYDGILCLCDSFNYLL-KKEQVQKLFNQVKSHLNKDGVFIMDMHSMDRL   59 (152)
+Q Consensus        12 sydgilclcdsfnyll-kkeqvqklfnqvkshlnkdgvfimdmhsmdrl   59 (152)
+                      ++|-|+| +..+.++. ..+++.++++.+.+.|+++|++++...+-..+
+T Consensus       133 ~~D~I~~-~~~~~~~~~~~~~~~~~l~~~~~~L~~~G~l~i~~~~~~~~  180 (307)
+T MCES_SCHPO/52-  133 KFDVVSL-QFCMHYAFESEEKVRVLLGNVSKCLPRGGVMIGTIPNSDVI  180 (307)
+T ss_pred             CccEEEE-eCchhhccCCHHHHHHHHHHHHHhcceeEEEEEEcCCHHHH
+Confidence            4554433 34444433 34556699999999999999999877655444
+
+
+No 40
+>PF01269.17 ; Fibrillarin ; Fibrillarin
+Probab=51.51  E-value=0.47  Score=25.70  Aligned_cols=38  Identities=16%  Similarity=0.257  Sum_probs=26.5  Template_Neff=11.200
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMH   54 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmh   54 (152)
+                      -++|-++|  +    +...+...++++++.+.|+++|++++-.+
+T Consensus       141 ~~~D~v~~--~----~~~~~~~~~~l~~~~~~l~~~G~l~~~~~  178 (228)
+T FBRL_CAEEL/119  141 GMVDVIFS--D----VAQPDQARIVALNAQNFLRNGGHAVISIK  178 (228)
+T ss_pred             cceEEEEE--c----CCCHHHHHHHHHHHHHhEEEeEEEEEEec
+Confidence            35666655  1    22445566788999999999999988643
+
+
+No 41
+>PF10672.9 ; Methyltrans_SAM ; S-adenosylmethionine-dependent methyltransferase
+Probab=48.95  E-value=0.6  Score=28.17  Aligned_cols=28  Identities=18%  Similarity=0.297  Sum_probs=22.7  Template_Neff=9.600
+
+Q SRX3156367_102   30 EQVQKLFNQVKSHLNKDGVFIMDMHSMD   57 (152)
+Q Consensus        30 eqvqklfnqvkshlnkdgvfimdmhsmd   57 (152)
+                      ....+++..+.+.|+++|.+++..++-.
+T Consensus       215 ~~~~~~l~~~~~~L~~gG~l~~~~~~~~  242 (286)
+T B7VGV4_VIBTL/2  215 KDYKKILRRLPELLTEGGEVIACVNSPA  242 (286)
+T ss_pred             hHHHHHHHHHHHhEEEeEEEEEEECCCC
+Confidence            3457889999999999999998776643
+
+
+No 42
+>PF01209.18 ; Ubie_methyltran ; ubiE/COQ5 methyltransferase family
+Probab=48.91  E-value=0.54  Score=25.41  Aligned_cols=41  Identities=22%  Similarity=0.103  Sum_probs=27.0  Template_Neff=11.500
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMHS   55 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmhs   55 (152)
+                      -+||-|+|. ..+.++-   ...++++.+.+.|+++|.++.--++
+T Consensus       134 ~~~D~i~~~-~~~~~~~---~~~~~l~~~~~~L~~~G~l~~~~~~  174 (251)
+T COQ5_YEAST/56-  134 DSKDIYTVS-FGIRNFT---DIQKGLNTAYRVLKPGGIFYCLEFS  174 (251)
+T ss_pred             CCceEEEEe-CccccCc---cHHHHHHHHHHheeeeEEEEEEecC
+Confidence            356666554 2233332   3568899999999999999874443
+
+
+No 43
+>PF05148.15 ; Methyltransf_8 ; Hypothetical methyltransferase
+Probab=48.27  E-value=0.57  Score=25.12  Aligned_cols=39  Identities=13%  Similarity=0.168  Sum_probs=26.5  Template_Neff=11.200
+
+Q SRX3156367_102   11 VSYDGILCLCDSFNYLLKKEQVQKLFNQVKSHLNKDGVFIMDMH   54 (152)
+Q Consensus        11 vsydgilclcdsfnyllkkeqvqklfnqvkshlnkdgvfimdmh   54 (152)
+                      -+||-|+|. ..+ +   -....+++..+.+.|+++|++++-..
+T Consensus       121 ~~~D~v~~~-~~~-~---~~~~~~~l~~~~~~L~~~G~l~~~~~  159 (219)
+T RRP8_CAEEL/125  121 SSADIVIYC-LSL-M---GTNLYDFIREARRVLKIGGILKIAEV  159 (219)
+T ss_pred             cCccEEEEe-ccc-c---CCCHHHHHHHHHHhceEeEEEEEEEe
+Confidence            356666553 222 2   24567889999999999999887543
+
+
+No 44
+>PF01596.17 ; Methyltransf_3 ; O-methyltransferase
+Probab=46.74  E-value=0.62  Score=24.55  Aligned_cols=27  Identities=11%  Similarity=0.207  Sum_probs=21.0  Template_Neff=11.400
+
+Q SRX3156367_102   29 KEQVQKLFNQVKSHLNKDGVFIMDMHS   55 (152)
+Q Consensus        29 keqvqklfnqvkshlnkdgvfimdmhs   55 (152)
+                      .+...+++..+.+.|+++|+++++-..
+T Consensus       132 ~~~~~~~l~~~~~~l~~~g~~~~~~~~  158 (211)
+T CAMT1_ARATH/21  132 KSSYVNFHERLLKLVKVGGIIAFDNTL  158 (211)
+T ss_pred             hHHHHHHHHHHHhhceEeeEEEEeccc
+Confidence            445667888889999999999886544
+
+
+No 45
+>PF08704.10 ; GCD14 ; tRNA methyltransferase complex GCD14 subunit
+Probab=44.87  E-value=0.75  Score=26.68  Aligned_cols=39  Identities=0%  Similarity=0.008  Sum_probs=26.5  Template_Neff=9.900
+
+Q SRX3156367_102   32 VQKLFNQVKSHLNKDGVFIMDMHSMDRLLEFAEEYNEAG   70 (152)
+Q Consensus        32 vqklfnqvkshlnkdgvfimdmhsmdrllefaeeyneag   70 (152)
+                      ..++++.+.+.|+++|.++........+.++.+.+.++|
+T Consensus       126 ~~~~l~~~~~~Lk~gG~l~~~~p~~~~~~~~~~~l~~~g  164 (247)
+T TRM61_DICDI/62  126 PWDAIENAIAVMHDGSMLCSFSPCIEQVQNTCLKLADSK  164 (247)
+T ss_pred             HHHHHHHHHHHccCCeEEEEEcCCHHHHHHHHHHHHhCC
+Confidence            356788889999999999887666555544444444433
+
+
+No 46
+>PF07530.11 ; PRE_C2HC ; Associated with zinc fingers
+Probab=30.81  E-value=2.1  Score=22.63  Aligned_cols=23  Identities=17%  Similarity=0.154  Sum_probs=19.3  Template_Neff=6.800
+
+Q SRX3156367_102  113 PMWVKEQLEALAFDVKIITDFTF  135 (152)
+Q Consensus       113 pmwvkeqlealafdvkiitdftf  135 (152)
+                      |.++++.|+++.|.|.-|+.++-
+T Consensus         1 ~~~I~~eL~~~g~~v~~V~~~~~   23 (69)
+T Q9XXV9_BOMMO/2    1 AELVKADLLEQGLPVNSVHRMHT   23 (69)
+T ss_pred             ChHHHHHHHHCCCCeEEEEECcC
+Confidence            45789999999999998887764
+
+

@@ -1,0 +1,213 @@
+Query         SRX3156367_111180
+Match_columns 192
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 14:51:30 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_111180.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_111180.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_111180.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF00062.20 ; Lys ; C-type lyso  98.3 7.5E-11 2.2E-14   73.6   0.0   93   63-159     8-114 (120)
+  2 PF06871.11 ; TraH_2 ; TraH_2    97.4   4E-08   1E-11   71.0   0.0   88   70-162     9-143 (206)
+  3 PF07182.11 ; DUF1402 ; Protein  96.9 6.2E-07 1.4E-10   70.7   0.0  101   61-161    53-260 (299)
+  4 PF01464.20 ; SLT ; Transglycos  96.7 1.2E-06 3.7E-10   49.5   0.0   90   70-160     6-111 (129)
+  5 PF06737.14 ; Transglycosylas ;  96.1 1.3E-05 3.7E-09   45.1   0.0   62   78-139     4-67  (77)
+  6 PF13702.6 ; Lysozyme_like ; Ly  94.6 0.00024   7E-08   43.7   0.0   86   64-163     8-99  (163)
+  7 PF13406.6 ; SLT_2 ; Transglyco  86.8   0.017 4.2E-06   41.6   0.0   90   62-151    72-209 (301)
+  8 PF07759.12 ; DUF1615 ; Protein  39.3     1.5 0.00031   32.7   0.0   18   79-96     29-46  (315)
+  9 PF08454.11 ; RIH_assoc ; RyR a  35.4     1.6 0.00039   25.2   0.0   43   58-102     5-48  (97)
+ 10 PF18013.1 ; Phage_lysozyme2 ;   25.6     2.5 0.00074   23.3   0.0   38   80-117    22-60  (152)
+
+No 1
+>PF00062.20 ; Lys ; C-type lysozyme/alpha-lactalbumin family
+Probab=98.27  E-value=7.5e-11  Score=73.60  Aligned_cols=93  Identities=20%  Similarity=0.177  Sum_probs=71.8  Template_Neff=9.400
+
+Q SRX3156367_111   63 IQEFIYLLCEGYNIDYSFVLALIDQESSFTINAVSD---TGDYGLFQINEINFEELENK------LGITD--IS-DPYEN  130 (192)
+Q Consensus        63 iqefiyllcegynidysfvlalidqessftinavsd---tgdyglfqineinfeelenk------lgitd--is-dpyen  130 (192)
+                      +...|+-.++-|++|...+++++.+||+|.-+|++.   +|++|||||+...+..+..+      +|++.  +- ||..|
+T Consensus         8 ~~~~i~~~a~~~~v~~~~l~aia~~ES~~~~~a~~~~~~~~~~Gl~Qi~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~   87 (120)
+T LALBA_CAVPO/20    8 LSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTD   87 (120)
+T ss_pred             HHHHHHHhhCCCcCCHHHHHHHHHHHhCCCceeeecCCCcceEEeEEecchhhccCCCCCCCCcccCCCHHHHhcCcchH
+Confidence            344555678889999999999999999999999997   99999999999988887654      66643  32 36666
+
+
+Q SRX3156367_111  131 -TRAGMFILRKLFEKYE-EPTKVLMTYNMGE  159 (192)
+Q Consensus       131 -tragmfilrklfekye-eptkvlmtynmge  159 (192)
+                       .++|..+|+    ++. ..-+.+..||-|.
+T Consensus        88 ~i~~~~~il~----~~g~~~w~~~~~y~~~~  114 (120)
+T LALBA_CAVPO/20   88 DIMCVKKILD----IKGIDYWLAHKPLCSDK  114 (120)
+T ss_pred             HHHHHHHHHH----hhCcchHHHHHHHhccc
+Confidence             888887774    344 5556667777653
+
+
+No 2
+>PF06871.11 ; TraH_2 ; TraH_2
+Probab=97.43  E-value=4e-08  Score=70.95  Aligned_cols=88  Identities=18%  Similarity=0.263  Sum_probs=73.3  Template_Neff=7.000
+
+Q SRX3156367_111   70 LCEGYNIDYSFVLALIDQESSFTINAVSDTGD-----------------------------YGLFQINEI----NFEELE  116 (192)
+Q Consensus        70 lcegynidysfvlalidqessftinavsdtgd-----------------------------yglfqinei----nfeele  116 (192)
+                      -|..++|+..+|.+++.+||+|.-.+++..+.                             .|++||+.-    ++.++ 
+T Consensus         9 ~ca~~~l~p~iv~ai~~~ES~~~p~ai~~~~~~~~~l~~~p~t~~eA~~~~~~~~~~g~vdvGlmQi~~~~~~~~~~~l-   87 (206)
+T Q7D2G0_AGRFC/1    9 ECSDPGLKPAIVEQFIERAGAPDPLAVTVRSGNRIVLVPRPTTPDEALALIRQNLGRNIVRVGLTQYPAGLGIVEAGQL-   87 (206)
+T ss_pred             HhhCCCCCHHHHHHHHHHHcCCCCceEeecCCCceEecCCCCCHHHHHHHHHHHhhcCCeEEEecccCCcccccchhHh-
+Confidence            47779999999999999999999888887776                             999999964    44444 
+
+
+Q SRX3156367_111  117 NKLGITDISDPYENTRAGMFILRKLFEKYEEP--------------TKVLMTYNMGETGA  162 (192)
+Q Consensus       117 nklgitdisdpyentragmfilrklfekyeep--------------tkvlmtynmgetga  162 (192)
+                          ..|.-||..|.+.|..+|+++++.+...              ...+..||.|....
+T Consensus        88 ----~~dl~Dp~~Ni~~g~~~L~~~~~~~~~w~~~~~~~~~~~~~~~~al~aYn~G~~~~  143 (206)
+T Q7D2G0_AGRFC/1   88 ----KPDLIEPCENIKMGTALFAKVYRIVTKWYGNPTESEVLPQVFEDAIIAWQTGYFEG  143 (206)
+T ss_pred             ----hHhhhCHHHHHHHHHHHHHHHHHHHhhhcCCCCccccchHHHHHHHHHHhcCCccc
+Confidence                6788999999999999999999887522              46788999987543
+
+
+No 3
+>PF07182.11 ; DUF1402 ; Protein of unknown function (DUF1402)
+Probab=96.93  E-value=6.2e-07  Score=70.66  Aligned_cols=101  Identities=24%  Similarity=0.344  Sum_probs=87.0  Template_Neff=5.000
+
+Q SRX3156367_111   61 ENIQEFIYLLCEGYNIDYSFVLALIDQESSFTIN-----------AVSDTG-----------------------------  100 (192)
+Q Consensus        61 eniqefiyllcegynidysfvlalidqessftin-----------avsdtg-----------------------------  100 (192)
+                      ......|.-.++-|+||..++++.|-+|++|..+           |+|-.|                             
+T Consensus        53 ~~l~~~I~~~A~~y~IDP~~I~g~I~~Est~n~~~~D~~q~yyvkA~s~~g~~~~f~~~g~~~~~f~~rp~f~~c~~~~~  132 (299)
+T A9CGH5_AGRFC/2   53 PGLLGKIRKAGAAYGIDPIHIVGAIVGEHTFNVSAVDRMQTYYIKAISYAELDIKFSYKGVALKTFLQRPEFRSCEALAT  132 (299)
+T ss_pred             hhHHHHHHHHHHHhCCCHHHHHHHHHHHHhcCCchhhHHHHHHHhhHhhccCcceeeeCccchhHHhcCcccccchhhcc
+Confidence            3445558888999999999999999999999999           887664                             
+
+
+Q SRX3156367_111  101 -------------------------------------------DYGLFQINEINFEELENKLG----------------I  121 (192)
+Q Consensus       101 -------------------------------------------dyglfqineinfeelenklg----------------i  121 (192)
+                                                                 .+||.||+.....+++..++                +
+T Consensus       133 s~~~w~c~~~~w~~~f~gk~v~g~~~~~~~f~~~ff~p~yag~sfGLgQi~P~TA~~~~d~v~~~sg~~~l~~~~~~~~~  212 (299)
+T A9CGH5_AGRFC/2  133 TSEQWSCRDTVWDQSFRGKVVDGTSYEAISFQRAFFQPFYAGQTFGLGQISPLTALQVTDLVNKTSGLPKLSADRPKDIY  212 (299)
+T ss_pred             CccchhcchhhhchhcCCeecCCccccccchhhhhcCcccCCCeeecceeCHHHHHHHHHHhccccCCCCCCCCCCcchH
+Confidence                                                       89999999998888875443                4
+
+
+Q SRX3156367_111  122 TDISDPYENTRAGMFILRKLFEKYEE--------PTKVLMTYNMGETG  161 (192)
+Q Consensus       122 tdisdpyentragmfilrklfekyee--------ptkvlmtynmgetg  161 (192)
+                      .++.||..|-+.|..+||.+.++|.+        |.-.+-.||.|...
+T Consensus       213 ~~L~dP~~ni~y~Aa~lr~~i~~y~~ag~dis~np~i~aTlYN~G~~~  260 (299)
+T A9CGH5_AGRFC/2  213 RDVMDPDRSILYIAAIIRDSIDAYREKGFDISGNPGITATLYNVGQPR  260 (299)
+T ss_pred             HhhcCHHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHHHHcCCcc
+Confidence            68899999999999999999999985        77778889999875
+
+
+No 4
+>PF01464.20 ; SLT ; Transglycosylase SLT domain
+Probab=96.71  E-value=1.2e-06  Score=49.47  Aligned_cols=90  Identities=17%  Similarity=0.211  Sum_probs=67.5  Template_Neff=11.300
+
+Q SRX3156367_111   70 LCEGYNIDYSFVLALIDQESSFTINAVS------DTG--DYGLFQINEINFEELENKLGITDISDPYENTRAGMFILRKL  141 (192)
+Q Consensus        70 lcegynidysfvlalidqessftinavs------dtg--dyglfqineinfeelenklgitdisdpyentragmfilrkl  141 (192)
+                      .++.++++..++.+++.+||.+.-++.+      ..|  .+|++|++......+... +..+..+|..+..++.-.|..+
+T Consensus         6 ~~~~~~~~~~~~~ai~~~Es~~~~~~~~~~~~~~~~~~~~~G~~q~~~~~~~~~~~~-~~~~~~~~~~~i~~~~~~l~~~   84 (129)
+T YQBO_BACSU/135    6 ATKTPMSWLPGLMTIAQHESGGNPKAINLWDSNAKAGHPSQGLMQTIPSTFNAHKLP-GMNNILNPIHNAAAAIGYIKSR   84 (129)
+T ss_pred             hhcCCCCCHHHHHHHHHHHhCCCCCcccccccccccCCCCcccEEeccchHHhcCCC-CCCCCCCHHHHHHHHHHHHHHH
+Confidence            4567889999999999999999988877      778  999999987665544322 3456777878888888788877
+
+
+Q SRX3156367_111  142 FEKYE--------EPTKVLMTYNMGET  160 (192)
+Q Consensus       142 fekye--------eptkvlmtynmget  160 (192)
+                      +.++.        .....+-.||.|..
+T Consensus        85 ~~~~~~~~~~~~~~~~~~~~~y~~g~~  111 (129)
+T YQBO_BACSU/135   85 YGSINNVPGIRSMRHGGPYVGYANGGL  111 (129)
+T ss_pred             HhhccCCCCccccccCCccchhcCCCc
+Confidence            77766        34455667777753
+
+
+No 5
+>PF06737.14 ; Transglycosylas ; Transglycosylase-like domain
+Probab=96.05  E-value=1.3e-05  Score=45.06  Aligned_cols=62  Identities=19%  Similarity=0.076  Sum_probs=44.6  Template_Neff=9.300
+
+Q SRX3156367_111   78 YSFVLALIDQESSFTINAVSDTGDYGLFQINEINFEELENKL--GITDISDPYENTRAGMFILR  139 (192)
+Q Consensus        78 ysfvlalidqessftinavsdtgdyglfqineinfeelenkl--gitdisdpyentragmfilr  139 (192)
+                      -+-..+++..||.|.-++++.+|.||+||++.-.......+-  ...++.||-++.+.+..++.
+T Consensus         4 ~~~~~~ia~~ES~~~~~a~~~~g~~Gl~Q~~~~tw~~~~~~~~~~~~~~~~~~~~i~~a~~~~~   67 (77)
+T Q9L157_STRCO/4    4 RTDWDAIAACESSGNWQANTGNGYYGGLQFARSSWIAAGGLKYAPRADLATRGEQIAVAERLAR   67 (77)
+T ss_pred             hhHHHHHHHHhccCCCCCCCCCCCeeeeEECHHHHHHhcCcccCcChHHCCHHHHHHHHHHHHH
+Confidence            344567889999999999999999999999976655444321  13456677777776665553
+
+
+No 6
+>PF13702.6 ; Lysozyme_like ; Lysozyme-like
+Probab=94.58  E-value=0.00024  Score=43.73  Aligned_cols=86  Identities=17%  Similarity=0.187  Sum_probs=64.6  Template_Neff=9.600
+
+Q SRX3156367_111   64 QEFIYLLCEGYNIDY--SFVLALIDQESSFTINAVSDTGDYGLFQINEINFEELENKLGITDISDPYENTRAGMFILRKL  141 (192)
+Q Consensus        64 qefiyllcegynidy--sfvlalidqessftinavsdtgdyglfqineinfeelenklgitdisdpyentragmfilrkl  141 (192)
+                      .+.|.-.+..++++.  ..+.+++-+||+|.-        -|++|++......      ..++.||-.+..+|-.+|..+
+T Consensus         8 ~~~i~~~~~~~~i~~~~~li~ai~~~ES~~~~--------~G~~Q~~~~~~~~------~~~~~~~~~~i~~~a~~l~~~   73 (163)
+T PVAA_STRP1/27-    8 KPMVEKTLAENDTKANVDLVLAMIYTETKGGE--------ADVMQSSESSSGQ------KNSITDSQASIEHGVNLLSHN   73 (163)
+T ss_pred             HHHHHHHHHHCCCChhHHHHHHHHHHHhcCCC--------CCCccccccccCC------cccCCCHHHHHHHHHHHHHHH
+Confidence            344555677888888  788999999998854        6999997655422      346667888888888888888
+
+
+Q SRX3156367_111  142 FEKYE----EPTKVLMTYNMGETGAK  163 (192)
+Q Consensus       142 fekye----eptkvlmtynmgetgak  163 (192)
+                      ..++.    ....++..||.|.....
+T Consensus        74 ~~~~~~~~~~~~~~~~~Yn~G~~~~~   99 (163)
+T PVAA_STRP1/27-   74 LALAEEAGVDSWTAVQAYNFGTAYID   99 (163)
+T ss_pred             HHHHHHcCCCHHHHHHHHhCCHHHHH
+Confidence            77776    55678889999987654
+
+
+No 7
+>PF13406.6 ; SLT_2 ; Transglycosylase SLT domain
+Probab=86.83  E-value=0.017  Score=41.64  Aligned_cols=90  Identities=17%  Similarity=0.097  Sum_probs=67.6  Template_Neff=6.900
+
+Q SRX3156367_111   62 NIQEFIYLLCEGYNIDYSFVLALIDQESSF--------------------------------------------TINAVS   97 (192)
+Q Consensus        62 niqefiyllcegynidysfvlalidqessf--------------------------------------------tinavs   97 (192)
+                      ..++.+.-....|+++..+++|++..||.|                                            .-...|
+T Consensus        72 ~~~~~l~~~~~~~gV~~~ii~AI~~vES~fG~~~g~~~v~~~L~tla~~~~R~~~f~~el~~~l~~~~~~~~~~~~~~gS  151 (301)
+T E3I5Y3_RHOVT/3   72 KYEAKLKVLERRYGVSRFVLVAIWGAESDFGNKQGSWAVFRSLATLAASGRRADFWKTQIVEALKIVESQRISPDKLSGS  151 (301)
+T ss_pred             HHHHHHHHHHHHHCCCHHHHHHHHHHHhhhcccCCCchhhHHhHHHHhcCcchHhHHHHHHHHHHHHHHCCCCHHHccCC
+Confidence            345556667889999999999999999999                                            233567
+
+
+Q SRX3156367_111   98 DTGDYGLFQINEINFEELENKL---GITDISD-PYENTRAGMFILRKLFEKYEEPTKV  151 (192)
+Q Consensus        98 dtgdyglfqineinfeelenkl---gitdisd-pyentragmfilrklfekyeeptkv  151 (192)
+                      -.|..|+.|+-.-++....-..   |..|+-+ |..+..++...|++.--+..+|...
+T Consensus       152 ~aGA~G~~QfmPst~~~yavd~d~dg~~dl~~s~~Dai~s~A~yL~~~Gw~~~~~~~~  209 (301)
+T E3I5Y3_RHOVT/3  152 WAGAMGHTQFIPSTYNKFGVSFSGTPRGDIWDNPADAMASTANYLAQSGWLRGRTWGY  209 (301)
+T ss_pred             CCcccChhhhCHHHHHHhcccCCCCCcccccCCHHHHHHHHHHHHHHccchhCCCcee
+Confidence            8899999999988887766543   4456666 6667777777787776666666543
+
+
+No 8
+>PF07759.12 ; DUF1615 ; Protein of unknown function (DUF1615)
+Probab=39.30  E-value=1.5  Score=32.73  Aligned_cols=18  Identities=39%  Similarity=0.624  Sum_probs=15.3  Template_Neff=4.300
+
+Q SRX3156367_111   79 SFVLALIDQESSFTINAV   96 (192)
+Q Consensus        79 sfvlalidqessftinav   96 (192)
+                      ..|+|+|+|||+|..+.+
+T Consensus        29 CavlAVieQES~f~adP~   46 (315)
+T Q882Y3_PSESM/3   29 CSVLAVTEQESTFQVDPA   46 (315)
+T ss_pred             HHHHHHHhhccCcccCCC
+Confidence            469999999999987754
+
+
+No 9
+>PF08454.11 ; RIH_assoc ; RyR and IP3R Homology associated
+Probab=35.41  E-value=1.6  Score=25.19  Aligned_cols=43  Identities=23%  Similarity=0.361  Sum_probs=28.2  Template_Neff=7.100
+
+Q SRX3156367_111   58 DLDENIQEFIYLLCEGYNIDYSFVLALIDQE-SSFTINAVSDTGDY  102 (192)
+Q Consensus        58 dldeniqefiyllcegynidysfvlalidqe-ssftinavsdtgdy  102 (192)
+                      ..-..+-.|+.+||||.+.+.--.+  -.|. ..-.+|-|+.+-+|
+T Consensus         5 ~~~~~ilrflqllCegh~~~~Q~~l--r~Q~~~~~s~nlv~~~~~~   48 (97)
+T G0QX38_ICHMG/8    5 KIVEKVLRLLQLFCEGHNLDLQNYI--RNQFNSKKSYDLISQIIKL   48 (97)
+T ss_pred             HHHHHHHHHHHHHHhcCCHHHHHHH--HhcCCCCcchHHHHHHHHH
+Confidence            3345677899999999998754443  4443 33356667766655
+
+
+No 10
+>PF18013.1 ; Phage_lysozyme2 ; Phage tail lysozyme
+Probab=25.64  E-value=2.5  Score=23.26  Aligned_cols=38  Identities=26%  Similarity=0.301  Sum_probs=26.3  Template_Neff=9.600
+
+Q SRX3156367_111   80 FVLALIDQESSFTINAVSD-TGDYGLFQINEINFEELEN  117 (192)
+Q Consensus        80 fvlalidqessftinavsd-tgdyglfqineinfeelen  117 (192)
+                      -+++-+.+||.|.-.++.. .+.+|++|........+.+
+T Consensus        22 ~i~gn~~~Esg~~p~~~~~~~~~~Gl~Qw~~~~~~~~~~   60 (152)
+T D4J920_9FIRM/2   22 GVIANMDIDSGLDPESEHGNDGAYGLLGWLGDKKSELKE   60 (152)
+T ss_pred             HHHHHHHHHhCCCCCCcCCCCCCcccccCCCchHHHHhc
+Confidence            3566788999888777653 4468999987755444443
+
+

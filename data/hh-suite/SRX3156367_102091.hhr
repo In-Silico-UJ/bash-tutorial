@@ -1,0 +1,209 @@
+Query         SRX3156367_102091
+Match_columns 192
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 14:51:18 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_102091.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_102091.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_102091.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05762.14 ; VWA_CoxE ; VWA do  94.9 0.00013 4.2E-08   42.7   0.0  100   34-142    57-162 (221)
+  2 PF09967.9 ; DUF2201 ; VWA-like  94.6 0.00021   7E-08   38.3   0.0   97   37-148     2-98  (124)
+  3 PF00092.28 ; VWA ; von Willebr  94.2 0.00033 1.1E-07   37.6   0.0  106   35-142     1-114 (173)
+  4 PF10138.9 ; vWA-TerF-like ; vW  93.5 0.00066 2.2E-07   37.9   0.0   37  105-143    80-117 (200)
+  5 PF04285.12 ; DUF444 ; Protein   92.7  0.0017 4.4E-07   48.1   0.0   95   35-142   245-344 (416)
+  6 PF13768.6 ; VWA_3 ; von Willeb  91.9   0.002 6.8E-07   34.1   0.0  102   35-142     2-118 (167)
+  7 PF06707.11 ; DUF1194 ; Protein  90.6  0.0039 1.3E-06   34.8   0.0   51   94-144    79-130 (210)
+  8 PF04811.15 ; Sec23_trunk ; Sec  90.1  0.0054 1.6E-06   38.7   0.0   32  107-142   111-142 (241)
+  9 PF11775.8 ; CobT_C ; Cobalamin  88.2  0.0088   3E-06   33.2   0.0   37  106-143   112-148 (219)
+ 10 PF04056.14 ; Ssl1 ; Ssl1-like   82.3    0.03   1E-05   30.2   0.0   51   91-141    60-112 (192)
+ 11 PF00362.18 ; Integrin_beta ; I  77.3   0.061   2E-05   31.0   0.0   14   34-47      6-19  (244)
+
+No 1
+>PF05762.14 ; VWA_CoxE ; VWA domain containing CoxE-like protein
+Probab=94.94  E-value=0.00013  Score=42.73  Aligned_cols=100  Identities=15%  Similarity=0.131  Sum_probs=53.5  Template_Neff=11.800
+
+Q SRX3156367_102   34 EDFVIVLDTSMSCNG--SLIRRFLEETYSVLSESESFFRKIQVHIIQCDEKIQDDQVIHDQREMEAYL---QDFTIR-GF  107 (192)
+Q Consensus        34 edfvivldtsmscng--slirrfleetysvlsesesffrkiqvhiiqcdekiqddqvihdqremeayl---qdftir-gf  107 (192)
+                      -++++++|.|-|.++  ..+..++....+.+.        ..|.++..+.....-....+.......+   .+..-. +-
+T Consensus        57 ~~v~~vlD~S~Sm~~~~~~~~~~~~~~~~~~~--------~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  128 (221)
+T Q9Y9R7_AERPE/1   57 TDILVLLDVSNSMKDYWPWILGILNALRRLPP--------GSYEAFLFSTRLVRATPMVEAAGGAEDLRRLLSRVEGLWG  128 (221)
+T ss_pred             CEEEEEEECCchHhhhHHHHHHHHHHHHhCCC--------CcEEEEEEeCCeeecchhhhhcChHHHHHHHHHhhccccC
+Confidence            478999999988876  333333332222111        4455555444332222222211222222   222221 56
+
+
+Q SRX3156367_102  108 GGTDFRPAFAYVDQLLKMGSFQRLRGLLYFTDGYG  142 (192)
+Q Consensus       108 ggtdfrpafayvdqllkmgsfqrlrgllyftdgyg  142 (192)
+                      |+|++..++..+-+.+. ..-.+-+-++.+|||..
+T Consensus       129 g~t~~~~al~~~~~~~~-~~~~~~~~ii~itDg~~  162 (221)
+T Q9Y9R7_AERPE/1  129 SGTRISQSVEELLESHT-PALHRGAAVLVFSDGWD  162 (221)
+T ss_pred             CCCcHHHHHHHHHHhcc-hHhcCCEEEEEEeCchh
+Confidence            78999999888777766 22234456788999954
+
+
+No 2
+>PF09967.9 ; DUF2201 ; VWA-like domain (DUF2201)
+Probab=94.59  E-value=0.00021  Score=38.34  Aligned_cols=97  Identities=28%  Similarity=0.420  Sum_probs=53.5  Template_Neff=11.600
+
+Q SRX3156367_102   37 VIVLDTSMSCNGSLIRRFLEETYSVLSESESFFRKIQVHIIQCDEKIQDDQVIHDQREMEAYLQDFTIRGFGGTDFRPAF  116 (192)
+Q Consensus        37 vivldtsmscngslirrfleetysvlsesesffrkiqvhiiqcdekiqddqvihdqremeaylqdftirgfggtdfrpaf  116 (192)
+                      ++++|+|-|+++..+....+..-..+.   .+-...++.++++++.........   .    .+.....+-|++++..++
+T Consensus         2 ~~~~d~s~sm~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~---~----~~~~~~~~~g~t~~~~~l   71 (124)
+T Q24RP8_DESHY/3    2 AIIADTSASISDPMLARTLAEISGILK---ALGRQEGVRVLAVDHTVQSCRRVF---R----PEQIRLTGGGGTDMRAGL   71 (124)
+T ss_pred             EEEEECCCCCCHHHHHHHHHHHHHHHH---HhccCCcEEEEEEcCCceeeeecC---C----hhhcccCCCCCCCHHHHH
+Confidence            578899888765433333222211111   112234567777766543221111   1    122234455789988887
+
+
+Q SRX3156367_102  117 AYVDQLLKMGSFQRLRGLLYFTDGYGMFPAKM  148 (192)
+Q Consensus       117 ayvdqllkmgsfqrlrgllyftdgygmfpakm  148 (192)
+                      ..+.+.+     .+-..++.+|||....+...
+T Consensus        72 ~~~~~~~-----~~~~~iv~ltdg~~~~~~~~   98 (124)
+T Q24RP8_DESHY/3   72 EGVSRLR-----PLPQVGIVLTDGYTAWPAQP   98 (124)
+T ss_pred             HHHHhhC-----CCCeEEEEEeCCCCCCCCCC
+Confidence            7666554     24566788999988777654
+
+
+No 3
+>PF00092.28 ; VWA ; von Willebrand factor type A domain
+Probab=94.20  E-value=0.00033  Score=37.62  Aligned_cols=106  Identities=15%  Similarity=0.203  Sum_probs=48.3  Template_Neff=12.600
+
+Q SRX3156367_102   35 DFVIVLDTSMSCNGSLIRRFLEETYSVLSESESFFRKIQVHIIQCDEKIQDD---QVIHDQREMEAYLQDFTIRGFGGTD  111 (192)
+Q Consensus        35 dfvivldtsmscngslirrfleetysvlsesesffrkiqvhiiqcdekiqdd---qvihdqremeaylqdftirgfggtd  111 (192)
+                      |+++++|+|-|..++-+....+.....++.-...-...++-++.........   ....+..++...++.  ...-|++.
+T Consensus         1 dv~~~~D~S~Sm~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~f~~~~~~~~~~~~~~~~~~~~~~i~~--~~~~~~~~   78 (173)
+T F1N0R5_BOVIN/1    1 DVVLLLDGSSTSPASYFDEMKSFAKAFISKANLGPQLTQVSVLQYGSNTNVDVPWDIHVDKAHLLSLVDP--MHREGGPS   78 (173)
+T ss_pred             CEEEEEeCCCCCChHHHHHHHHHHHHHHHhcCCCCCccEEEEEEeCCCCceeecccccCCHHHHHHHHch--hccCCCcc
+Confidence            5688999988875443332222222222211101123344444444322111   111133444555555  22334444
+
+
+Q SRX3156367_102  112 -FRPAFAYVDQ-LLKMGSF---QRLRGLLYFTDGYG  142 (192)
+Q Consensus       112 -frpafayvdq-llkmgsf---qrlrgllyftdgyg  142 (192)
+                       ...++..+.. +.+...-   .+-+-++++|||..
+T Consensus        79 ~~~~al~~~~~~~~~~~~~~~~~~~~~i~~~tdg~~  114 (173)
+T F1N0R5_BOVIN/1   79 QVGNALSFAARYITSQVHGARPSASKVVVILVTGSS  114 (173)
+T ss_pred             HHHHHHHHHHHHHhccCCCCCCCCceEEEEEEcCCC
+Confidence             6666665544 3333222   23456788999864
+
+
+No 4
+>PF10138.9 ; vWA-TerF-like ; vWA found in TerF C terminus
+Probab=93.54  E-value=0.00066  Score=37.92  Aligned_cols=37  Identities=22%  Similarity=0.220  Sum_probs=25.4  Template_Neff=12.200
+
+Q SRX3156367_102  105 RGFGG-TDFRPAFAYVDQLLKMGSFQRLRGLLYFTDGYGM  143 (192)
+Q Consensus       105 rgfgg-tdfrpafayvdqllkmgsfqrlrgllyftdgygm  143 (192)
+                      ...|| |++..++..+-+.+.  .-.+-+-++.+|||...
+T Consensus        80 ~~~g~~t~~~~al~~~~~~~~--~~~~~~~ii~itDg~~~  117 (200)
+T A1VWN3_POLNA/2   80 KGLGVGNNEPPVMQEVLETYK--NSNLPALVIFITDGGID  117 (200)
+T ss_pred             cccCCcccchHHHHHHHHHcc--CCCCCEEEEEEECCCCc
+Confidence            45566 888888877666555  23355678889999654
+
+
+No 5
+>PF04285.12 ; DUF444 ; Protein of unknown function (DUF444)
+Probab=92.66  E-value=0.0017  Score=48.06  Aligned_cols=95  Identities=21%  Similarity=0.239  Sum_probs=56.6  Template_Neff=7.900
+
+Q SRX3156367_102   35 DFVIVLDTSMSCNGSLI---RRFLEETYSVLSESESFFRKIQVHIIQCDEKIQDDQVIHDQREMEAYLQDFTIRGFGGTD  111 (192)
+Q Consensus        35 dfvivldtsmscngsli---rrfleetysvlsesesffrkiqvhiiqcdekiqddqvihdqremeaylqdftirgfggtd  111 (192)
+                      .+++|+|+|-|-.+.-+   +.+....+..|..   .+.++.|.++..+.....  +  +    +.  .-+.++.-|||+
+T Consensus       245 ~vv~vlD~SGSM~~~~~~~ak~~~~~l~~~L~~---~~~~v~v~fi~~~~~a~~--v--~----~~--~~~~~~~~GGT~  311 (416)
+T V5UBN4_9BURK/3  245 VMFCLMDVSGSMDQSRKDLAKRFFMLLYLFLRH---NYERIDLVLIRHHTTAKE--V--N----ED--DFFYARESGGTV  311 (416)
+T ss_pred             EEEEEEECCccccHhHHHHHHHHHHHHHHHHHh---hcCceEEEEEecCCceeE--e--C----HH--HhccCccCCCCc
+Confidence            48899999988876533   2233333333332   223445555555543221  1  0    11  125677889999
+
+
+Q SRX3156367_102  112 FRPAFAYVDQLLKMGSF--QRLRGLLYFTDGYG  142 (192)
+Q Consensus       112 frpafayvdqllkmgsf--qrlrgllyftdgyg  142 (192)
+                      +.+|+..+-++++...-  .+-.-++.+|||..
+T Consensus       312 i~~al~~a~~~l~~~~~~~~~~~~villTDG~~  344 (416)
+T V5UBN4_9BURK/3  312 VSSALKLMTEIIADRYSPSDWNIYGAQVSDGDN  344 (416)
+T ss_pred             HHHHHHHHHHHHHHhCCcccCceEEEEEECCCC
+Confidence            99999999888875422  23336889999953
+
+
+No 6
+>PF13768.6 ; VWA_3 ; von Willebrand factor type A domain
+Probab=91.94  E-value=0.002  Score=34.10  Aligned_cols=102  Identities=12%  Similarity=0.135  Sum_probs=50.6  Template_Neff=12.500
+
+Q SRX3156367_102   35 DFVIVLDTSMSCNGSLIRRFLEETYSVLSESESFFRKIQVHIIQCDE--KIQ---DDQVI---HDQREMEAYLQD-FTIR  105 (192)
+Q Consensus        35 dfvivldtsmscngslirrfleetysvlsesesffrkiqvhiiqcde--kiq---ddqvi---hdqremeaylqd-ftir  105 (192)
+                      ++++++|+|-|-.+..++..+......++..      .++.++..+.  ...   .....   .+..++...+.. -.+.
+T Consensus         2 ~v~~~~D~S~sm~~~~~~~~~~~~~~~~~~~------~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~   75 (167)
+T Q4DUX7_TRYCC/2    2 ELVLVVDSHSRQSCEAMANGILVGMRGLPES------VFLNVVVVGAKKDVSPWQCGAVALCDVQLEQVFAFIAESKPQE   75 (167)
+T ss_pred             ceEEEEeCCCccChHHHHHHHHHHHhcCCCc------CeEEEEEECCCCCCCccccccccccccCHHHHHHHHHhcCchH
+Confidence            5788999987765545555555544444322      2344444433  111   11000   011122223322 0022
+
+
+Q SRX3156367_102  106 G-FGGTDFRPAFAYVDQLLK-----MGSFQRLRGLLYFTDGYG  142 (192)
+Q Consensus       106 g-fggtdfrpafayvdqllk-----mgsfqrlrgllyftdgyg  142 (192)
+                      . -|++++..++..+-+.+.     ...-..-+-++++|||..
+T Consensus        76 ~~~~~~~~~~al~~~~~~~~~~~~~~~~~~~~~~ii~~tdg~~  118 (167)
+T Q4DUX7_TRYCC/2   76 ANSGASNLHRTLREVMSQEALSLCGSVPTGYVRHVIVMSDEGD  118 (167)
+T ss_pred             HccCCCHHHHHHHHHHHHHHHHhcCCCCCCceeEEEEEeCCCC
+Confidence            2 678888888777666551     112233456788999874
+
+
+No 7
+>PF06707.11 ; DUF1194 ; Protein of unknown function (DUF1194)
+Probab=90.58  E-value=0.0039  Score=34.77  Aligned_cols=51  Identities=16%  Similarity=0.100  Sum_probs=31.5  Template_Neff=12.100
+
+Q SRX3156367_102   94 EMEAYLQDFTIRGFGGTDFRPAFAYVDQLLKMGSF-QRLRGLLYFTDGYGMF  144 (192)
+Q Consensus        94 emeaylqdftirgfggtdfrpafayvdqllkmgsf-qrlrgllyftdgygmf  144 (192)
+                      ++...+........|+|+...++....+.+....- ..-+-++.+|||..-.
+T Consensus        79 ~~~~~~~~~~~~~~g~t~~~~al~~a~~~~~~~~~~~~~~~ii~~tDg~~~~  130 (210)
+T Q98HK0_RHILO/1   79 ILADRLAALPLTEGRGTSISGALSAAHALFAKSGLRSPRRVIDVSGDGPNNA  130 (210)
+T ss_pred             HHHHHHHcCCCCCCCCCCHHHHHHHHHHHHHhcCCCCCceEEEEEeCCCCCC
+Confidence            34444444444347889998888777666554322 2445678899997543
+
+
+No 8
+>PF04811.15 ; Sec23_trunk ; Sec23/Sec24 trunk domain
+Probab=90.07  E-value=0.0054  Score=38.70  Aligned_cols=32  Identities=16%  Similarity=0.084  Sum_probs=23.6  Template_Neff=9.900
+
+Q SRX3156367_102  107 FGGTDFRPAFAYVDQLLKMGSFQRLRGLLYFTDGYG  142 (192)
+Q Consensus       107 fggtdfrpafayvdqllkmgsfqrlrgllyftdgyg  142 (192)
+                      .|++++..|...+-.+++    .+-.-++.||||.-
+T Consensus       111 ~~~t~~~~al~~a~~~l~----~~~~~ii~~tdg~~  142 (241)
+T SC24B_ARATH/50  111 IPESAFGAAVKAAFLAMK----SKGGKLMVFQSILC  142 (241)
+T ss_pred             CCCchHHHHHHHHHHHHH----hCCcEEEEEeCCCC
+Confidence            678888888888777777    23334888999854
+
+
+No 9
+>PF11775.8 ; CobT_C ; Cobalamin biosynthesis protein CobT VWA domain
+Probab=88.21  E-value=0.0088  Score=33.18  Aligned_cols=37  Identities=14%  Similarity=0.051  Sum_probs=24.4  Template_Neff=12.200
+
+Q SRX3156367_102  106 GFGGTDFRPAFAYVDQLLKMGSFQRLRGLLYFTDGYGM  143 (192)
+Q Consensus       106 gfggtdfrpafayvdqllkmgsfqrlrgllyftdgygm  143 (192)
+                      +.|+|+...++..+.+.+.-. -.+-+-++++|||..-
+T Consensus       112 ~~g~t~~~~al~~a~~~~~~~-~~~~~~iv~~tDG~~~  148 (219)
+T Q89XX7_BRADU/3  112 LLKENIDGEALDWAHKRLLGR-PEQRKILMMISDGAPV  148 (219)
+T ss_pred             CCCCCccHHHHHHHHHHHcCC-cccCcEEEEEeCCCCC
+Confidence            347888888887766655432 2344567889998654
+
+
+No 10
+>PF04056.14 ; Ssl1 ; Ssl1-like
+Probab=82.28  E-value=0.03  Score=30.16  Aligned_cols=51  Identities=8%  Similarity=-0.000  Sum_probs=27.1  Template_Neff=12.100
+
+Q SRX3156367_102   91 DQREMEAYLQDFT-IRGFGGTDFRPAFAYVDQLLKMGS-FQRLRGLLYFTDGY  141 (192)
+Q Consensus        91 dqremeaylqdft-irgfggtdfrpafayvdqllkmgs-fqrlrgllyftdgy  141 (192)
+                      +..++...+.... ...-|+|++..++..+.++++... -.+-+-++.+|||.
+T Consensus        60 ~~~~~~~~i~~~~~~~~~g~t~~~~al~~a~~~l~~~~~~~~~~~ii~~~dg~  112 (192)
+T Q9VNP8_DROME/6   60 TSRVHLKALESLANVSLTSEPSLQNGLDLALKSLKVVPSHASREIVIIMGSLT  112 (192)
+T ss_pred             CHHHHHHHHHHhhcCCCCCCCcHHHHHHHHHHHhhcCCCCCceEEEEEeCCCC
+Confidence            3344444444332 235678899888887776665432 12223344455554
+
+
+No 11
+>PF00362.18 ; Integrin_beta ; Integrin beta chain VWA domain
+Probab=77.32  E-value=0.061  Score=30.99  Aligned_cols=14  Identities=29%  Similarity=0.351  Sum_probs=11.5  Template_Neff=11.400
+
+Q SRX3156367_102   34 EDFVIVLDTSMSCN   47 (192)
+Q Consensus        34 edfvivldtsmscn   47 (192)
+                      -|+++++|+|.|..
+T Consensus         6 ~dv~~vlD~SgSm~   19 (244)
+T C3YNY6_BRAFL/1    6 VDLYYLMDMSKSME   19 (244)
+T ss_pred             eeEEEEEeCCcchh
+Confidence            47899999988774
+
+

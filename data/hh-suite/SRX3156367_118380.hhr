@@ -1,0 +1,159 @@
+Query         SRX3156367_118380
+Match_columns 157
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 15:23:33 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_118380.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_118380.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_118380.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF01546.28 ; Peptidase_M20 ; P  94.7 0.00019 5.7E-08   47.3   0.0  122   22-152   241-375 (376)
+  2 PF02127.15 ; Peptidase_M18 ; A  88.0   0.011 3.1E-06   41.5   0.0   73   78-150   375-453 (454)
+  3 PF05343.14 ; Peptidase_M42 ; M  84.5   0.023 6.9E-06   34.9   0.0   69   77-145   219-290 (291)
+  4 PF07715.15 ; Plug ; TonB-depen  32.0     1.6 0.00049   21.8   0.0   42  100-141    47-92  (113)
+  5 PF06856.11 ; DUF1251 ; Protein  22.0     4.6 0.00097   25.7   0.0   11  110-120    67-77  (131)
+  6 PF04389.17 ; Peptidase_M28 ; P  17.7     4.4  0.0014   20.8   0.0   49  102-150   138-191 (192)
+  7 PF02671.21 ; PAH ; Paired amph  11.5     9.5  0.0026   16.5   0.0   23   65-87     20-42  (45)
+  8 PF17510.2 ; GP44 ; Gene produc   9.8      17  0.0033   22.8   0.0   34   93-129    38-71  (108)
+  9 PF12535.8 ; Nudix_N ; Hydrolas   9.1      15  0.0036   18.3   0.0   30   21-50     13-42  (56)
+ 10 PF17839.1 ; CNP_C_terminal ; C   9.0      14  0.0036   19.1   0.0   27   39-65     46-72  (106)
+
+No 1
+>PF01546.28 ; Peptidase_M20 ; Peptidase family M20/M25/M40
+Probab=94.73  E-value=0.00019  Score=47.32  Aligned_cols=122  Identities=11%  Similarity=0.047  Sum_probs=77.8  Template_Neff=10.200
+
+Q SRX3156367_118   22 SQCIMTYHIRDFSAARYEERKKLLAKTA----SYLNLHYGAGTFE-VQIDDYYLNMKRKIDDHPEILETAKRAVTMA-GI   95 (157)
+Q Consensus        22 sqcimtyhirdfsaaryeerkkllakta----sylnlhygagtfe-vqiddyylnmkrkiddhpeiletakravtma-gi   95 (157)
+                      ..|..++.+|.+.....++.++.+.+.+    .-....+    .+ +.+.  ....-...+.++.+.+..+++..-. |.
+T Consensus       241 ~~~~~~~~iR~~~~~~~~~~~~~i~~~~~~~~~~~~~~~----~~~v~i~--~~~~p~~~~~~~~~~~~~~~a~~~~~g~  314 (376)
+T Q7QJQ9_ANOGA/1  241 KKVIGKFSIRIVPNQTPELTERYVSEYLTAKWAERGSPN----QFAVRMA--HGGKPWTEDPNHPHYQAARTATKHVYNV  314 (376)
+T ss_pred             CeEEEEEEEEECCCCCHHHHHHHHHHHHHHHHHHhCCCC----ceEEEEE--eCCCcccCCCCCHHHHHHHHHHHHHhCC
+Confidence            4678889999988877776666555554    3322222    22 3333  1122233444556666666666655 88
+
+
+Q SRX3156367_118   96 TPKLV-PVR---GGTDGAVISFDGFPCPNI--FS-GEQNGFSVFEYISAQTMEKAVEVIINIIR  152 (157)
+Q Consensus        96 tpklv-pvr---ggtdgavisfdgfpcpni--fs-geqngfsvfeyisaqtmekaveviiniir  152 (157)
+                      .|+.. ...   |++|...+  .|.|. -+  |. ...+.-+.-|+++-+++.++.+++..+++
+T Consensus       315 ~~~~~~~~~~~~~~~d~~~~--~gi~~-~~~~~G~pg~~~H~~nE~i~~~~l~~~~~~~~~~~~  375 (376)
+T Q7QJQ9_ANOGA/1  315 DPDMTREGGSIPVTLTLQQT--TGKNV-LLLPMGASDDGAHSQNEKIDVRNYIEGTKLLGAYLY  375 (376)
+T ss_pred             CCccccCCCCCchHHHHHHH--HCCcE-EEecccCcCCCCCCCCCcccHHHHHHHHHHHHHHHh
+Confidence            88776 555   89998887  56533 12  33 22666789999999999999999887653
+
+
+No 2
+>PF02127.15 ; Peptidase_M18 ; Aminopeptidase I zinc metalloprotease (M18)
+Probab=88.00  E-value=0.011  Score=41.49  Aligned_cols=73  Identities=16%  Similarity=0.099  Sum_probs=57.3  Template_Neff=8.500
+
+Q SRX3156367_118   78 DHPEILETAKRAVTMAGITPKLVPV----RGGTDGA--VISFDGFPCPNIFSGEQNGFSVFEYISAQTMEKAVEVIINI  150 (157)
+Q Consensus        78 dhpeiletakravtmagitpklvpv----rggtdga--visfdgfpcpnifsgeqngfsvfeyisaqtmekaveviini  150 (157)
+                      .++.+.+..+++..-.||.......    +||||.+  ..+..|.|+.+|.-+..+--|..|.++...++.+++.+..+
+T Consensus       375 ~~~~l~~~l~~~a~~~~I~~Q~~~~~~~~~~gtd~~~~~~~~~Gi~~~~igiP~~~~HS~~E~~~~~D~~~~~~ll~~~  453 (454)
+T DNPEP_YEAST/25  375 TNSPGLVLVKRLAEAAKVPLQLFVVANDSPCGSTIGPILASKTGIRTLDLGNPVLSMHSIRETGGSADLEFQIKLFKEF  453 (454)
+T ss_pred             CChHHHHHHHHHHHHcCCCcEEEecCCCCCCCCChHHHHHHHhCCcEEEeCCCccCCCCCCcccCHHHHHHHHHHHHHh
+Confidence            3466666677777777888777655    6899998  44567899999988888888999999999999888776543
+
+
+No 3
+>PF05343.14 ; Peptidase_M42 ; M42 glutamyl aminopeptidase
+Probab=84.52  E-value=0.023  Score=34.92  Aligned_cols=69  Identities=20%  Similarity=0.265  Sum_probs=50.5  Template_Neff=10.200
+
+Q SRX3156367_118   77 DDHPEILETAKRAVTMAGITPKL-VPVRGGTDGAVISFD--GFPCPNIFSGEQNGFSVFEYISAQTMEKAVE  145 (157)
+Q Consensus        77 ddhpeiletakravtmagitpkl-vpvrggtdgavisfd--gfpcpnifsgeqngfsvfeyisaqtmekave  145 (157)
+                      .-++++.+..+++..-.|+.... +...+|||+..+.--  |.|+-.+..+..+--|..|.++...++.+++
+T Consensus       219 ~~~~~l~~~l~~~a~~~~i~~q~~~~~~~~sd~~~~~~~~~gi~~~~lg~p~~~~Hs~~E~i~~~D~~~~~~  290 (291)
+T Q8U0N9_PYRFU/4  219 ICHPTIVRWMEELAKKYEIPYQWDILLGGGTDAGAIHLTRAGVPTGAVSIPARYIHSNAEVVDERDVDASVK  290 (291)
+T ss_pred             cCCHHHHHHHHHHHHHcCCCcEEEeecCCCchHHHHHHhCCCCCEEEEEecccCCCCCCeEeeHHHHHHHhc
+Confidence            34566666677766667887776 677899999877655  8888777766667777788888877776554
+
+
+No 4
+>PF07715.15 ; Plug ; TonB-dependent Receptor Plug Domain
+Probab=31.98  E-value=1.6  Score=21.78  Aligned_cols=42  Identities=21%  Similarity=0.486  Sum_probs=25.2  Template_Neff=10.100
+
+Q SRX3156367_118  100 VPVRG----GTDGAVISFDGFPCPNIFSGEQNGFSVFEYISAQTME  141 (157)
+Q Consensus       100 vpvrg----gtdgavisfdgfpcpnifsgeqngfsvfeyisaqtme  141 (157)
+                      +-+||    +.....+.+||.|..+...+.+++...+.++....++
+T Consensus        47 ~~~rG~~~~~~~~~~~~idG~~~~~~~~~~~~~~~~~~~~~~~~i~   92 (113)
+T Q82UF4_NITEU/1   47 LGIRGADMFSTARSMVYADGLPLHNFLQASFNGAPRWSLVGPNEID   92 (113)
+T ss_pred             EEEEeeccCCCCceEEEECCEEcCccccccCCCCCChHhcCHHHcc
+Confidence            45666    4456778899999876433344444455555554443
+
+
+No 5
+>PF06856.11 ; DUF1251 ; Protein of unknown function (DUF1251)
+Probab=21.98  E-value=4.6  Score=25.72  Aligned_cols=11  Identities=55%  Similarity=0.984  Sum_probs=9.1  Template_Neff=4.200
+
+Q SRX3156367_118  110 VISFDGFPCPN  120 (157)
+Q Consensus       110 visfdgfpcpn  120 (157)
+                      -|-|||||.|+
+T Consensus        67 pi~FDGF~~~~   77 (131)
+T Q77K38_9ABAC/3   67 PITFDGFPDYD   77 (131)
+T ss_pred             CeeeecCCCCC
+Confidence            47899999993
+
+
+No 6
+>PF04389.17 ; Peptidase_M28 ; Peptidase family M28
+Probab=17.70  E-value=4.4  Score=20.77  Aligned_cols=49  Identities=20%  Similarity=0.114  Sum_probs=29.7  Template_Neff=11.000
+
+Q SRX3156367_118  102 VRGGTDGAVISFDGFPCPNI-FSGEQ----NGFSVFEYISAQTMEKAVEVIINI  150 (157)
+Q Consensus       102 vrggtdgavisfdgfpcpni-fsgeq----ngfsvfeyisaqtmekaveviini  150 (157)
+                      ..+++|...+..-|.|+-.+ ..+..    ......+.++.+.|.+..+++..+
+T Consensus       138 ~~~~~d~~~f~~~gip~~~~~~~~~~~~~ht~~D~~~~id~~~l~~~~~~~~~~  191 (192)
+T Q7MAY9_PHOLL/1  138 LRNNTDFSVFLDRGFTGMNFATILGYEHYHRMSDTVENLNLGTLWRYQRTIRDL  191 (192)
+T ss_pred             cCCCCchHHHHHcCCCeEEEeccCCCccCCCCCCCHHHCCHHHHHHHHHHHHHh
+Confidence            45677877777777776555 11221    122345667777887777776654
+
+
+No 7
+>PF02671.21 ; PAH ; Paired amphipathic helix repeat
+Probab=11.52  E-value=9.5  Score=16.51  Aligned_cols=23  Identities=17%  Similarity=0.333  Sum_probs=16.3  Template_Neff=8.600
+
+Q SRX3156367_118   65 IDDYYLNMKRKIDDHPEILETAK   87 (157)
+Q Consensus        65 iddyylnmkrkiddhpeiletak   87 (157)
+                      +.+.+..++.-+.+||++++.-+
+T Consensus        20 ~~~~~~~v~~ll~~~pdL~~~F~   42 (45)
+T B3RSB7_TRIAD/6   20 PKELYDEVQSLLHKYPELLQDFI   42 (45)
+T ss_pred             HHHHHHHHHHHhccChHHHHHHH
+Confidence            45566677777888888876543
+
+
+No 8
+>PF17510.2 ; GP44 ; Gene product 44
+Probab=9.79  E-value=17  Score=22.81  Aligned_cols=34  Identities=18%  Similarity=0.130  Sum_probs=23.8  Template_Neff=2.500
+
+Q SRX3156367_118   93 AGITPKLVPVRGGTDGAVISFDGFPCPNIFSGEQNGF  129 (157)
+Q Consensus        93 agitpklvpvrggtdgavisfdgfpcpnifsgeqngf  129 (157)
+                      |-+.-.-|..+|+||-|.|+|+|-   +..|--|+..
+T Consensus        38 a~VDensVRyk~ate~ati~l~g~---~~~slWQ~NL   71 (108)
+T G1D6E9_9CAUD/1   38 AEVDKSSLRFSSASETANISLDDD---RTVCTWQMNL   71 (108)
+T ss_pred             hcccccceeeecccceeEEEeCCC---CeEEEeehhh
+Confidence            334555677899999999999975   4555555443
+
+
+No 9
+>PF12535.8 ; Nudix_N ; Hydrolase of X-linked nucleoside diphosphate N terminal
+Probab=9.07  E-value=15  Score=18.25  Aligned_cols=30  Identities=20%  Similarity=0.355  Sum_probs=23.0  Template_Neff=6.500
+
+Q SRX3156367_118   21 VSQCIMTYHIRDFSAARYEERKKLLAKTAS   50 (157)
+Q Consensus        21 vsqcimtyhirdfsaaryeerkkllaktas   50 (157)
+                      .+|.=.+|---+|...||++-+.+.+...+
+T Consensus        13 iAq~GL~ys~d~yD~eRy~~l~~ia~el~a   42 (56)
+T R5Y8D1_9FIRM/4   13 LAQAGLKYTNDVFDRERFERIREISAEILA   42 (56)
+T ss_pred             HHHhCcccCCChHHHHHHHHHHHHHHHHHH
+Confidence            566667888889999999988877665544
+
+
+No 10
+>PF17839.1 ; CNP_C_terminal ; C-terminal domain of cyclic nucleotide phosphodiesterase
+Probab=9.02  E-value=14  Score=19.08  Aligned_cols=27  Identities=30%  Similarity=0.258  Sum_probs=21.7  Template_Neff=8.300
+
+Q SRX3156367_118   39 EERKKLLAKTASYLNLHYGAGTFEVQI   65 (157)
+Q Consensus        39 eerkkllaktasylnlhygagtfevqi   65 (157)
+                      ++.++.++++...+|..|-+|+-.-+.
+T Consensus        46 ~e~~~~m~~~~~~lN~~yFsG~~~~~~   72 (106)
+T R5X5K0_9CLOT/3   46 EYEAKMMSSTLSKLNPAFFSGTVVEIY   72 (106)
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCcchHH
+Confidence            356778889999999999999876443
+
+

@@ -1,0 +1,159 @@
+Query         SRX3156367_119825
+Match_columns 174
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 15:11:15 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_119825.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_119825.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_119825.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF13814.6 ; Replic_Relax ; Rep  98.4 1.9E-11 5.6E-15   77.1   0.0   97   12-124    63-159 (159)
+  2 PF17760.1 ; UvrA_inter ; UvrA   35.9     1.4 0.00038   23.6   0.0   37  118-154    69-105 (109)
+  3 PF09836.9 ; DUF2063 ; Putative  22.4     3.5 0.00094   21.6   0.0   47  101-147    26-72  (87)
+  4 PF05373.11 ; Pro_3_hydrox_C ;   16.2     6.9  0.0016   23.2   0.0   26   21-46     57-82  (100)
+  5 PF02641.15 ; DUF190 ; Uncharac  15.3     5.9  0.0017   19.4   0.0   30  122-151    60-89  (95)
+  6 PF09144.10 ; YpM ; Yersinia ps  14.5      10  0.0019   24.6   0.0   16   99-114    66-81  (117)
+  7 PF05719.11 ; GPP34 ; Golgi pho  14.0     7.4   0.002   23.0   0.0   33  115-147   101-133 (192)
+  8 PF11438.8 ; N36 ; 36-mer N-ter  12.9      11  0.0022   19.9   0.0   29  131-159     3-31  (35)
+  9 PF05373.11 ; Pro_3_hydrox_C ;   12.3      10  0.0024   22.3   0.0   27   83-110    67-93  (100)
+ 10 PF00148.19 ; Oxidored_nitro ;   12.1     8.6  0.0024   24.3   0.0   34  132-165    58-99  (402)
+
+No 1
+>PF13814.6 ; Replic_Relax ; Replication-relaxation
+Probab=98.42  E-value=1.9e-11  Score=77.14  Aligned_cols=97  Identities=23%  Similarity=0.254  Sum_probs=74.8  Template_Neff=9.900
+
+Q SRX3156367_119   12 YLEPSRMFLKHSLAISECYVQLVEICRRTPGLTLLTADWEPDCWRPYTQHGKIVSLKPDLFIATKSDGYEDRWFIEIDLS   91 (174)
+Q Consensus        12 ylepsrmflkhslaisecyvqlveicrrtpgltlltadwepdcwrpytqhgkivslkpdlfiatksdgyedrwfieidls   91 (174)
+                      ...++..++.|.+++.+++..+.+..+           |..+.+..+...+.-..+.||.++....   ...+|||+|. 
+T Consensus        63 ~~~~~~~~~~H~l~~~~~~~~l~~~~~-----------~~~e~~~~~~~~~~~~~~~PD~~~~~~~---~~~~~iE~d~-  127 (159)
+T Q81EP7_BACCR/1   63 EKIVPNSRLAHSLMRNEAWLYLFCPDD-----------WQIEAPIRYKVNDKKKTIIPDVKFRDEE---GTLNAVEIDR-  127 (159)
+T ss_pred             cccCCcccceeehheeeEEhhhcCCcc-----------ceeeeeeeecccCCceEEeCcEEEEcCC---CcEEEEEEeC-
+Confidence            345566789999999999999998643           2222222333344556789999987643   5689999999 
+
+
+Q SRX3156367_119   92 TESPSTIIGKCDRYRDYYRSGLEQKQFGVFPVV  124 (174)
+Q Consensus        92 tespstiigkcdryrdyyrsgleqkqfgvfpvv  124 (174)
+                      +.+.+.+..|.++|.+++. |.-++.+|.||.|
+T Consensus       128 s~~~~~~~~ki~~Y~~~~~-~~~~~~~~~~p~~  159 (159)
+T Q81EP7_BACCR/1  128 TQMMNVNAEKMSRYREFSL-YYKNKYNGKIPLI  159 (159)
+T ss_pred             CcchHHHHHHHHHHHHHHH-HHHHHhcCCCCCC
+Confidence            4455889999999999999 9999999999976
+
+
+No 2
+>PF17760.1 ; UvrA_inter ; UvrA interaction domain
+Probab=35.94  E-value=1.4  Score=23.60  Aligned_cols=37  Identities=24%  Similarity=0.311  Sum_probs=26.9  Template_Neff=9.000
+
+Q SRX3156367_119  118 FGVFPVVVWLVLDAGRKDRLRTAIQEAYPKGGKLFIV  154 (174)
+Q Consensus       118 fgvfpvvvwlvldagrkdrlrtaiqeaypkggklfiv  154 (174)
+                      ..++.|+--++.....+.|+..+++.|+--|+...++
+T Consensus        69 ~~i~vvvdrl~~~~~~~~Rl~esve~A~~~g~g~~~~  105 (109)
+T A0A0B0EQ14_9BA   69 HDIDIVVDRLVVKDDIQKRLSDSIHTSLELGEGVVII  105 (109)
+T ss_pred             ccEEEEEEEEEeChhHHHHHHHHHHHHHHhcCCEEEE
+Confidence            3445555556666778999999999999888665544
+
+
+No 3
+>PF09836.9 ; DUF2063 ; Putative DNA-binding domain
+Probab=22.44  E-value=3.5  Score=21.59  Aligned_cols=47  Identities=21%  Similarity=0.165  Sum_probs=32.1  Template_Neff=8.200
+
+Q SRX3156367_119  101 KCDRYRDYYRSGLEQKQFGVFPVVVWLVLDAGRKDRLRTAIQEAYPK  147 (174)
+Q Consensus       101 kcdryrdyyrsgleqkqfgvfpvvvwlvldagrkdrlrtaiqeaypk  147 (174)
+                      ...-||.-|++.+.+---..||++.+++-+..-..-.+.-|.+.-|.
+T Consensus        26 ~l~vYr~~~~~~~~~~L~~~fP~~~~~lG~~~f~~l~~~yi~~~p~~   72 (87)
+T Q488F6_COLP3/2   26 GMAIYRNNLLATAQQALAISFPTVLTLIGEGLFNYASRELLISSPPK   72 (87)
+T ss_pred             HHHHHHHHHHHHHHHHHHhHCHHHHHHHCHHHHHHHHHHHHHHCCCC
+Confidence            44568888888888888889999988886654444444444443333
+
+
+No 4
+>PF05373.11 ; Pro_3_hydrox_C ; L-proline 3-hydroxylase, C-terminal
+Probab=16.19  E-value=6.9  Score=23.18  Aligned_cols=26  Identities=27%  Similarity=0.328  Sum_probs=20.2  Template_Neff=5.400
+
+Q SRX3156367_119   21 KHSLAISECYVQLVEICRRTPGLTLL   46 (174)
+Q Consensus        21 khslaisecyvqlveicrrtpgltll   46 (174)
+                      .....+++||--|+|||++++.-.++
+T Consensus        57 ~~d~~~~~~ydwL~eiArrsgd~~li   82 (100)
+T P4H_RHIME/177-   57 FYKADCRSMYDWLKEICKRRGDPALI   82 (100)
+T ss_pred             hhcCCHHHHHHHHHHHHHHHCCHHHH
+Confidence            34456789999999999998765554
+
+
+No 5
+>PF02641.15 ; DUF190 ; Uncharacterized ACR, COG1993
+Probab=15.27  E-value=5.9  Score=19.40  Aligned_cols=30  Identities=17%  Similarity=0.326  Sum_probs=21.9  Template_Neff=9.600
+
+Q SRX3156367_119  122 PVVVWLVLDAGRKDRLRTAIQEAYPKGGKL  151 (174)
+Q Consensus       122 pvvvwlvldagrkdrlrtaiqeaypkggkl  151 (174)
+                      |+.+-++.+...-+++-.+|++..+..|.+
+T Consensus        60 ~~~i~~v~~~e~~~~~~~~i~~~~~~~G~i   89 (95)
+T K0IGJ4_NITGG/8   60 PLIIEVVDEQSKLEPLLPQIRRMVGDNGIV   89 (95)
+T ss_pred             CEEEEEEeCHHHHHHHHHHHHHHHccCCEE
+Confidence            677777777778888888888887643443
+
+
+No 6
+>PF09144.10 ; YpM ; Yersinia pseudo-tuberculosis mitogen
+Probab=14.49  E-value=10  Score=24.57  Aligned_cols=16  Identities=56%  Similarity=0.920  Sum_probs=13.2  Template_Neff=1.100
+
+Q SRX3156367_119   99 IGKCDRYRDYYRSGLE  114 (174)
+Q Consensus        99 igkcdryrdyyrsgle  114 (174)
+                      |.|--||.|||.+||.
+T Consensus        66 id~pl~yedyyt~gls   81 (117)
+T A0A0U1QV71_YER   66 IDKPLKYEDYYTSGLS   81 (117)
+T ss_pred             CCCCcchhhcccCcee
+Confidence            5566799999999974
+
+
+No 7
+>PF05719.11 ; GPP34 ; Golgi phosphoprotein 3 (GPP34)
+Probab=13.98  E-value=7.4  Score=23.02  Aligned_cols=33  Identities=18%  Similarity=0.199  Sum_probs=25.7  Template_Neff=8.100
+
+Q SRX3156367_119  115 QKQFGVFPVVVWLVLDAGRKDRLRTAIQEAYPK  147 (174)
+Q Consensus       115 qkqfgvfpvvvwlvldagrkdrlrtaiqeaypk  147 (174)
+                      .+-+|+||..-|.+.|....+.+|..|+.+.-.
+T Consensus       101 ~~~lg~~~~~~~~~~d~~~~~~l~~~l~~~l~~  133 (192)
+T V4IY70_9ACTN/2  101 QKKLGVVSTNRVTVVHPDLVHALQDRVRAIVLD  133 (192)
+T ss_pred             ceeeeceeeeEEecCCHHHHHHHHHHHHHHHHC
+Confidence            345788999999999988888888877766643
+
+
+No 8
+>PF11438.8 ; N36 ; 36-mer N-terminal peptide of the N protein (N36)
+Probab=12.93  E-value=11  Score=19.91  Aligned_cols=29  Identities=17%  Similarity=0.299  Sum_probs=23.3  Template_Neff=2.800
+
+Q SRX3156367_119  131 AGRKDRLRTAIQEAYPKGGKLFIVITADE  159 (174)
+Q Consensus       131 agrkdrlrtaiqeaypkggklfivitade  159 (174)
+                      .+|.+.-|.+.|.+|.+...|++-+++..
+T Consensus         3 ~~RRr~rR~~kQs~~~~anpllv~~~~~~   31 (35)
+T REGN_LAMBD/2-3    3 QTRRRERRAEKQAQWKAANPLLVGVSAKP   31 (35)
+T ss_pred             HHHHHHHHHHHHHHHHHhCccccccccCC
+Confidence            46778889999999999998877666543
+
+
+No 9
+>PF05373.11 ; Pro_3_hydrox_C ; L-proline 3-hydroxylase, C-terminal
+Probab=12.28  E-value=10  Score=22.26  Aligned_cols=27  Identities=22%  Similarity=0.493  Sum_probs=21.9  Template_Neff=5.400
+
+Q SRX3156367_119   83 RWFIEIDLSTESPSTIIGKCDRYRDYYR  110 (174)
+Q Consensus        83 rwfieidlstespstiigkcdryrdyyr  110 (174)
+                      .|++||---+..+ .++-||..+|.|+-
+T Consensus        67 dwL~eiArrsgd~-~li~ka~~~r~y~i   93 (100)
+T P4H_RHIME/177-   67 DWLKEICKRRGDP-ALIEKTASLERFFL   93 (100)
+T ss_pred             HHHHHHHHHHCCH-HHHHHHHHHHHHHH
+Confidence            6999998776665 47889999999984
+
+
+No 10
+>PF00148.19 ; Oxidored_nitro ; Nitrogenase component 1 type Oxidoreductase
+Probab=12.06  E-value=8.6  Score=24.29  Aligned_cols=34  Identities=32%  Similarity=0.520  Sum_probs=23.7  Template_Neff=9.100
+
+Q SRX3156367_119  132 GRKDRLRTAIQEAYPK-GGKLFIVIT-------ADEFERLIR  165 (174)
+Q Consensus       132 grkdrlrtaiqeaypk-ggklfivit-------adeferlir  165 (174)
+                      |..++|+.+|.+++.+ +.+++.|++       .|+++.+++
+T Consensus        58 G~~~kL~~~i~~~~~~~~p~~i~v~~tC~~~iiGdD~~~v~~   99 (402)
+T A8ML60_ALKOO/1   58 GKQDRLENAILEIDGQYGPKYIFVMASSISAIIGTDIESVCY   99 (402)
+T ss_pred             CcHHHHHHHHHHHHHhhCCCEEEEEeCChhHHhccCHHHHHH
+Confidence            5678999999999877 456665554       356665554
+
+

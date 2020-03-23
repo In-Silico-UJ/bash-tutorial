@@ -1,0 +1,150 @@
+Query         SRX3156367_132513
+Match_columns 207
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 14:41:02 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_132513.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_132513.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_132513.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08859.11 ; DGC ; DGC domain   36.6     1.5 0.00037   26.5   0.0   24  108-131    45-68  (109)
+  2 PF18780.1 ; HNH_repeat ; Homin  11.4      12  0.0026   17.0   0.0   14  108-121     2-15  (23)
+  3 PF01827.27 ; FTH ; FTH domain   10.6     9.9  0.0029   20.0   0.0   42   48-89      9-50  (143)
+  4 PF17435.2 ; DUF5414 ; Family o  10.2      16  0.0031   25.5   0.0   51   47-97     78-139 (183)
+  5 PF09198.10 ; T4-Gluco-transf ;   7.0      28  0.0051   19.1   0.0   18   28-45      2-19  (38)
+  6 PF04940.12 ; BLUF ; Sensors of   6.7      20  0.0054   18.6   0.0   43   91-133     3-45  (91)
+  7 PF10065.9 ; DUF2303 ; Uncharac   6.0      24  0.0063   22.4   0.0   20   51-70    190-209 (264)
+  8 PF11126.8 ; Phage_DsbA ; Trans   5.8      29  0.0066   19.0   0.0   28  102-129    11-38  (67)
+  9 PF14630.6 ; ORC5_C ; Origin re   5.5      27  0.0071   22.2   0.0   25  111-135   237-261 (277)
+ 10 PF11315.8 ; Med30 ; Mediator c   5.4      29  0.0071   21.0   0.0   20   60-79     73-92  (146)
+
+No 1
+>PF08859.11 ; DGC ; DGC domain
+Probab=36.59  E-value=1.5  Score=26.46  Aligned_cols=24  Identities=21%  Similarity=0.517  Sum_probs=17.3  Template_Neff=6.700
+
+Q SRX3156367_132  108 KILRDLKRVAKYTGLDGCRMRCGF  131 (207)
+Q Consensus       108 kilrdlkrvakytgldgcrmrcgf  131 (207)
+                      ...+.+++-.+..-+|||.++|+-
+T Consensus        45 ~~~~~~~~a~~iI~IDGC~~~Ca~   68 (109)
+T K4LG55_THEPS/1   45 KLSEAQNNTSKWVLIEGCSKGCAK   68 (109)
+T ss_pred             HHHHHHhcCCcEEEEeCCchHHHH
+Confidence            334445555577889999999974
+
+
+No 2
+>PF18780.1 ; HNH_repeat ; Homing endonuclease repeat
+Probab=11.41  E-value=12  Score=17.03  Aligned_cols=14  Identities=14%  Similarity=0.375  Sum_probs=9.7  Template_Neff=5.500
+
+Q SRX3156367_132  108 KILRDLKRVAKYTG  121 (207)
+Q Consensus       108 kilrdlkrvakytg  121 (207)
+                      .++.+|+++|+-.|
+T Consensus         2 eLi~~l~~~a~elG   15 (23)
+T R2SYV7_9ENTE/8    2 QLIEQIQAQAAALG   15 (23)
+T ss_pred             HHHHHHHHHHHHHC
+Confidence            46677778777655
+
+
+No 3
+>PF01827.27 ; FTH ; FTH domain
+Probab=10.63  E-value=9.9  Score=20.03  Aligned_cols=42  Identities=14%  Similarity=0.312  Sum_probs=28.4  Template_Neff=9.900
+
+Q SRX3156367_132   48 SLLAKLPVPFRVNCVLYENYPVDQLVPYLERFRKIPGASIQF   89 (207)
+Q Consensus        48 sllaklpvpfrvncvlyenypvdqlvpylerfrkipgasiqf   89 (207)
+                      ..|..+..+++|..+-+.....+++...|..|..-.=-+|.+
+T Consensus         9 ~~l~~~~~~i~v~~l~~~~~~~~~~~~iL~~~~p~~L~~i~i   50 (143)
+T Q9U3Q8_CAEEL/1    9 EMLQSLNFKLCVKNFSVARFPLKYVISFFKCLAAEQIENITF   50 (143)
+T ss_pred             HHHHhcCCceeccEEEEEecCHHHHHHHHhhCCCCceeEEEE
+Confidence            345667788888888877777778877777665433334444
+
+
+No 4
+>PF17435.2 ; DUF5414 ; Family of unknown function (DUF5414)
+Probab=10.19  E-value=16  Score=25.48  Aligned_cols=51  Identities=22%  Similarity=0.401  Sum_probs=36.5  Template_Neff=3.000
+
+Q SRX3156367_132   47 DSLLAKLPVPFRV-----------NCVLYENYPVDQLVPYLERFRKIPGASIQFRFDYTATT   97 (207)
+Q Consensus        47 dsllaklpvpfrv-----------ncvlyenypvdqlvpylerfrkipgasiqfrfdytatt   97 (207)
+                      .|+++..-.|+||           |.+--++++...=.-++.|+|.|.|...+|--|...|-
+T Consensus        78 ~sli~ef~~pvRvAKDvheRGEFlnfItSD~l~~q~r~vf~nrlrrVDG~Ef~f~TD~~~t~  139 (183)
+T Y584_CHLTR/1-1   78 QSLIVQFMMPIRVAKDIHERGEFINFITSDMLAQQERCVFLNRLSRVDGQEFLLMTDVQNTC  139 (183)
+T ss_pred             HHHHHHhchhHHhhchhHhhchhHHHhhhhccchhcceehhhhhcccCCCeeEeeccHHHHH
+Confidence            4677778888887           44555555555444467899999999999887766553
+
+
+No 5
+>PF09198.10 ; T4-Gluco-transf ; Bacteriophage T4 beta-glucosyltransferase
+Probab=6.99  E-value=28  Score=19.15  Aligned_cols=18  Identities=28%  Similarity=0.423  Sum_probs=14.0  Template_Neff=1.800
+
+Q SRX3156367_132   28 KIACINVSRHLQHYVVES   45 (207)
+Q Consensus        28 kiacinvsrhlqhyvves   45 (207)
+                      |||.||+....+.|---+
+T Consensus         2 kIallN~~NNi~~fkT~p   19 (38)
+T GSTB_BPT4/1-38    2 KIAIINMGNNVINFKTVP   19 (38)
+T ss_pred             eEEEEeccCCeecccccC
+Confidence            789999998888875433
+
+
+No 6
+>PF04940.12 ; BLUF ; Sensors of blue-light using FAD
+Probab=6.74  E-value=20  Score=18.59  Aligned_cols=43  Identities=21%  Similarity=0.220  Sum_probs=22.7  Template_Neff=8.200
+
+Q SRX3156367_132   91 FDYTATTQENLYDEENDKILRDLKRVAKYTGLDGCRMRCGFHF  133 (207)
+Q Consensus        91 fdytattqenlydeendkilrdlkrvakytgldgcrmrcgfhf  133 (207)
+                      +-|..+...++-.++-..|++...+--...|+.|.-+..+-+|
+T Consensus         3 l~Y~S~~~~~~~~~~l~~i~~~a~~~N~~~~ItG~L~~~~~~f   45 (91)
+T Q6MPS8_BDEBA/5    3 LVYFSKAAEDLSYTDIREILEVSRRNNARLGITGLLIFRDGFF   45 (91)
+T ss_pred             EEEEEEcCCCCCHHHHHHHHHHHHHHHHHhCCeEEEEEECCEE
+Confidence            3444444444444455556655555555666666655554333
+
+
+No 7
+>PF10065.9 ; DUF2303 ; Uncharacterized conserved protein (DUF2303)
+Probab=5.98  E-value=24  Score=22.38  Aligned_cols=20  Identities=20%  Similarity=0.443  Sum_probs=17.3  Template_Neff=7.500
+
+Q SRX3156367_132   51 AKLPVPFRVNCVLYENYPVD   70 (207)
+Q Consensus        51 aklpvpfrvncvlyenypvd   70 (207)
+                      .++|.-|.++|..|++.+.-
+T Consensus       190 ~~iP~~f~i~~p~f~g~~~~  209 (264)
+T M9X5L2_MANHA/2  190 LQLPTHLVFTCNPYNGLDTR  209 (264)
+T ss_pred             cccCceEEEEeceeCCCCcE
+Confidence            57899999999999998763
+
+
+No 8
+>PF11126.8 ; Phage_DsbA ; Transcriptional regulator DsbA
+Probab=5.76  E-value=29  Score=18.96  Aligned_cols=28  Identities=21%  Similarity=0.121  Sum_probs=22.3  Template_Neff=5.600
+
+Q SRX3156367_132  102 YDEENDKILRDLKRVAKYTGLDGCRMRC  129 (207)
+Q Consensus       102 ydeendkilrdlkrvakytgldgcrmrc  129 (207)
+                      -+.+++.|-..++++|+.+|+++-.+|-
+T Consensus        11 ie~~~~~ikd~~~~~aeElgI~~k~~nK   38 (67)
+T DSBA_BPT4/22-8   11 ISGYNELIKDIRIRAKDELGVDGKMFNR   38 (67)
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCHHHHHH
+Confidence            3556777888889999999999977653
+
+
+No 9
+>PF14630.6 ; ORC5_C ; Origin recognition complex (ORC) subunit 5 C-terminus
+Probab=5.46  E-value=27  Score=22.17  Aligned_cols=25  Identities=20%  Similarity=0.321  Sum_probs=17.7  Template_Neff=7.600
+
+Q SRX3156367_132  111 RDLKRVAKYTGLDGCRMRCGFHFDY  135 (207)
+Q Consensus       111 rdlkrvakytgldgcrmrcgfhfdy  135 (207)
+                      +-|.|+....-||+.++||...+++
+T Consensus       237 ~ll~r~s~~d~Ld~~k~rc~v~~e~  261 (277)
+T K3X5T7_PYTUL/3  237 QLFQRTSPPNMLDDIKFRCLADSRF  261 (277)
+T ss_pred             CCeeeCCCCcccCCCeEEEccCHHH
+Confidence            3445555556789999999877665
+
+
+No 10
+>PF11315.8 ; Med30 ; Mediator complex subunit 30
+Probab=5.45  E-value=29  Score=20.96  Aligned_cols=20  Identities=25%  Similarity=0.463  Sum_probs=14.5  Template_Neff=6.300
+
+Q SRX3156367_132   60 NCVLYENYPVDQLVPYLERF   79 (207)
+Q Consensus        60 ncvlyenypvdqlvpylerf   79 (207)
+                      ||--.+.-|+++|+||.+.-
+T Consensus        73 ~c~~~~~~~~e~LIP~~de~   92 (146)
+T T1JD32_STRMM/6   73 NCTGMEYTHIESLIPLRDEP   92 (146)
+T ss_pred             hcCCCCCCCHHHhcccCCCC
+Confidence            45445556899999998754
+
+

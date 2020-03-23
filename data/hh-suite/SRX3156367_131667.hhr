@@ -1,0 +1,2618 @@
+Query         SRX3156367_131667
+Match_columns 188
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 278
+Date          Wed Mar 11 14:54:44 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_131667.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_131667.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_131667.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF00027.29 ; cNMP_binding ; Cy  97.1 1.4E-07 4.9E-11   47.7   0.0   81   26-111     2-85  (88)
+  2 PF04831.13 ; Popeye ; Popeye p  97.0 2.9E-07   9E-11   58.4   0.0   90   22-117   107-202 (224)
+  3 PF01726.16 ; LexA_DNA_bind ; L  92.5  0.0015 4.8E-07   31.2   0.0   37  149-185    13-50  (65)
+  4 PF11112.8 ; PyocinActivator ;   92.1  0.0022 6.2E-07   34.5   0.0   33  150-184     4-37  (73)
+  5 PF12728.7 ; HTH_17 ; Helix-tur  92.0   0.002 6.6E-07   28.7   0.0   24  162-185     2-25  (53)
+  6 PF08535.10 ; KorB ; KorB domai  92.0  0.0021 6.8E-07   32.4   0.0   25  161-185     3-27  (94)
+  7 PF17443.2 ; pXO2-72 ; Uncharac  90.8  0.0046 1.2E-06   34.2   0.0   27  158-184     5-31  (62)
+  8 PF12793.7 ; SgrR_N ; Sugar tra  90.7  0.0042 1.2E-06   35.1   0.0   28  159-186    17-44  (115)
+  9 PF05930.12 ; Phage_AlpA ; Prop  90.6  0.0039 1.3E-06   27.4   0.0   23  161-183     3-25  (52)
+ 10 PF01418.17 ; HTH_6 ; Helix-tur  90.6  0.0041 1.3E-06   30.9   0.0   30  155-184    28-57  (77)
+ 11 PF13411.6 ; MerR_1 ; MerR HTH   90.5   0.004 1.3E-06   28.7   0.0   24  162-185     1-24  (68)
+ 12 PF07638.11 ; Sigma70_ECF ; ECF  90.4  0.0042 1.4E-06   34.5   0.0   25  160-184   148-172 (183)
+ 13 PF09339.10 ; HTH_IclR ; IclR h  90.3  0.0044 1.5E-06   27.2   0.0   25  160-184    17-41  (52)
+ 14 PF07037.11 ; DUF1323 ; Putativ  90.3  0.0048 1.5E-06   33.4   0.0   23  162-184     1-23  (113)
+ 15 PF02042.15 ; RWP-RK ; RWP-RK d  90.3  0.0044 1.5E-06   26.1   0.0   25  161-185    12-36  (49)
+ 16 PF04552.13 ; Sigma54_DBD ; Sig  89.9  0.0059 1.7E-06   36.5   0.0   27  158-184    45-71  (158)
+ 17 PF18090.1 ; SoPB_HTH ; Centrom  89.7   0.006 1.9E-06   30.3   0.0   24  161-184    19-42  (75)
+ 18 PF13936.6 ; HTH_38 ; Helix-tur  89.2  0.0059 2.2E-06   22.7   0.0   24  160-183    19-42  (44)
+ 19 PF01325.19 ; Fe_dep_repress ;   89.1  0.0068 2.2E-06   27.2   0.0   26  159-184    19-44  (59)
+ 20 PF13730.6 ; HTH_36 ; Helix-tur  89.1  0.0072 2.2E-06   28.4   0.0   26  161-186    25-51  (56)
+ 21 PF06971.13 ; Put_DNA-bind_N ;   88.9  0.0078 2.4E-06   27.5   0.0   21  161-181    26-46  (48)
+ 22 PF05225.16 ; HTH_psq ; helix-t  88.9  0.0076 2.4E-06   26.6   0.0   25  161-185    16-41  (46)
+ 23 PF08279.12 ; HTH_11 ; HTH doma  88.6  0.0082 2.7E-06   27.2   0.0   25  160-184    14-38  (59)
+ 24 PF06806.12 ; DUF1233 ; Putativ  88.5  0.0095 2.7E-06   31.3   0.0   25  159-183     7-31  (70)
+ 25 PF15977.5 ; HTH_46 ; Winged he  88.5  0.0087 2.7E-06   28.9   0.0   28  158-185    20-47  (68)
+ 26 PF13542.6 ; HTH_Tnp_ISL3 ; Hel  88.3  0.0084 2.9E-06   25.1   0.0   22  163-184    28-49  (51)
+ 27 PF13412.6 ; HTH_24 ; Winged he  88.1  0.0087   3E-06   24.3   0.0   24  161-184    17-40  (47)
+ 28 PF13413.6 ; HTH_25 ; Helix-tur  88.1  0.0095 3.1E-06   27.1   0.0   25  160-184     9-33  (61)
+ 29 PF13613.6 ; HTH_Tnp_4 ; Helix-  87.9  0.0094 3.2E-06   25.3   0.0   25  160-184    18-42  (53)
+ 30 PF02796.15 ; HTH_7 ; Helix-tur  87.9  0.0093 3.2E-06   23.7   0.0   23  161-183    21-43  (45)
+ 31 PF12759.7 ; HTH_Tnp_IS1 ; InsA  87.8  0.0099 3.3E-06   24.9   0.0   25  160-184    20-44  (46)
+ 32 PF00292.18 ; PAX ; 'Paired box  87.8    0.01 3.3E-06   30.3   0.0   39  142-184    18-56  (125)
+ 33 PF03333.13 ; PapB ; Adhesin bi  87.6   0.014 3.5E-06   35.2   0.0   29  158-186    52-80  (93)
+ 34 PF00325.20 ; Crp ; Bacterial r  87.2   0.011 3.8E-06   22.4   0.0   23  162-184     3-25  (32)
+ 35 PF04492.13 ; Phage_rep_O ; Bac  87.1   0.013 3.9E-06   30.7   0.0   27  159-185    47-73  (99)
+ 36 PF10743.9 ; Phage_Cox ; Regula  87.0   0.014   4E-06   30.8   0.0   26  159-184     9-34  (84)
+ 37 PF07374.11 ; DUF1492 ; Protein  87.0   0.013 4.1E-06   30.4   0.0   26  161-186    71-96  (100)
+ 38 PF18010.1 ; HTH_49 ; Cry35Ab1   87.0   0.013 4.1E-06   23.0   0.0   21  161-181     8-28  (29)
+ 39 PF14549.6 ; P22_Cro ; DNA-bind  87.0   0.014 4.1E-06   28.2   0.0   19  163-181    11-29  (60)
+ 40 PF09035.10 ; Tn916-Xis ; Excis  86.9   0.014 4.2E-06   29.1   0.0   24  159-182    13-36  (69)
+ 41 PF01710.16 ; HTH_Tnp_IS630 ; T  86.8   0.013 4.3E-06   29.6   0.0   38  144-185     5-42  (120)
+ 42 PF11994.8 ; DUF3489 ; Protein   86.3   0.018 4.8E-06   30.6   0.0   26  160-185    20-45  (65)
+ 43 PF12833.7 ; HTH_18 ; Helix-tur  86.0   0.017 5.1E-06   29.9   0.0   26  160-185    45-71  (82)
+ 44 PF00392.21 ; GntR ; Bacterial   85.8   0.016 5.4E-06   26.1   0.0   26  160-185    22-48  (64)
+ 45 PF09182.10 ; PuR_N ; Bacterial  85.1    0.02 6.2E-06   27.7   0.0   26  159-184    18-43  (70)
+ 46 PF08281.12 ; Sigma70_r4_2 ; Si  85.0   0.018 6.3E-06   23.5   0.0   25  160-184    25-49  (54)
+ 47 PF16365.5 ; EutK_C ; Ethanolam  84.9   0.021 6.4E-06   26.4   0.0   24  160-183    16-39  (55)
+ 48 PF08765.11 ; Mor ; Mor transcr  84.6   0.024 6.8E-06   32.5   0.0   26  161-186    72-97  (108)
+ 49 PF04967.12 ; HTH_10 ; HTH DNA   84.5    0.02 6.9E-06   23.7   0.0   27  160-186    22-48  (53)
+ 50 PF09904.9 ; HTH_43 ; Winged he  84.5   0.023 6.9E-06   29.7   0.0   22  163-184    22-43  (90)
+ 51 PF07618.11 ; DUF1580 ; Protein  84.3   0.024 7.1E-06   27.2   0.0   24  162-185     3-26  (57)
+ 52 PF12844.7 ; HTH_19 ; Helix-tur  84.1   0.023 7.5E-06   25.8   0.0   26  160-185    11-36  (64)
+ 53 PF00376.23 ; MerR ; MerR famil  84.1   0.023 7.5E-06   22.7   0.0   21  164-184     2-22  (38)
+ 54 PF12116.8 ; SpoIIID ; Stage II  84.0   0.025 7.6E-06   28.6   0.0   24  161-184    19-42  (82)
+ 55 PF11427.8 ; HTH_Tnp_Tc3_1 ; Tc  83.9   0.022 7.7E-06   23.0   0.0   25  160-184    19-43  (50)
+ 56 PF12802.7 ; MarR_2 ; MarR fami  83.4   0.027 8.4E-06   26.2   0.0   24  162-185    21-44  (61)
+ 57 PF16264.5 ; SatD ; SatD family  83.4   0.029 8.4E-06   34.6   0.0   27  158-184   168-194 (211)
+ 58 PF08280.11 ; HTH_Mga ; M prote  83.4   0.026 8.4E-06   25.5   0.0   25  160-184    19-43  (60)
+ 59 PF04645.12 ; DUF603 ; Protein   83.4   0.032 8.5E-06   35.7   0.0   24  162-185    20-43  (181)
+ 60 PF08222.11 ; HTH_CodY ; CodY h  83.2   0.027 8.7E-06   25.7   0.0   25  160-184     3-27  (61)
+ 61 PF06056.12 ; Terminase_5 ; Put  83.1   0.027 8.8E-06   24.6   0.0   25  160-184    12-36  (58)
+ 62 PF04182.12 ; B-block_TFIIIC ;   82.6   0.031 9.6E-06   27.1   0.0   26  160-185    17-42  (70)
+ 63 PF06970.11 ; RepA_N ; Replicat  82.5   0.035 9.8E-06   29.7   0.0   24  161-184    51-74  (75)
+ 64 PF10654.9 ; DUF2481 ; Protein   82.5   0.038 9.8E-06   33.9   0.0   27  160-186    79-105 (126)
+ 65 PF00356.21 ; LacI ; Bacterial   82.5   0.029 9.9E-06   22.7   0.0   21  164-184     2-22  (46)
+ 66 PF14493.6 ; HTH_40 ; Helix-tur  82.4   0.032   1E-05   27.9   0.0   26  159-184    10-35  (88)
+ 67 PF07900.11 ; DUF1670 ; Protein  82.3   0.036   1E-05   35.2   0.0   25  160-184    94-118 (209)
+ 68 PF13404.6 ; HTH_AsnC-type ; As  82.1   0.029   1E-05   21.1   0.0   24  161-184    17-40  (42)
+ 69 PF01022.20 ; HTH_5 ; Bacterial  82.1   0.031   1E-05   22.5   0.0   24  161-184    16-39  (46)
+ 70 PF04936.12 ; DUF658 ; Protein   81.9   0.039 1.1E-05   34.5   0.0   27  158-184    11-37  (186)
+ 71 PF13384.6 ; HTH_23 ; Homeodoma  81.9   0.031 1.1E-05   22.4   0.0   24  161-184    18-41  (48)
+ 72 PF14502.6 ; HTH_41 ; Helix-tur  81.6   0.036 1.1E-05   24.3   0.0   24  162-185     7-30  (48)
+ 73 PF15943.5 ; YdaS_antitoxin ; P  80.9   0.039 1.2E-05   25.3   0.0   22  163-184    10-31  (64)
+ 74 PF13545.6 ; HTH_Crp_2 ; Crp-li  80.6   0.045 1.3E-05   27.9   0.0   25  160-184    20-44  (70)
+ 75 PF07278.11 ; DUF1441 ; Protein  80.5   0.046 1.3E-05   31.7   0.0   22  162-183     2-23  (147)
+ 76 PF02954.19 ; HTH_8 ; Bacterial  80.5   0.037 1.3E-05   20.6   0.0   24  161-184    18-41  (42)
+ 77 PF10771.9 ; DUF2582 ; Winged h  80.3   0.047 1.4E-05   27.5   0.0   25  160-184    21-45  (65)
+ 78 PF05339.11 ; DUF739 ; Protein   80.3   0.041 1.4E-05   24.7   0.0   24  161-184    16-39  (69)
+ 79 PF07471.12 ; Phage_Nu1 ; Phage  80.1   0.047 1.4E-05   31.7   0.0   23  162-184     3-25  (162)
+ 80 PF11972.8 ; HTH_13 ; HTH DNA b  80.1   0.043 1.4E-05   24.1   0.0   22  161-182    13-34  (54)
+ 81 PF04545.16 ; Sigma70_r4 ; Sigm  79.9   0.042 1.4E-05   22.9   0.0   23  161-183    24-46  (54)
+ 82 PF15731.5 ; MqsA_antitoxin ; A  79.5    0.05 1.5E-05   29.7   0.0   24  161-184    82-105 (131)
+ 83 PF01381.22 ; HTH_3 ; Helix-tur  79.4   0.047 1.5E-05   23.7   0.0   24  161-184     9-32  (55)
+ 84 PF01047.22 ; MarR ; MarR famil  79.4   0.047 1.5E-05   24.0   0.0   23  161-183    17-39  (59)
+ 85 PF04218.13 ; CENP-B_N ; CENP-B  78.9   0.046 1.6E-05   21.9   0.0   25  160-184    22-46  (54)
+ 86 PF09202.11 ; Rio2_N ; Rio2, N-  78.6   0.054 1.7E-05   26.3   0.0   29  156-184    19-47  (83)
+ 87 PF16221.5 ; HTH_47 ; winged he  78.5   0.057 1.7E-05   27.4   0.0   26  161-186    46-71  (78)
+ 88 PF16677.5 ; GP3_package ; DNA-  78.2   0.059 1.8E-05   28.2   0.0   25  161-185    29-53  (100)
+ 89 PF09397.10 ; FtsK_gamma ; Ftsk  77.6   0.066 1.9E-05   26.8   0.0   27  160-186    18-44  (63)
+ 90 PF05732.11 ; RepL ; Firmicute   77.3   0.067   2E-05   31.3   0.0   23  162-184    76-98  (164)
+ 91 PF07453.13 ; NUMOD1 ; NUMOD1 d  77.3   0.069   2E-05   24.5   0.0   23  159-181    17-39  (40)
+ 92 PF16557.5 ; CUTL ; CUT1-like D  77.1   0.067   2E-05   26.3   0.0   24  161-184    22-45  (70)
+ 93 PF18024.1 ; HTH_50 ; Helix-tur  77.1   0.057   2E-05   20.7   0.0   24  162-185    24-47  (50)
+ 94 PF05584.11 ; Sulfolobus_pRN ;   77.0   0.066   2E-05   25.7   0.0   25  159-183    16-40  (72)
+ 95 PF13744.6 ; HTH_37 ; Helix-tur  77.0   0.063   2E-05   25.3   0.0   24  160-183    29-52  (79)
+ 96 PF13591.6 ; MerR_2 ; MerR HTH   77.0   0.068   2E-05   27.1   0.0   23  162-184     1-23  (84)
+ 97 PF13463.6 ; HTH_27 ; Winged he  76.7   0.063 2.1E-05   23.5   0.0   25  159-183    15-39  (67)
+ 98 PF09048.10 ; Cro ; Cro          76.7   0.067 2.1E-05   24.4   0.0   24  161-184    13-36  (60)
+ 99 PF05491.13 ; RuvB_C ; RuvB C-t  76.7   0.067 2.1E-05   25.3   0.0   24  160-183    22-45  (72)
+100 PF02002.17 ; TFIIE_alpha ; TFI  76.6   0.073 2.1E-05   28.5   0.0   25  160-184    25-49  (104)
+101 PF10078.9 ; DUF2316 ; Uncharac  76.5   0.071 2.2E-05   27.1   0.0   24  161-184    23-46  (89)
+102 PF09012.10 ; FeoC ; FeoC like   76.2   0.079 2.2E-05   27.4   0.0   24  160-183    12-35  (69)
+103 PF08822.11 ; DUF1804 ; Protein  75.3   0.086 2.5E-05   31.2   0.0   26  160-185    18-43  (163)
+104 PF13309.6 ; HTH_22 ; HTH domai  75.1   0.078 2.5E-05   23.9   0.0   24  159-182    39-62  (63)
+105 PF12964.7 ; DUF3853 ; Protein   75.1   0.086 2.5E-05   28.1   0.0   28  157-184    41-68  (96)
+106 PF13551.6 ; HTH_29 ; Winged he  75.0   0.075 2.5E-05   22.6   0.0   24  161-184    11-34  (60)
+107 PF10668.9 ; Phage_terminase ;   74.9   0.081 2.6E-05   24.5   0.0   24  162-185    23-46  (67)
+108 PF08221.11 ; HTH_9 ; RNA polym  74.6   0.085 2.6E-05   24.5   0.0   25  160-184    26-50  (62)
+109 PF00440.23 ; TetR_N ; Bacteria  74.2   0.083 2.8E-05   21.6   0.0   22  162-183    16-37  (46)
+110 PF13011.6 ; LZ_Tnp_IS481 ; leu  74.2   0.082 2.8E-05   24.0   0.0   25  160-184    23-47  (84)
+111 PF01978.19 ; TrmB ; Sugar-spec  73.6   0.091 2.9E-05   24.2   0.0   25  160-184    21-45  (68)
+112 PF13022.6 ; HTH_Tnp_1_2 ; Heli  73.4   0.097   3E-05   27.8   0.0   25  160-184    24-48  (124)
+113 PF05043.13 ; Mga ; Mga helix-t  73.1     0.1 3.1E-05   27.1   0.0   27  159-185    28-54  (88)
+114 PF06892.11 ; Phage_CP76 ; Phag  72.8    0.11 3.2E-05   31.0   0.0   35  148-182     6-40  (157)
+115 PF00196.19 ; GerE ; Bacterial   72.7   0.095 3.2E-05   21.9   0.0   24  160-183    16-39  (57)
+116 PF05344.11 ; DUF746 ; Domain o  72.6    0.11 3.2E-05   24.9   0.0   25  160-184    11-35  (62)
+117 PF18334.1 ; XRN1_D2_D3 ; Exori  72.5    0.12 3.3E-05   28.7   0.0   21  162-182    63-83  (86)
+118 PF09862.9 ; DUF2089 ; Protein   72.3     0.1 3.3E-05   26.4   0.0   25  160-184    48-72  (110)
+119 PF05269.11 ; Phage_CII ; Bacte  72.2    0.12 3.3E-05   28.3   0.0   25  160-184    22-46  (91)
+120 PF04703.12 ; FaeA ; FaeA-like   71.8    0.11 3.5E-05   23.2   0.0   23  161-183    14-36  (61)
+121 PF17783.1 ; CvfB_WH ; CvfB-lik  69.9    0.13 4.1E-05   22.2   0.0   25  160-184    18-42  (58)
+122 PF02082.20 ; Rrf2 ; Transcript  69.7    0.13 4.2E-05   24.2   0.0   23  162-184    25-47  (82)
+123 PF00126.27 ; HTH_1 ; Bacterial  68.6    0.14 4.6E-05   21.7   0.0   20  163-182    13-32  (57)
+124 PF03444.15 ; HrcA_DNA-bdg ; Wi  68.3    0.14 4.7E-05   23.7   0.0   25  160-184    23-47  (80)
+125 PF14947.6 ; HTH_45 ; Winged he  67.6    0.15   5E-05   23.7   0.0   26  159-184    14-39  (77)
+126 PF07848.12 ; PaaX ; PaaX-like   67.5    0.16   5E-05   23.4   0.0   25  160-184    19-46  (70)
+127 PF08220.12 ; HTH_DeoR ; DeoR-l  66.6    0.16 5.4E-05   21.4   0.0   24  161-184    14-37  (57)
+128 PF17782.1 ; DprA_WH ; DprA win  66.4    0.17 5.5E-05   22.2   0.0   24  160-183    24-47  (61)
+129 PF16509.5 ; KORA ; TrfB plasmi  66.3    0.18 5.5E-05   25.0   0.0   25  160-184    30-54  (87)
+130 PF13560.6 ; HTH_31 ; Helix-tur  66.1    0.17 5.6E-05   22.0   0.0   25  160-184    13-37  (64)
+131 PF09681.10 ; Phage_rep_org_N ;  65.8    0.19 5.7E-05   26.8   0.0   25  161-185    53-77  (121)
+132 PF13518.6 ; HTH_28 ; Helix-tur  65.5    0.17 5.8E-05   19.6   0.0   22  162-183    12-33  (51)
+133 PF06530.12 ; Phage_antitermQ ;  65.5    0.19 5.9E-05   26.7   0.0   23  161-183    78-100 (118)
+134 PF12840.7 ; HTH_20 ; Helix-tur  65.1    0.19   6E-05   21.9   0.0   27  159-185    22-48  (61)
+135 PF13443.6 ; HTH_26 ; Cro/C1-ty  64.7    0.19 6.2E-05   22.0   0.0   23  161-183    10-32  (65)
+136 PF04539.16 ; Sigma70_r3 ; Sigm  64.2     0.2 6.4E-05   23.4   0.0   23  161-183    20-42  (78)
+137 PF10007.9 ; DUF2250 ; Uncharac  64.1    0.21 6.5E-05   25.2   0.0   23  161-183    22-44  (93)
+138 PF01371.19 ; Trp_repressor ; T  63.3    0.22 6.9E-05   24.4   0.0   24  160-183    47-70  (87)
+139 PF03297.15 ; Ribosomal_S25 ; S  63.1    0.25   7E-05   27.6   0.0   26  159-184    54-79  (102)
+140 PF04936.12 ; DUF658 ; Protein   61.2    0.29   8E-05   30.0   0.0   24  161-184    88-111 (186)
+141 PF07789.12 ; DUF1627 ; Protein  61.1    0.32 8.1E-05   30.6   0.0   25  160-184     5-29  (155)
+142 PF06242.11 ; DUF1013 ; Protein  60.9    0.39 8.2E-05   32.7   0.0   32  150-185    76-107 (137)
+143 PF06322.11 ; Phage_NinH ; Phag  60.4    0.26 8.5E-05   21.0   0.0   23  162-184    17-39  (60)
+144 PF04297.14 ; UPF0122 ; Putativ  60.2    0.28 8.6E-05   24.4   0.0   24  160-183    32-55  (96)
+145 PF13994.6 ; PgaD ; PgaD-like p  60.1    0.31 8.6E-05   28.5   0.0   25  161-185   101-125 (137)
+146 PF13338.6 ; AbiEi_4 ; Transcri  60.0    0.27 8.7E-05   20.7   0.0   24  160-183    12-35  (54)
+147 PF12824.7 ; MRP-L20 ; Mitochon  59.8    0.36 8.8E-05   31.4   0.0   25  161-185   107-131 (167)
+148 PF09645.10 ; F-112 ; F-112 pro  59.3    0.47 9.1E-05   29.9   0.0   21  161-181    19-39  (69)
+149 PF07141.11 ; Phage_term_sma ;   59.2    0.34 9.2E-05   29.9   0.0   25  161-185    31-55  (174)
+150 PF01527.20 ; HTH_Tnp_1 ; Trans  57.8     0.3  0.0001   21.0   0.0   25  160-184    20-44  (70)
+151 PF09607.10 ; BrkDBD ; Brinker   57.3    0.31  0.0001   19.6   0.0   22  163-185    23-44  (53)
+152 PF01710.16 ; HTH_Tnp_IS630 ; T  57.0    0.32 0.00011   23.5   0.0   24  161-184    70-93  (120)
+153 PF07022.13 ; Phage_CI_repr ; B  56.7    0.33 0.00011   21.3   0.0   14  164-177    43-56  (65)
+154 PF13601.6 ; HTH_34 ; Winged he  56.0    0.35 0.00011   22.1   0.0   25  160-184    13-37  (80)
+155 PF13171.6 ; DUF4004 ; Protein   55.6    0.43 0.00012   30.0   0.0   24  161-184     2-25  (197)
+156 PF06627.11 ; DUF1153 ; Protein  55.3     0.4 0.00012   24.3   0.0   40  143-185    31-70  (87)
+157 PF18552.1 ; PheRS_DBD1 ; PheRS  55.1    0.44 0.00012   24.2   0.0   25  161-185    18-42  (59)
+158 PF03965.16 ; Penicillinase_R ;  53.6    0.43 0.00013   24.6   0.0   24  161-184    18-46  (117)
+159 PF16864.5 ; Dimerisation2 ; Di  51.6    0.49 0.00015   23.2   0.0   26  159-184    30-55  (85)
+160 PF06163.11 ; DUF977 ; Bacteria  51.6    0.51 0.00015   25.3   0.0   24  160-183    25-48  (115)
+161 PF02001.16 ; DUF134 ; Protein   50.0    0.55 0.00016   23.9   0.0   24  161-184    47-70  (95)
+162 PF07506.11 ; RepB ; RepB plasm  48.7    0.64 0.00018   27.7   0.0   23  161-183    21-43  (171)
+163 PF04814.13 ; HNF-1_N ; Hepatoc  47.8    0.71 0.00019   28.3   0.0   26  159-184   124-149 (167)
+164 PF13556.6 ; HTH_30 ; PucR C-te  47.0    0.61  0.0002   20.1   0.0   23  162-184    13-35  (59)
+165 PF15978.5 ; TnsD ; Tn7-like tr  45.2    0.75 0.00022   29.5   0.0   25  160-184   202-226 (371)
+166 PF00382.19 ; TFIIB ; Transcrip  45.0     0.7 0.00022   21.0   0.0   20  159-178    52-71  (71)
+167 PF12833.7 ; HTH_18 ; Helix-tur  43.9    0.79 0.00024   22.5   0.0   18  167-184     1-18  (82)
+168 PF04708.12 ; Pox_F16 ; Poxviru  41.6    0.94 0.00027   26.9   0.0   26  161-186   149-174 (213)
+169 PF18607.1 ; HTH_54 ; ParA heli  40.5     1.1 0.00029   25.4   0.0   23  159-181    25-47  (92)
+170 PF07381.11 ; DUF1495 ; Winged   40.3       1 0.00029   22.9   0.0   23  161-183    24-46  (89)
+171 PF06413.11 ; Neugrin ; Neugrin  40.0     1.3  0.0003   31.0   0.0   24  161-184    29-52  (221)
+172 PF14590.6 ; DUF4447 ; Domain o  39.3       1 0.00031   25.0   0.0   24  161-184    20-43  (166)
+173 PF13565.6 ; HTH_32 ; Homeodoma  37.4       1 0.00035   18.5   0.0   21  161-181    46-66  (67)
+174 PF09743.9 ; E3_UFM1_ligase ; E  37.3     1.4 0.00035   29.2   0.0   44  138-181    47-90  (262)
+175 PF05158.12 ; RNA_pol_Rpc34 ; R  35.5     1.5 0.00039   29.6   0.0   26  160-185   107-132 (347)
+176 PF12324.8 ; HTH_15 ; Helix-tur  35.5     1.6 0.00039   24.3   0.0   22  160-181    34-55  (74)
+177 PF07900.11 ; DUF1670 ; Protein  32.9     1.7 0.00046   26.3   0.0   25  160-184   151-175 (209)
+178 PF03683.13 ; UPF0175 ; Unchara  32.8     1.8 0.00046   23.0   0.0   24  159-182    31-54  (75)
+179 PF11242.8 ; DUF2774 ; Protein   32.6     2.3 0.00047   25.5   0.0   22  161-182    14-35  (64)
+180 PF04760.15 ; IF2_N ; Translati  32.1     1.6 0.00048   19.6   0.0   18  161-178     3-20  (53)
+181 PF08667.10 ; BetR ; BetR domai  29.6       2 0.00057   24.7   0.0   20  165-184    26-45  (174)
+182 PF00292.18 ; PAX ; 'Paired box  28.4     1.9 0.00061   20.4   0.0   22  161-182    93-124 (125)
+183 PF09821.9 ; AAA_assoc_C ; C-te  26.6     2.5 0.00069   23.0   0.0   19  166-184     2-20  (119)
+184 PF04079.16 ; SMC_ScpB ; Segreg  23.3     3.4 0.00088   25.0   0.0   23  161-183    13-35  (160)
+185 PF04391.12 ; DUF533 ; Protein   23.0     3.3  0.0009   24.7   0.0   28  156-183   164-191 (193)
+
+No 1
+>PF00027.29 ; cNMP_binding ; Cyclic nucleotide-binding domain
+Probab=97.14  E-value=1.4e-07  Score=47.73  Aligned_cols=81  Identities=17%  Similarity=0.199  Sum_probs=61.7  Template_Neff=12.300
+
+Q SRX3156367_131   26 KILRKNEYMVRQNDKTNHIGFVTSGTFRLTRIDTNGNEWIVG--YSFENDFVCDYPSLINRTSATVSIQATTD-CEVYLL  102 (188)
+Q Consensus        26 kilrkneymvrqndktnhigfvtsgtfrltridtngnewivg--ysfendfvcdypslinrtsatvsiqattd-cevyll  102 (188)
+                      +.+.++++..++++..+++-|+.+|.+++.  +.+|.+.++.  ...++++.... ++.. .....++++. + |+++.+
+T Consensus         2 ~~~~~g~~i~~~~~~~~~~~~i~~G~~~~~--~~~~~~~~~~~~~~~~g~~~g~~-~~~~-~~~~~~~~~~-~~~~~~~~   76 (88)
+T Q7U7M2_SYNPX/3    2 LRLRPGQKLYDFSDLPPGIALIAEGQMRLL--ALDEREEPFTLYRLAPGDQAGHI-GILR-GVTGYALAAS-QPSLLWLL   76 (88)
+T ss_pred             cccCCCCEEEecCCCCCeEEEEEEcEEEEE--eCCCCceeEEEEEeCCCCeecch-Hhcc-ccceeEEEEc-CCEEEEEE
+Confidence            456788999999999999999999999997  6677777777  66666665543 3334 5556778888 9 999999
+
+
+Q SRX3156367_131  103 PLSKLNQFW  111 (188)
+Q Consensus       103 plsklnqfw  111 (188)
+                      |.+.+.++.
+T Consensus        77 ~~~~~~~~~   85 (88)
+T Q7U7M2_SYNPX/3   77 PQTGFLQVI   85 (88)
+T ss_pred             eHHHHHHHH
+Confidence            887665543
+
+
+No 2
+>PF04831.13 ; Popeye ; Popeye protein conserved region
+Probab=97.02  E-value=2.9e-07  Score=58.45  Aligned_cols=90  Identities=17%  Similarity=0.153  Sum_probs=69.3  Template_Neff=10.600
+
+Q SRX3156367_131   22 SGTPKILRKNEYMVRQND-KTNHIGFVTSGTFRLTRIDTNGNEWIVGYSFENDFVCDYPSLINRTSAT-----VSIQATT   95 (188)
+Q Consensus        22 sgtpkilrkneymvrqnd-ktnhigfvtsgtfrltridtngnewivgysfendfvcdypslinrtsat-----vsiqatt   95 (188)
+                      .+..+.+.++++..++++ ..+++.+|.+|..++..   +|.  .+..-.++++..... ++......     ++++|.+
+T Consensus       107 ~~~~~~~~~g~~i~~~g~~~~~~l~~i~~G~v~v~~---~~~--~~~~~~~g~~~g~~~-~~~~~~~~~~~~~~~v~a~~  180 (224)
+T T1KMT1_TETUR/5  107 LASIHRLEAGEAYSIQGLTKNDRLSLLVSGRANVIS---NGK--YLHPIEPLEFMDSPE-FESNCHNSDDKMNVSIMAVV  180 (224)
+T ss_pred             CCEEEEecCCCEEEeCCCCCCCeEEEEEeCeEEEEE---CCE--EeEEEcCCCeecchh-HhcCCCCCCCCceEEEEEec
+Confidence            667778889999999999 99999999999999887   333  444555666665544 44333333     8899999
+
+
+Q SRX3156367_131   96 DCEVYLLPLSKLNQFWETDMET  117 (188)
+Q Consensus        96 dcevyllplsklnqfwetdmet  117 (188)
+                      ||+++.+|...+.++.+.+.+.
+T Consensus       181 ~~~~l~i~~~~l~~l~~~~~~~  202 (224)
+T T1KMT1_TETUR/5  181 PCRYISWERCNLEYHLIKETDF  202 (224)
+T ss_pred             CeEEEEEEHHHHHHHHhhCHHH
+Confidence            9999999999999988876554
+
+
+No 3
+>PF01726.16 ; LexA_DNA_bind ; LexA DNA binding domain
+Probab=92.51  E-value=0.0015  Score=31.18  Aligned_cols=37  Identities=16%  Similarity=0.072  Sum_probs=26.3  Template_Neff=11.300
+
+Q SRX3156367_131  149 QALMKRCPDLQERISLKEIALFLGVT-PETLSRIRKKQ  185 (188)
+Q Consensus       149 qalmkrcpdlqerislkeialflgvt-petlsrirkkq  185 (188)
+                      +.+.+.+.+-...++..+||..+|++ +.|++|.-++-
+T Consensus        13 ~~i~~~~~~~~~~~~~~~ia~~~~~s~~~tv~r~l~~L   50 (65)
+T LEXA_AERHH/1-6   13 ELIKANMNETGMPPTRAEIAQKLGFKSANAAEEHLKAL   50 (65)
+T ss_pred             HHHHHHHHHhCCCCCHHHHHHHhCCCChHHHHHHHHHH
+Confidence            33333333333458999999999999 99999986653
+
+
+No 4
+>PF11112.8 ; PyocinActivator ; Pyocin activator protein PrtN
+Probab=92.09  E-value=0.0022  Score=34.46  Aligned_cols=33  Identities=24%  Similarity=0.310  Sum_probs=26.0  Template_Neff=9.300
+
+Q SRX3156367_131  150 ALMKRCPDLQERISLKEIA-LFLGVTPETLSRIRKK  184 (188)
+Q Consensus       150 almkrcpdlqerislkeia-lflgvtpetlsrirkk  184 (188)
+                      .|+.+.+  .+.++.+|+| .+||||+.|+.+..++
+T Consensus         4 ~l~~~~~--~~~l~~~e~a~~~lgis~~tl~~~~~~   37 (73)
+T G2IX75_PSEUL/4    4 LLMAQYE--KPLIPLESAAADFLGISARLAKERAAA   37 (73)
+T ss_pred             HHHHHhC--CCceeHHHHHHHHhCCCHHHHHHHHHc
+Confidence            4555554  6789999998 9999999999876543
+
+
+No 5
+>PF12728.7 ; HTH_17 ; Helix-turn-helix domain
+Probab=92.00  E-value=0.002  Score=28.67  Aligned_cols=24  Identities=25%  Similarity=0.537  Sum_probs=20.3  Template_Neff=11.800
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      ++.+|+|..+|+++.|+.++.+..
+T Consensus         2 ~~~~~~a~~~~~~~~t~~~~~~~~   25 (53)
+T Q13JG2_PARXL/6    2 LTVTEVATLLGISAPTVIRLIRVG   25 (53)
+T ss_pred             ccHHHHHHHhCCCHHHHHHHHHcC
+Confidence            477899999999999998877643
+
+
+No 6
+>PF08535.10 ; KorB ; KorB domain
+Probab=91.96  E-value=0.0021  Score=32.40  Aligned_cols=25  Identities=24%  Similarity=0.182  Sum_probs=21.6  Template_Neff=11.500
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      -+|.+|||..+|+|+.++|++.+..
+T Consensus         3 g~s~~~la~~~g~s~~~vs~~~~~~   27 (94)
+T Q5NGD7_FRATT/1    3 NVKKSDIAKILGRDNSWISMRLKIA   27 (94)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHHHh
+Confidence            4688999999999999999987653
+
+
+No 7
+>PF17443.2 ; pXO2-72 ; Uncharacterized protein pXO2-72
+Probab=90.78  E-value=0.0046  Score=34.21  Aligned_cols=27  Identities=19%  Similarity=0.174  Sum_probs=23.1  Template_Neff=7.800
+
+Q SRX3156367_131  158 LQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       158 lqerislkeialflgvtpetlsrirkk  184 (188)
+                      ..+-++.+|+|..||||+.|+.+.+++
+T Consensus         5 ~~~~lt~~E~a~~l~vs~~Tl~~~~~~   31 (62)
+T Q81H42_BACCR/1    5 LDEIMTTREACDRWEITLDNLHMKLNR   31 (62)
+T ss_pred             cccCccHHHHHHHhCCCHHHHHHHHHc
+Confidence            345689999999999999999987764
+
+
+No 8
+>PF12793.7 ; SgrR_N ; Sugar transport-related sRNA regulator N-term
+Probab=90.73  E-value=0.0042  Score=35.05  Aligned_cols=28  Identities=21%  Similarity=0.204  Sum_probs=24.2  Template_Neff=9.800
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkkqq  186 (188)
+                      .+.++..|||..+|+|+.|+|++-++-+
+T Consensus        17 ~~~~~~~ela~~l~~s~~tv~~~l~~L~   44 (115)
+T Q5E477_VIBF1/5   17 EVLITLNEVADLVFTSARHCRTILKEMS   44 (115)
+T ss_pred             CCcccHHHHHHHHCCCHHHHHHHHHHHH
+Confidence            5788999999999999999999876543
+
+
+No 9
+>PF05930.12 ; Phage_AlpA ; Prophage CP4-57 regulatory protein (AlpA)
+Probab=90.64  E-value=0.0039  Score=27.45  Aligned_cols=23  Identities=17%  Similarity=0.319  Sum_probs=20.3  Template_Neff=11.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      .++.+|+|..+|+++.|+.+..+
+T Consensus         3 ~~~~~~~a~~~~i~~~~~~~~~~   25 (52)
+T Q9KUL8_VIBCH/1    3 FLRLKDVMSLTGLGRSTIYKFMA   25 (52)
+T ss_pred             ccCHHHHHHHHCCCHHHHHHHHh
+Confidence            36789999999999999998876
+
+
+No 10
+>PF01418.17 ; HTH_6 ; Helix-turn-helix domain, rpiR family
+Probab=90.64  E-value=0.0041  Score=30.85  Aligned_cols=30  Identities=13%  Similarity=0.190  Sum_probs=23.8  Template_Neff=11.000
+
+Q SRX3156367_131  155 CPDLQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       155 cpdlqerislkeialflgvtpetlsrirkk  184 (188)
+                      .|...-.++..+||..+|+++.|++|..++
+T Consensus        28 ~~~~~~~~~~~~ia~~~~is~~tv~r~~~~   57 (77)
+T GLVR_BACSU/1-7   28 HKHTCYHLGIDALAKACSVSRSSILRLAQK   57 (77)
+T ss_pred             CHHHHhcCCHHHHHHHcCCCHHHHHHHHHH
+Confidence            344344669999999999999999997654
+
+
+No 11
+>PF13411.6 ; MerR_1 ; MerR HTH family regulatory protein
+Probab=90.54  E-value=0.004  Score=28.70  Aligned_cols=24  Identities=8%  Similarity=0.113  Sum_probs=20.3  Template_Neff=11.900
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      +|.+|||..+||++.|+.+..++.
+T Consensus         1 ~s~~~~a~~~gv~~~ti~~w~~~~   24 (68)
+T R6PEX9_9CLOT/3    1 YNVKEASKKIQMSVHNIRYYTNLE   24 (68)
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHHcC
+Confidence            367899999999999999887654
+
+
+No 12
+>PF07638.11 ; Sigma70_ECF ; ECF sigma factor
+Probab=90.45  E-value=0.0042  Score=34.46  Aligned_cols=25  Identities=24%  Similarity=0.223  Sum_probs=21.1  Template_Neff=11.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..|.+|||..+|+|+.|++++.++
+T Consensus       148 ~g~s~~eIA~~lgis~~~v~~~~~r  172 (183)
+T Q7UJC0_RHOBA/2  148 GGLGMKEIAAELNLGLRTVEKEWAM  172 (183)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            4569999999999999999876554
+
+
+No 13
+>PF09339.10 ; HTH_IclR ; IclR helix-turn-helix domain
+Probab=90.31  E-value=0.0044  Score=27.22  Aligned_cols=25  Identities=16%  Similarity=0.264  Sum_probs=21.1  Template_Neff=11.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..+||..+|+++.+++++-++
+T Consensus        17 ~~~~~~~i~~~~~~~~~~~~~~l~~   41 (52)
+T Q9I6Q2_PSEAE/5   17 RGLPLQQLADRLDIPKSAAHRMLAE   41 (52)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            4578899999999999999887654
+
+
+No 14
+>PF07037.11 ; DUF1323 ; Putative transcription regulator (DUF1323)
+Probab=90.30  E-value=0.0048  Score=33.37  Aligned_cols=23  Identities=22%  Similarity=0.411  Sum_probs=20.4  Template_Neff=10.600
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      +|.+|||..+|||+.|+|++.+.
+T Consensus         1 ~sq~ela~~lgvs~~tis~~~~~   23 (113)
+T YFEC_ECOLI/1-1    1 MTPDELARLTGYSRQTINKWVRK   23 (113)
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHhc
+Confidence            47799999999999999998664
+
+
+No 15
+>PF02042.15 ; RWP-RK ; RWP-RK domain
+Probab=90.28  E-value=0.0044  Score=26.12  Aligned_cols=25  Identities=24%  Similarity=0.410  Sum_probs=21.8  Template_Neff=12.300
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      .++..++|..+|+++.|++++.++.
+T Consensus        12 ~~~~~~~a~~~~~~~~~~~~~~~~~   36 (49)
+T D2V3F6_NAEGR/1   12 HLPIKEVASSLNVSVTFLKKVCRRL   36 (49)
+T ss_pred             CCCHHHHHHHcCCCHHHHHHHHHHc
+Confidence            5788999999999999999987654
+
+
+No 16
+>PF04552.13 ; Sigma54_DBD ; Sigma-54, DNA binding domain
+Probab=89.88  E-value=0.0059  Score=36.47  Aligned_cols=27  Identities=22%  Similarity=0.286  Sum_probs=23.0  Template_Neff=9.600
+
+Q SRX3156367_131  158 LQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       158 lqerislkeialflgvtpetlsrirkk  184 (188)
+                      ...-.|.++||..||+++.|+||+-+.
+T Consensus        45 ~~~g~s~~~IA~~lg~s~sTI~r~~~~   71 (158)
+T D5SRK8_PLAL2/3   45 FISPLKMQQIADIVKVHVTTVSRAVDD   71 (158)
+T ss_pred             ccCCCCHHHHHHHhCCCHHHHHHHHCC
+Confidence            345688999999999999999998654
+
+
+No 17
+>PF18090.1 ; SoPB_HTH ; Centromere-binding protein HTH domain
+Probab=89.67  E-value=0.006  Score=30.32  Aligned_cols=24  Identities=8%  Similarity=0.084  Sum_probs=21.1  Template_Neff=10.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      -+|..|||..+|+++.|+|++.+.
+T Consensus        19 ~~s~~~la~~~g~s~~~is~~~~~   42 (75)
+T D7U710_VITVI/1   19 AGNISALADAENISRKIITRCINT   42 (75)
+T ss_pred             CCCHHHHHHHcCCCHHHHHHHHHH
+Confidence            568999999999999999998653
+
+
+No 18
+>PF13936.6 ; HTH_38 ; Helix-turn-helix domain
+Probab=89.22  E-value=0.0059  Score=22.70  Aligned_cols=24  Identities=42%  Similarity=0.548  Sum_probs=20.0  Template_Neff=13.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      +..+.++||..+|+++.+++++.+
+T Consensus        19 ~~~~~~~i~~~~~~~~~~~~~~~~   42 (44)
+T TRA8_CUPMC/5-4   19 EDVSLRAMARRLGRAPSTLMRELR   42 (44)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHH
+Confidence            346788999999999999988653
+
+
+No 19
+>PF01325.19 ; Fe_dep_repress ; Iron dependent repressor, N-terminal DNA binding domain
+Probab=89.14  E-value=0.0068  Score=27.19  Aligned_cols=26  Identities=23%  Similarity=0.339  Sum_probs=21.9  Template_Neff=11.800
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      ...++.+|||..+|+++.|++++-++
+T Consensus        19 ~~~~~~~~i~~~~~~~~~~~~~~~~~   44 (59)
+T O28489_ARCFU/1   19 SKVAKTGELAKILNVKPSSVTEMLIK   44 (59)
+T ss_pred             CCCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            35688999999999999999987554
+
+
+No 20
+>PF13730.6 ; HTH_36 ; Helix-turn-helix domain
+Probab=89.14  E-value=0.0072  Score=28.37  Aligned_cols=26  Identities=8%  Similarity=0.160  Sum_probs=22.1  Template_Neff=10.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVT-PETLSRIRKKQQ  186 (188)
+Q Consensus       161 rislkeialflgvt-petlsrirkkqq  186 (188)
+                      .++.++||..+|++ +.|++|..++-.
+T Consensus        25 ~~~~~~la~~~~~~~~~tv~r~l~~L~   51 (56)
+T B0STK7_LEPBP/2   25 WPNTETLMRLTGFKTKKSIVTAKKELT   51 (56)
+T ss_pred             CCCHHHHHHHHCCCCHHHHHHHHHHHH
+Confidence            45889999999999 999999877643
+
+
+No 21
+>PF06971.13 ; Put_DNA-bind_N ; Putative DNA-binding protein N-terminus
+Probab=88.87  E-value=0.0078  Score=27.51  Aligned_cols=21  Identities=33%  Similarity=0.477  Sum_probs=18.8  Template_Neff=10.700
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       161 rislkeialflgvtpetlsri  181 (188)
+                      .+|.++||..+|+|+.|+.+.
+T Consensus        26 ~~s~~~ia~~~~is~~t~~~~   46 (48)
+T R7GWJ5_9FIRM/7   26 RISSRELAQRMGLTASQIRQD   46 (48)
+T ss_pred             cccHHHHHHHhCCCHHHHHHh
+Confidence            689999999999999998763
+
+
+No 22
+>PF05225.16 ; HTH_psq ; helix-turn-helix, Psq domain
+Probab=88.87  E-value=0.0076  Score=26.57  Aligned_cols=25  Identities=20%  Similarity=0.359  Sum_probs=21.3  Template_Neff=11.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLS-RIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetls-rirkkq  185 (188)
+                      ..|.++||..+|++..|++ +..++.
+T Consensus        16 ~~s~~~i~~~~~i~~~~v~~~~~~~~   41 (46)
+T E2BJ90_HARSA/4   16 QTSVQRASTEFGIPTGTLYGRCKREG   41 (46)
+T ss_pred             CCcHHHHHHHHCCCHHHHHHHHHhcc
+Confidence            4799999999999999999 765544
+
+
+No 23
+>PF08279.12 ; HTH_11 ; HTH domain
+Probab=88.56  E-value=0.0082  Score=27.17  Aligned_cols=25  Identities=36%  Similarity=0.268  Sum_probs=20.6  Template_Neff=11.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +.++.+|||..+|+|+.|+++.-+.
+T Consensus        14 ~~~~~~~i~~~~~~s~~tv~~~l~~   38 (59)
+T Q8Y3Q0_LISMO/1   14 EFISGGELGEALAVNPRTIRNDIKV   38 (59)
+T ss_pred             CcccHHHHHHHhCCChHHHHHHHHH
+Confidence            3488999999999999998876443
+
+
+No 24
+>PF06806.12 ; DUF1233 ; Putative excisionase (DUF1233)
+Probab=88.51  E-value=0.0095  Score=31.35  Aligned_cols=25  Identities=16%  Similarity=0.256  Sum_probs=22.0  Template_Neff=9.300
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirk  183 (188)
+                      .+-++.+|+|..||+|+.||-+.|+
+T Consensus         7 ~~~l~~~~~a~~lg~s~~tl~~~r~   31 (70)
+T Q74U26_YERPE/4    7 SKWVSEDLLMSLNGMTKHMIQHARR   31 (70)
+T ss_pred             ccccCHHHHHHHhCCCHHHHHHHHh
+Confidence            3567899999999999999998876
+
+
+No 25
+>PF15977.5 ; HTH_46 ; Winged helix-turn-helix DNA binding
+Probab=88.50  E-value=0.0087  Score=28.93  Aligned_cols=28  Identities=4%  Similarity=-0.031  Sum_probs=23.8  Template_Neff=10.900
+
+Q SRX3156367_131  158 LQERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       158 lqerislkeialflgvtpetlsrirkkq  185 (188)
+                      ....++.+|||..+|+++.|++++-++-
+T Consensus        20 ~~~~~~~~~la~~~~~s~~tv~~~l~~L   47 (68)
+T A8AFU0_CITK8/1   20 RSQMAAYQYILERTRLSRSSVMKMLSAL   47 (68)
+T ss_pred             HHHhHHHHHHHHHhCCCHHHHHHHHHHH
+Confidence            4566899999999999999999986553
+
+
+No 26
+>PF13542.6 ; HTH_Tnp_ISL3 ; Helix-turn-helix domain of transposase family ISL3
+Probab=88.33  E-value=0.0084  Score=25.11  Aligned_cols=22  Identities=23%  Similarity=0.199  Sum_probs=19.5  Template_Neff=12.400
+
+Q SRX3156367_131  163 SLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       163 slkeialflgvtpetlsrirkk  184 (188)
+                      |.++||..+|+++.|+.++.++
+T Consensus        28 s~~~ia~~~~~s~~tv~~~~~~   49 (51)
+T B7GLR5_ANOFW/1   28 SIQAVARMLKLPYTTVERWFYI   49 (51)
+T ss_pred             CHHHHHHHhCCCHHHHHHHHHh
+Confidence            8999999999999999887654
+
+
+No 27
+>PF13412.6 ; HTH_24 ; Winged helix-turn-helix DNA-binding
+Probab=88.14  E-value=0.0087  Score=24.31  Aligned_cols=24  Identities=21%  Similarity=0.315  Sum_probs=20.5  Template_Neff=12.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++.++||..+|+++.++.+.-+.
+T Consensus        17 ~~~~~~i~~~~~~~~~~~~~~~~~   40 (47)
+T LRP_HAEIN/16-6   17 KISNIDLSKKVGLSPTPCLERVKR   40 (47)
+T ss_pred             CCCHHHHHHHHCCChHHHHHHHHH
+Confidence            478899999999999999887543
+
+
+No 28
+>PF13413.6 ; HTH_25 ; Helix-turn-helix domain
+Probab=88.05  E-value=0.0095  Score=27.10  Aligned_cols=25  Identities=12%  Similarity=0.355  Sum_probs=21.4  Template_Neff=11.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..+|.+++|..+|+++.+++++.+.
+T Consensus         9 ~~~s~~~la~~~gi~~~~i~~~~~~   33 (61)
+T Q8DRR7_STRMU/7    9 KKLSFDDVVDKTGIAPHYILAMELD   33 (61)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHcC
+Confidence            4578899999999999999987654
+
+
+No 29
+>PF13613.6 ; HTH_Tnp_4 ; Helix-turn-helix of DDE superfamily endonuclease
+Probab=87.95  E-value=0.0094  Score=25.29  Aligned_cols=25  Identities=20%  Similarity=0.283  Sum_probs=21.4  Template_Neff=12.300
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ...+.++||..+|+++.|++++.++
+T Consensus        18 ~~~~~~~i~~~~~~~~~~~~~~~~~   42 (53)
+T C3Z5R7_BRAFL/5   18 AGLLTQDISHRFNISAGTCSRIFRH   42 (53)
+T ss_pred             CCCcHHHHHHHhCCCHHHHHHHHHH
+Confidence            4578899999999999999997654
+
+
+No 30
+>PF02796.15 ; HTH_7 ; Helix-turn-helix domain of resolvase
+Probab=87.89  E-value=0.0093  Score=23.68  Aligned_cols=23  Identities=22%  Similarity=0.242  Sum_probs=20.1  Template_Neff=12.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      ..+..+||..+|+++.++++..+
+T Consensus        21 ~~~~~~ia~~~~~~~~~~~~~~~   43 (45)
+T W1DFQ1_KLEPN/1   21 GEQKTKLAREFGISRETLYQYLR   43 (45)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHh
+Confidence            47899999999999999988664
+
+
+No 31
+>PF12759.7 ; HTH_Tnp_IS1 ; InsA C-terminal domain
+Probab=87.80  E-value=0.0099  Score=24.91  Aligned_cols=25  Identities=24%  Similarity=0.308  Sum_probs=21.1  Template_Neff=12.000
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ...+..+||..+|+++.|+++..++
+T Consensus        20 ~~~~~~~i~~~~~~~~~~v~~~~~~   44 (46)
+T INSA_HAEDU/43-   20 NGVGCRATARIMGVGLNTILRHLKN   44 (46)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHh
+Confidence            4578899999999999999887553
+
+
+No 32
+>PF00292.18 ; PAX ; 'Paired box' domain
+Probab=87.78  E-value=0.01  Score=30.33  Aligned_cols=39  Identities=15%  Similarity=0.097  Sum_probs=27.9  Template_Neff=11.900
+
+Q SRX3156367_131  142 DTPEQRYQALMKRCPDLQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       142 dtpeqryqalmkrcpdlqerislkeialflgvtpetlsrirkk  184 (188)
+                      .++++|.+.+...    .+..|.++||..+|+++.|++++.++
+T Consensus        18 ~~~~~r~~i~~~~----~~~~s~~~ia~~~g~s~~tv~~~~~~   56 (125)
+T PAX2_HUMAN/16-   18 LPDVVRQRIVELA----HQGVRPCDISRQLRVSHGCVSKILGR   56 (125)
+T ss_pred             CCHHHHHHHHHHH----HCCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            3455555544321    34579999999999999999998764
+
+
+No 33
+>PF03333.13 ; PapB ; Adhesin biosynthesis transcription regulatory protein
+Probab=87.58  E-value=0.014  Score=35.20  Aligned_cols=29  Identities=14%  Similarity=0.067  Sum_probs=24.2  Template_Neff=7.100
+
+Q SRX3156367_131  158 LQERISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       158 lqerislkeialflgvtpetlsrirkkqq  186 (188)
+                      +.+-.|.+|||..+||||.++||.-++-+
+T Consensus        52 lv~G~s~~eia~~~gvs~s~vsr~l~kl~   80 (93)
+T Q3ZU00_ECOLX/1   52 LVDGCSRKFVCEHYNINNGYLTVSLNRLN   80 (93)
+T ss_pred             hhcCCCHHHHHHHHCCCHHHHHHHHHHHH
+Confidence            34678999999999999999999766543
+
+
+No 34
+>PF00325.20 ; Crp ; Bacterial regulatory proteins, crp family
+Probab=87.24  E-value=0.011  Score=22.36  Aligned_cols=23  Identities=43%  Similarity=0.719  Sum_probs=19.3  Template_Neff=12.300
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      ++..+||..+++++.++++..+.
+T Consensus         3 ~~~~~l~~~~~~~~~~~~~~~~~   25 (32)
+T Q03CY5_LACP3/1    3 MAWTQLADYLGTTPETVSRTLKR   25 (32)
+T ss_pred             CcHHHHHHHHCCCHHHHHHHHHH
+Confidence            57889999999999998887654
+
+
+No 35
+>PF04492.13 ; Phage_rep_O ; Bacteriophage replication protein O
+Probab=87.15  E-value=0.013  Score=30.71  Aligned_cols=27  Identities=19%  Similarity=0.323  Sum_probs=22.7  Template_Neff=10.600
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkkq  185 (188)
+                      ...+|..+||..+|+|+.|++|+-++-
+T Consensus        47 ~~~~~~~~la~~l~~s~~tv~r~l~~L   73 (99)
+T Q2SPC4_HAHCH/3   47 MDWISLEQLVEMTGISRRHLPSLITGL   73 (99)
+T ss_pred             CcccCHHHHHHHHCCChhHHHHHHHHH
+Confidence            347799999999999999999986553
+
+
+No 36
+>PF10743.9 ; Phage_Cox ; Regulatory phage protein cox
+Probab=87.04  E-value=0.014  Score=30.76  Aligned_cols=26  Identities=23%  Similarity=0.424  Sum_probs=22.6  Template_Neff=9.900
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      ...++.+|+|.++|+++.|+.+..++
+T Consensus         9 ~~~~t~~e~a~~~~~s~~tv~~~~~~   34 (84)
+T J7TCK7_MORMO/4    9 SDCVTEAKFAEMIGKTKQAISDMRKD   34 (84)
+T ss_pred             CCccCHHHHHHHHCCCHHHHHHHHHc
+Confidence            45789999999999999999887764
+
+
+No 37
+>PF07374.11 ; DUF1492 ; Protein of unknown function (DUF1492)
+Probab=86.97  E-value=0.013  Score=30.39  Aligned_cols=26  Identities=15%  Similarity=0.222  Sum_probs=22.6  Template_Neff=10.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkqq  186 (188)
+                      ..+.+|||..+|+++.++++++++-.
+T Consensus        71 ~~~~~~ia~~~~~s~~~v~~~~~~~~   96 (100)
+T Q9XJD8_9CAUD/3   71 QLGIWQICDKLGISRATYYVKLRQAE   96 (100)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHHHHH
+Confidence            47889999999999999999887643
+
+
+No 38
+>PF18010.1 ; HTH_49 ; Cry35Ab1 HTH C-terminal domain
+Probab=86.96  E-value=0.013  Score=22.97  Aligned_cols=21  Identities=24%  Similarity=0.290  Sum_probs=18.6  Template_Neff=11.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       161 rislkeialflgvtpetlsri  181 (188)
+                      .+|.++||..+|+++.++.+.
+T Consensus         8 ~~s~~~ia~~~~~~~~~~~~~   28 (29)
+T I8UB32_9BACI/1    8 THTYKEVEAMTGIKKRTLIYR   28 (29)
+T ss_pred             cCCHHHHHHHHCCCHHHhhhc
+Confidence            578999999999999998764
+
+
+No 39
+>PF14549.6 ; P22_Cro ; DNA-binding transcriptional regulator Cro
+Probab=86.95  E-value=0.014  Score=28.20  Aligned_cols=19  Identities=16%  Similarity=0.216  Sum_probs=18.0  Template_Neff=10.400
+
+Q SRX3156367_131  163 SLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       163 slkeialflgvtpetlsri  181 (188)
+                      |.+++|..+||+|.|++++
+T Consensus        11 s~~~la~~~gv~~~~i~~~   29 (60)
+T B1WN54_VIBF1/2   11 GVVKVASALKIDHSAVSQW   29 (60)
+T ss_pred             CHHHHHHHcCCCHHHHHHh
+Confidence            7899999999999999998
+
+
+No 40
+>PF09035.10 ; Tn916-Xis ; Excisionase from transposon Tn916
+Probab=86.91  E-value=0.014  Score=29.08  Aligned_cols=24  Identities=21%  Similarity=0.411  Sum_probs=21.4  Template_Neff=10.300
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrir  182 (188)
+                      .+-++.+|+|.++|+|+.|+.++.
+T Consensus        13 ~~~~~~~e~a~~~gis~~t~~~~~   36 (69)
+T D4LZS3_9FIRM/1   13 KYSLNVSEAAEYYGIGEKRLRQIA   36 (69)
+T ss_pred             ccccCHHHHHHHHCCCHHHHHHHH
+Confidence            456889999999999999999887
+
+
+No 41
+>PF01710.16 ; HTH_Tnp_IS630 ; Transposase
+Probab=86.76  E-value=0.013  Score=29.63  Aligned_cols=38  Identities=11%  Similarity=0.105  Sum_probs=27.2  Template_Neff=11.900
+
+Q SRX3156367_131  144 PEQRYQALMKRCPDLQERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       144 peqryqalmkrcpdlqerislkeialflgvtpetlsrirkkq  185 (188)
+                      ++.|.+.+..    +.+..|..+||..+|+++.|+++..++.
+T Consensus         5 ~~~r~~~~~~----~~~~~s~~~ia~~~g~s~~tv~~~~~~~   42 (120)
+T P74059_SYNY3/1    5 LDLRLKVIDF----IESGDGITKASRTFRVGRATIYRWLGRE   42 (120)
+T ss_pred             HHHHHHHHHH----HHcCCCHHHHHHHhCCCHHHHHHHHHhh
+Confidence            4445554432    2345789999999999999999887653
+
+
+No 42
+>PF11994.8 ; DUF3489 ; Protein of unknown function (DUF3489)
+Probab=86.25  E-value=0.018  Score=30.58  Aligned_cols=26  Identities=8%  Similarity=0.060  Sum_probs=22.3  Template_Neff=8.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkq  185 (188)
+                      +.+|..|||..+|+++.|+++.-++-
+T Consensus        20 ~~~t~~eia~~l~~~~~tv~~~l~~L   45 (65)
+T D9QI51_BRESC/1   20 EGADMPTMIEATGWQAHSIRGAMASA   45 (65)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHHHH
+Confidence            57899999999999999998865543
+
+
+No 43
+>PF12833.7 ; HTH_18 ; Helix-turn-helix domain
+Probab=86.00  E-value=0.017  Score=29.89  Aligned_cols=26  Identities=23%  Similarity=0.228  Sum_probs=22.8  Template_Neff=10.100
+
+Q SRX3156367_131  160 ERISLKEIALFLGV-TPETLSRIRKKQ  185 (188)
+Q Consensus       160 erislkeialflgv-tpetlsrirkkq  185 (188)
+                      +.++++|||.-+|+ ||.+++|.-++.
+T Consensus        45 ~~~~~~~ia~~~g~~s~~~~~r~f~~~   71 (82)
+T A0JW69_ARTS2/2   45 WKRSLTDIAGASGFKSLQAMRRAVREL   71 (82)
+T ss_pred             CCCCHHHHHHHcCCCCHHHHHHHHHHH
+Confidence            48999999999999 999999876553
+
+
+No 44
+>PF00392.21 ; GntR ; Bacterial regulatory proteins, gntR family
+Probab=85.79  E-value=0.016  Score=26.11  Aligned_cols=26  Identities=23%  Similarity=0.418  Sum_probs=21.6  Template_Neff=11.800
+
+Q SRX3156367_131  160 ERI-SLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       160 eri-slkeialflgvtpetlsrirkkq  185 (188)
+                      ..+ +.+|||..+|+++.|++++-++.
+T Consensus        22 ~~~~~~~~l~~~~~~~~~~~~~~l~~l   48 (64)
+T FADR_ECOLI/8-7   22 TILPAERELSELIGVTRTTLREVLQRL   48 (64)
+T ss_pred             CCCCCHHHHHHHHCCCHHHHHHHHHHH
+Confidence            456 88999999999999999876543
+
+
+No 45
+>PF09182.10 ; PuR_N ; Bacterial purine repressor, N-terminal
+Probab=85.06  E-value=0.02  Score=27.71  Aligned_cols=26  Identities=19%  Similarity=0.059  Sum_probs=21.7  Template_Neff=10.800
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      ++.++..|||..+|+|+.|+.+.-++
+T Consensus        18 ~~~~~~~~la~~~~~s~~tv~~~l~~   43 (70)
+T C9ACU7_ENTCA/4   18 HELISLSFFSKRYASAKSSISEDLSI   43 (70)
+T ss_pred             CccccHHHHHHHhCCChHHHHHHHHH
+Confidence            46789999999999999999776543
+
+
+No 46
+>PF08281.12 ; Sigma70_r4_2 ; Sigma-70, region 4
+Probab=85.00  E-value=0.018  Score=23.54  Aligned_cols=25  Identities=28%  Similarity=0.377  Sum_probs=21.2  Template_Neff=12.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..+..+||.-+|+++.|+.+..++
+T Consensus        25 ~~~~~~~i~~~~~~~~~~~~~~~~~   49 (54)
+T Q82PC6_STRAW/1   25 CELDHQEIAELLGTTPNNVGVNVHH   49 (54)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            4688999999999999999887654
+
+
+No 47
+>PF16365.5 ; EutK_C ; Ethanolamine utilization protein EutK C-terminus
+Probab=84.92  E-value=0.021  Score=26.40  Aligned_cols=24  Identities=17%  Similarity=0.260  Sum_probs=20.5  Template_Neff=10.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      +.++.+|||..+|+++.++++.-+
+T Consensus        16 ~~~~~~~l~~~~~~~~~~~~~~l~   39 (55)
+T EUTK_SALTY/107   16 QGMTAGEVAAHFGWPLEQARNVLE   39 (55)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHH
+Confidence            457999999999999999987644
+
+
+No 48
+>PF08765.11 ; Mor ; Mor transcription activator family
+Probab=84.63  E-value=0.024  Score=32.54  Aligned_cols=26  Identities=23%  Similarity=0.188  Sum_probs=23.0  Template_Neff=8.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkqq  186 (188)
+                      ..|.++||..+|+|+.|+.+|.++..
+T Consensus        72 g~~~~~ia~~~giS~r~V~~i~~~~~   97 (108)
+T B4ENV3_BURCJ/8   72 GDNHAELARKFGVSLQWIYKIIKAVR   97 (108)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHHHHH
+Confidence            67899999999999999999987653
+
+
+No 49
+>PF04967.12 ; HTH_10 ; HTH DNA binding domain
+Probab=84.53  E-value=0.02  Score=23.73  Aligned_cols=27  Identities=37%  Similarity=0.650  Sum_probs=22.0  Template_Neff=12.500
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkqq  186 (188)
+                      ..++..+||..+|+++.|+.+..++-+
+T Consensus        22 ~~~~~~~i~~~~~~s~~~~~~~~~~~~   48 (53)
+T Q97ZX5_SULSO/1   22 RRIGLKDLAKKLNISPSSLSEIIRRAE   48 (53)
+T ss_pred             ccCCHHHHHHHhCCCHHHHHHHHHHHH
+Confidence            357889999999999999988766543
+
+
+No 50
+>PF09904.9 ; HTH_43 ; Winged helix-turn helix
+Probab=84.52  E-value=0.023  Score=29.66  Aligned_cols=22  Identities=14%  Similarity=0.090  Sum_probs=20.1  Template_Neff=10.200
+
+Q SRX3156367_131  163 SLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       163 slkeialflgvtpetlsrirkk  184 (188)
+                      +..|||..+|+++.|++++-+.
+T Consensus        22 t~~ela~~~~~~~~ti~~~l~~   43 (90)
+T Q1QXF4_CHRSD/5   22 SVPALIEATGMPRRTAQDTVNA   43 (90)
+T ss_pred             cHHHHHHHhCCChHhHHHHHHH
+Confidence            8999999999999999998664
+
+
+No 51
+>PF07618.11 ; DUF1580 ; Protein of unknown function (DUF1580)
+Probab=84.35  E-value=0.024  Score=27.20  Aligned_cols=24  Identities=21%  Similarity=0.048  Sum_probs=20.1  Template_Neff=10.200
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      ++.+|+|.++|+++.|+-+..++.
+T Consensus         3 ~~~~e~~~~~~~s~~tl~~~~~~~   26 (57)
+T Q7UK90_RHOBA/1    3 LDAIEQETGHRTHPSTAMRWSLKP   26 (57)
+T ss_pred             ccHHHHhhccCCCHHHHHHHHhCC
+Confidence            567899999999999998876653
+
+
+No 52
+>PF12844.7 ; HTH_19 ; Helix-turn-helix domain
+Probab=84.10  E-value=0.023  Score=25.81  Aligned_cols=26  Identities=12%  Similarity=0.344  Sum_probs=21.5  Template_Neff=11.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkq  185 (188)
+                      ..++.+++|..+||++.+++++.+..
+T Consensus        11 ~~~~~~~~a~~~~~~~~~i~~~~~g~   36 (64)
+T B1M917_METRJ/3   11 RRLGYGQLGGMLGFSGQQMRKYERGL   36 (64)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHcCC
+Confidence            34678899999999999999987653
+
+
+No 53
+>PF00376.23 ; MerR ; MerR family regulatory protein
+Probab=84.07  E-value=0.023  Score=22.74  Aligned_cols=21  Identities=19%  Similarity=0.181  Sum_probs=17.3  Template_Neff=11.900
+
+Q SRX3156367_131  164 LKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       164 lkeialflgvtpetlsrirkk  184 (188)
+                      ..++|..+|+++.|+.+..+.
+T Consensus         2 ~~~~~~~~~i~~~t~~~~~~~   22 (38)
+T O54191_STRCO/1    2 IGALARETGLSIRTLRYYDRL   22 (38)
+T ss_pred             HHHHHHHHCCCHHHHHHHHHc
+Confidence            468899999999999887654
+
+
+No 54
+>PF12116.8 ; SpoIIID ; Stage III sporulation protein D
+Probab=84.03  E-value=0.025  Score=28.59  Aligned_cols=24  Identities=17%  Similarity=0.328  Sum_probs=20.5  Template_Neff=10.500
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .+|.+++|..+|+++.|+|++...
+T Consensus        19 ~~s~~~~a~~~gis~~~v~~~~~~   42 (82)
+T B8CZ04_HALOH/2   19 KATVRQAAKIYGVSKSTVHKDVTE   42 (82)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            588899999999999999987653
+
+
+No 55
+>PF11427.8 ; HTH_Tnp_Tc3_1 ; Tc3 transposase
+Probab=83.93  E-value=0.022  Score=22.97  Aligned_cols=25  Identities=28%  Similarity=0.268  Sum_probs=20.8  Template_Neff=12.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..+.++||..+|+++.|+.+..+.
+T Consensus        19 ~~~~~~~i~~~~~~~~~~v~~~~~~   43 (50)
+T B4MU89_DROWI/3   19 SGSKISEIATRLNRHRNCISRFLKN   43 (50)
+T ss_pred             cCCCHHHHHHHhCCCHHHHHHHHhC
+Confidence            3578899999999999999877554
+
+
+No 56
+>PF12802.7 ; MarR_2 ; MarR family
+Probab=83.44  E-value=0.027  Score=26.18  Aligned_cols=24  Identities=17%  Similarity=0.254  Sum_probs=21.0  Template_Neff=11.000
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      .+.+|||..+++++.+++++-++-
+T Consensus        21 ~~~~~l~~~~~~~~~~~~~~l~~l   44 (61)
+T Q1GUU2_SPHAL/3   21 PTVAQIGRSLGHPRQVVQRAANRL   44 (61)
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHHHH
+Confidence            789999999999999999876543
+
+
+No 57
+>PF16264.5 ; SatD ; SatD family (SatD)
+Probab=83.43  E-value=0.029  Score=34.56  Aligned_cols=27  Identities=26%  Similarity=0.415  Sum_probs=22.4  Template_Neff=9.600
+
+Q SRX3156367_131  158 LQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       158 lqerislkeialflgvtpetlsrirkk  184 (188)
+                      .++..|.+|||..||+|+.|+|+..++
+T Consensus       168 ~~~~~s~~eIA~~lgiS~~tV~~~l~r  194 (211)
+T I6L8Y5_STRMU/3  168 YEEKFSHKKMAEKLDLSPSSFNKRLKS  194 (211)
+T ss_pred             cccCCCHHHHHHHhCCCHHHHHHHHHh
+Confidence            346789999999999999999876554
+
+
+No 58
+>PF08280.11 ; HTH_Mga ; M protein trans-acting positive regulator (MGA) HTH domain
+Probab=83.42  E-value=0.026  Score=25.54  Aligned_cols=25  Identities=16%  Similarity=0.086  Sum_probs=20.8  Template_Neff=11.400
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++.++||..+|+++.|+.+..++
+T Consensus        19 ~~~~~~~i~~~l~~s~~t~~~~i~~   43 (60)
+T ACPB_BACAN/2-6   19 KWFTTIEISKILRCCNKTIMKDISF   43 (60)
+T ss_pred             CcEeHHHHHHHhCCCHHHHHHHHHH
+Confidence            4678899999999999999876543
+
+
+No 59
+>PF04645.12 ; DUF603 ; Protein of unknown function, DUF603
+Probab=83.36  E-value=0.032  Score=35.68  Aligned_cols=24  Identities=38%  Similarity=0.431  Sum_probs=21.5  Template_Neff=8.100
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      .|.+|||..|||+|.|+++.+++-
+T Consensus        20 ~s~~eiA~~lgVs~~tv~~W~~~~   43 (181)
+T Q9S073_BORBU/1   20 LNDREIADKLGVSKVNVWRMRQKW   43 (181)
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHHHH
+Confidence            689999999999999999988753
+
+
+No 60
+>PF08222.11 ; HTH_CodY ; CodY helix-turn-helix domain
+Probab=83.21  E-value=0.027  Score=25.71  Aligned_cols=25  Identities=24%  Similarity=0.317  Sum_probs=21.1  Template_Neff=11.300
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..|||..+|+++.+++++-++
+T Consensus         3 ~~~t~~~l~~~~~~s~~~~~~~l~~   27 (61)
+T CODY_STRA5/201    3 GRLTASVIADRIGITRSVIVNALRK   27 (61)
+T ss_pred             CcccHHHHHHHHCCCHHHHHHHHHH
+Confidence            4578899999999999999987554
+
+
+No 61
+>PF06056.12 ; Terminase_5 ; Putative ATPase subunit of terminase (gpP-like)
+Probab=83.15  E-value=0.027  Score=24.61  Aligned_cols=25  Identities=20%  Similarity=0.352  Sum_probs=20.9  Template_Neff=11.900
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..+.++||..+|+++.|+.++.+.
+T Consensus        12 ~~~~~~~i~~~~~~~~~tv~~~~~~   36 (58)
+T VPP_BPP2/12-69   12 QGFSVPQIAAMLQMKRPTVQSWKQR   36 (58)
+T ss_pred             cCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            3567889999999999999887654
+
+
+No 62
+>PF04182.12 ; B-block_TFIIIC ; B-block binding subunit of TFIIIC
+Probab=82.63  E-value=0.031  Score=27.05  Aligned_cols=26  Identities=8%  Similarity=0.009  Sum_probs=22.3  Template_Neff=10.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkq  185 (188)
+                      +.++.+|||.-+|+++.|++++-++-
+T Consensus        17 ~~~~~~~l~~~~~~~~~tv~~~l~~L   42 (70)
+T Q6CB35_YARLI/1   17 DGATAVQITKQTGQDARSIFGRVNAL   42 (70)
+T ss_pred             CCccHHHHHHHHCCCHHhHHHHHHHH
+Confidence            46889999999999999999876553
+
+
+No 63
+>PF06970.11 ; RepA_N ; Replication initiator protein A (RepA) N-terminus
+Probab=82.51  E-value=0.035  Score=29.71  Aligned_cols=24  Identities=8%  Similarity=0.106  Sum_probs=20.9  Template_Neff=8.900
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .+|.+|||..+|+|+.|++|..+.
+T Consensus        51 ~~s~~~la~~~~~s~~tv~~~i~e   74 (75)
+T D4KV24_9FIRM/1   51 YYPICEVVALLRCGRQKAVNTLRE   74 (75)
+T ss_pred             EeeHHHHHHHhCCCHHHHHHHHHh
+Confidence            468889999999999999998653
+
+
+No 64
+>PF10654.9 ; DUF2481 ; Protein of unknown function (DUF2481)
+Probab=82.49  E-value=0.038  Score=33.91  Aligned_cols=27  Identities=11%  Similarity=0.165  Sum_probs=23.6  Template_Neff=7.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkqq  186 (188)
+                      ...|..|||..+|||+.|+++++++..
+T Consensus        79 ~G~s~~eIA~~lGVSr~Tv~r~~~~~~  105 (126)
+T Q8Y4X4_LISMO/2   79 AGLTCYAIAEHFKVSKAVVFNYTQRNK  105 (126)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHHch
+Confidence            467999999999999999999987643
+
+
+No 65
+>PF00356.21 ; LacI ; Bacterial regulatory proteins, lacI family
+Probab=82.46  E-value=0.029  Score=22.71  Aligned_cols=21  Identities=29%  Similarity=0.417  Sum_probs=16.8  Template_Neff=12.300
+
+Q SRX3156367_131  164 LKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       164 lkeialflgvtpetlsrirkk  184 (188)
+                      .+++|..+|+++.++|++.+.
+T Consensus         2 ~~~~a~~~~~~~~~i~~~~~~   22 (46)
+T MALI_ECOLI/8-5    2 IHDVALAAGVSVSTVSLVLSG   22 (46)
+T ss_pred             HHHHHHHHCCCHHHHHHHHcC
+Confidence            457888899999999988654
+
+
+No 66
+>PF14493.6 ; HTH_40 ; Helix-turn-helix domain
+Probab=82.41  E-value=0.032  Score=27.88  Aligned_cols=26  Identities=19%  Similarity=0.087  Sum_probs=21.6  Template_Neff=10.900
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      .+..+.++||..+|+++.|+++..++
+T Consensus        10 ~~g~~~~~ia~~l~is~~tv~~~l~~   35 (88)
+T G8R868_OWEHD/6   10 KGGLTPDEIAEKREMAVSTIEGHLAK   35 (88)
+T ss_pred             HCCCCHHHHHHHcCCCHHHHHHHHHH
+Confidence            45688999999999999999875543
+
+
+No 67
+>PF07900.11 ; DUF1670 ; Protein of unknown function (DUF1670)
+Probab=82.32  E-value=0.036  Score=35.16  Aligned_cols=25  Identities=28%  Similarity=0.453  Sum_probs=22.1  Template_Neff=8.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ...|.+|||..||||+.|+++..++
+T Consensus        94 ~~~s~~eLA~~lgvS~~TV~r~lk~  118 (209)
+T Q8TH36_METAC/3   94 ALLTQADIAILLGESTKTISRHIEA  118 (209)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            4689999999999999999997665
+
+
+No 68
+>PF13404.6 ; HTH_AsnC-type ; AsnC-type helix-turn-helix domain
+Probab=82.08  E-value=0.029  Score=21.08  Aligned_cols=24  Identities=17%  Similarity=0.213  Sum_probs=19.4  Template_Neff=13.100
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..+.++||..+|+++.+++++-++
+T Consensus        17 ~~~~~~~~~~~~~~~~~~~~~~~~   40 (42)
+T LRPA_BACSU/2-4   17 RLTMKKLGEKVHLTAPATASRVVK   40 (42)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            457789999999999999886543
+
+
+No 69
+>PF01022.20 ; HTH_5 ; Bacterial regulatory protein, arsR family
+Probab=82.07  E-value=0.031  Score=22.48  Aligned_cols=24  Identities=13%  Similarity=0.164  Sum_probs=20.5  Template_Neff=12.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++.+++|..+|+++.+++++.++
+T Consensus        16 ~~~~~~~~~~~~~~~~~~~~~~~~   39 (46)
+T I2B5Q4_SHIBC/1   16 ELCVCDLCTALDQSQPKISRHLAM   39 (46)
+T ss_pred             CccHHHHHHHhcCChHHHHHHHHH
+Confidence            478899999999999999887654
+
+
+No 70
+>PF04936.12 ; DUF658 ; Protein of unknown function (DUF658)
+Probab=81.90  E-value=0.039  Score=34.53  Aligned_cols=27  Identities=19%  Similarity=0.254  Sum_probs=22.8  Template_Neff=8.700
+
+Q SRX3156367_131  158 LQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       158 lqerislkeialflgvtpetlsrirkk  184 (188)
+                      +.+.+|..|||..||||+.|+++..++
+T Consensus        11 ~~~~lt~~eiA~~lgVS~~TI~~wik~   37 (186)
+T Q9CGR9_LACLA/4   11 KKATGTIDEIADYFDISRTSISLWIKN   37 (186)
+T ss_pred             ccceEeHHHHHHHhCCCHHHHHHHHHc
+Confidence            345569999999999999999988765
+
+
+No 71
+>PF13384.6 ; HTH_23 ; Homeodomain-like domain
+Probab=81.90  E-value=0.031  Score=22.37  Aligned_cols=24  Identities=25%  Similarity=0.445  Sum_probs=21.2  Template_Neff=12.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..+..+||..+|++..|+++..++
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~~~~~~   41 (48)
+T Q13WC2_PARXL/7   18 ELSRREIARRLGISETKVATVASQ   41 (48)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            578889999999999999998766
+
+
+No 72
+>PF14502.6 ; HTH_41 ; Helix-turn-helix domain
+Probab=81.58  E-value=0.036  Score=24.31  Aligned_cols=24  Identities=17%  Similarity=0.153  Sum_probs=20.2  Template_Neff=11.100
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      .+.+|||..+|+++.+++++-++.
+T Consensus         7 ~~~~~i~~~~~~~~~~v~~~l~~l   30 (48)
+T Q7N5F8_PHOLL/2    7 KTIEELSSDYGLSVGLVQFALKKL   30 (48)
+T ss_pred             ccHHHHHHHHCCCHHHHHHHHHHH
+Confidence            478999999999999999876543
+
+
+No 73
+>PF15943.5 ; YdaS_antitoxin ; Putative antitoxin of bacterial toxin-antitoxin system, YdaS/YdaT
+Probab=80.93  E-value=0.039  Score=25.32  Aligned_cols=22  Identities=32%  Similarity=0.311  Sum_probs=19.0  Template_Neff=11.300
+
+Q SRX3156367_131  163 SLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       163 slkeialflgvtpetlsrirkk  184 (188)
+                      +..++|..+|+++.|++++.+.
+T Consensus        10 ~~~~~a~~~~~s~~~~~~~~~~   31 (64)
+T D5BYG2_NITHN/5   10 SQAALAREVGVTLQAVNQWVKK   31 (64)
+T ss_pred             CHHHHHHHHCCCHHHHHHHHHc
+Confidence            7789999999999999998643
+
+
+No 74
+>PF13545.6 ; HTH_Crp_2 ; Crp-like helix-turn-helix domain
+Probab=80.57  E-value=0.045  Score=27.91  Aligned_cols=25  Identities=40%  Similarity=0.672  Sum_probs=21.7  Template_Neff=9.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..|||..+|+|+.|++++-+.
+T Consensus        20 ~~~~~~~la~~~~~s~~~v~~~l~~   44 (70)
+T Q03QC4_LACBA/1   20 LPMSKQDLAAYLGMTPESLSRKLRQ   44 (70)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            5789999999999999999987543
+
+
+No 75
+>PF07278.11 ; DUF1441 ; Protein of unknown function (DUF1441)
+Probab=80.47  E-value=0.046  Score=31.68  Aligned_cols=22  Identities=14%  Similarity=0.345  Sum_probs=19.6  Template_Neff=9.600
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       162 islkeialflgvtpetlsrirk  183 (188)
+                      +|.+|+|..+|||+.|+++..+
+T Consensus         2 ~s~~e~A~~~gvs~~ti~~~~~   23 (147)
+T Q8ZQ97_SALTY/9    2 LNITQLSAITGAHRQTIASRLK   23 (147)
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHc
+Confidence            6889999999999999998655
+
+
+No 76
+>PF02954.19 ; HTH_8 ; Bacterial regulatory protein, Fis family
+Probab=80.47  E-value=0.037  Score=20.58  Aligned_cols=24  Identities=29%  Similarity=0.279  Sum_probs=19.3  Template_Neff=13.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..+..++|..+|+++.++++..++
+T Consensus        18 ~~~~~~~~~~~~~s~~~~~~~~~~   41 (42)
+T O67198_AQUAE/3   18 NFNKKLASEILGIPLRTLYRRLKE   41 (42)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHHh
+Confidence            356788999999999999886543
+
+
+No 77
+>PF10771.9 ; DUF2582 ; Winged helix-turn-helix domain (DUF2582)
+Probab=80.30  E-value=0.047  Score=27.45  Aligned_cols=25  Identities=12%  Similarity=-0.020  Sum_probs=21.6  Template_Neff=9.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..|||..+|+++.|+++.-++
+T Consensus        21 ~~~~~~~l~~~~~~s~~~v~~~l~~   45 (65)
+T A6LEB7_PARD8/1   21 QHWSFEALRAKSALTDADLWSAIGW   45 (65)
+T ss_pred             CCccHHHHHHHcCCCHHHHHHHHHH
+Confidence            4789999999999999999986543
+
+
+No 78
+>PF05339.11 ; DUF739 ; Protein of unknown function (DUF739)
+Probab=80.25  E-value=0.041  Score=24.71  Aligned_cols=24  Identities=21%  Similarity=0.148  Sum_probs=20.7  Template_Neff=11.900
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .+|..++|..+|+++.+++++.+.
+T Consensus        16 ~~s~~~la~~~g~~~~~~~~~~~~   39 (69)
+T Q65PN2_LACJO/1   16 YGTQYNFAKALGLSEHSLSNKLNN   39 (69)
+T ss_pred             hccHHHHHHHhCCCHHHHHHHHcC
+Confidence            478899999999999999988653
+
+
+No 79
+>PF07471.12 ; Phage_Nu1 ; Phage DNA packaging protein Nu1
+Probab=80.13  E-value=0.047  Score=31.68  Aligned_cols=23  Identities=17%  Similarity=0.341  Sum_probs=20.5  Template_Neff=9.900
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      +|.+|+|..+|||+.|+++..++
+T Consensus         3 ~t~~e~a~~~gvs~~tv~~~~~~   25 (162)
+T Q8ZMZ2_SALTY/1    3 VNKKKLAEIFGCDVRTVTAWQSQ   25 (162)
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHHC
+Confidence            57899999999999999998765
+
+
+No 80
+>PF11972.8 ; HTH_13 ; HTH DNA binding domain
+Probab=80.12  E-value=0.043  Score=24.15  Aligned_cols=22  Identities=27%  Similarity=0.264  Sum_probs=19.1  Template_Neff=11.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       161 rislkeialflgvtpetlsrir  182 (188)
+                      .++..+||..+|+++.|+++.-
+T Consensus        13 ~~~~~~l~~~~~~~~~~~~~~l   34 (54)
+T A9CFY4_AGRFC/3   13 VVSAAMIVKELGTTPQGAIGLA   34 (54)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHH
+Confidence            5788999999999999988764
+
+
+No 81
+>PF04545.16 ; Sigma70_r4 ; Sigma-70, region 4
+Probab=79.94  E-value=0.042  Score=22.90  Aligned_cols=23  Identities=30%  Similarity=0.421  Sum_probs=18.7  Template_Neff=12.300
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      .++.+|||..+|+++.|+.+..+
+T Consensus        24 ~~~~~~ia~~~~~s~~~v~~~~~   46 (54)
+T A9WAH7_CHLAA/3   24 PRTLEEVGKAFGVTRERVRQIEV   46 (54)
+T ss_pred             ccCHHHHHHHHCCCHHHHHHHHH
+Confidence            35788999999999999876554
+
+
+No 82
+>PF15731.5 ; MqsA_antitoxin ; Antitoxin component of bacterial toxin-antitoxin system, MqsA
+Probab=79.46  E-value=0.05  Score=29.75  Aligned_cols=24  Identities=21%  Similarity=0.328  Sum_probs=20.6  Template_Neff=10.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .+|..++|..+|+++.|+|++.+.
+T Consensus        82 gls~~~~a~~lg~~~~~i~~~e~g  105 (131)
+T Q7VY40_BORPE/1   82 GLDQREAAALFGGGTNAFSRYENG  105 (131)
+T ss_pred             CCCHHHHHHHhCCChhHHHHHhcC
+Confidence            467789999999999999998654
+
+
+No 83
+>PF01381.22 ; HTH_3 ; Helix-turn-helix
+Probab=79.42  E-value=0.047  Score=23.68  Aligned_cols=24  Identities=25%  Similarity=0.454  Sum_probs=20.1  Template_Neff=11.700
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++.+++|..+|+++.|++++.+.
+T Consensus         9 ~~~~~~la~~~~~~~~~~~~~~~g   32 (55)
+T Y4DL_SINFN/12-    9 KMSQRELSARSGLTQSHISQIERG   32 (55)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHcC
+Confidence            467889999999999999988653
+
+
+No 84
+>PF01047.22 ; MarR ; MarR family
+Probab=79.40  E-value=0.047  Score=24.02  Aligned_cols=23  Identities=13%  Similarity=0.252  Sum_probs=19.9  Template_Neff=11.700
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      .++..|||..+|+++.+++++-+
+T Consensus        17 ~~~~~~l~~~~~~~~~~~~~~l~   39 (59)
+T YFIV_BACSU/47-   17 TLKVSDIAEKMGASLSNTTGLLD   39 (59)
+T ss_pred             CccHHHHHHHhCCCHHHHHHHHH
+Confidence            47899999999999999988744
+
+
+No 85
+>PF04218.13 ; CENP-B_N ; CENP-B N-terminal DNA-binding domain
+Probab=78.91  E-value=0.046  Score=21.87  Aligned_cols=25  Identities=24%  Similarity=0.308  Sum_probs=20.7  Template_Neff=12.900
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..++|..+|+++.|++++.+.
+T Consensus        22 ~~~~~~~~~~~~~~~~~~~~~~~~~   46 (54)
+T Q9VP44_DROME/2   22 TNISRNSLAKMFHCCATQIRRILDK   46 (54)
+T ss_pred             cCCCHHHHHHHhCCCHHHHHHHHHh
+Confidence            3468889999999999999988554
+
+
+No 86
+>PF09202.11 ; Rio2_N ; Rio2, N-terminal
+Probab=78.57  E-value=0.054  Score=26.31  Aligned_cols=29  Identities=10%  Similarity=0.003  Sum_probs=23.4  Template_Neff=11.100
+
+Q SRX3156367_131  156 PDLQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       156 pdlqerislkeialflgvtpetlsrirkk  184 (188)
+                      ++-.+.++..+||..+|+++.+++++-++
+T Consensus        19 ~~~~~~~~~~~l~~~~~~~~~~v~~~l~~   47 (83)
+T Q8ZYP5_PYRAE/9   19 HRRYEFVPEELITKWARYRREEVLDSIRR   47 (83)
+T ss_pred             hhcCCCCCHHHHHHHcCCCHHHHHHHHHH
+Confidence            33356788999999999999999987554
+
+
+No 87
+>PF16221.5 ; HTH_47 ; winged helix-turn-helix
+Probab=78.53  E-value=0.057  Score=27.43  Aligned_cols=26  Identities=19%  Similarity=0.069  Sum_probs=22.3  Template_Neff=10.000
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkqq  186 (188)
+                      ..|..|||..+|+++.|++++-++-.
+T Consensus        46 ~~s~~~la~~~~~~~~~v~~~~~~l~   71 (78)
+T D8PH49_9BACT/3   46 DHTLLKIAERAGLPFLTIKLAADALE   71 (78)
+T ss_pred             CccHHHHHHHHCCCHHHHHHHHHHHH
+Confidence            48999999999999999998866543
+
+
+No 88
+>PF16677.5 ; GP3_package ; DNA-packaging protein gp3
+Probab=78.23  E-value=0.059  Score=28.22  Aligned_cols=25  Identities=28%  Similarity=0.219  Sum_probs=21.8  Template_Neff=10.300
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      ..|..+||..+||++.|+.+.+++.
+T Consensus        29 ~~s~~~~~~~~gi~~~t~~~~~~~~   53 (100)
+T G4QH90_GLANF/1   29 VPSQAGLACELSVTRQTLVNWKEQH   53 (100)
+T ss_pred             CCcHHHHHHHcCCCHHHHHHHHHhC
+Confidence            4799999999999999999987653
+
+
+No 89
+>PF09397.10 ; FtsK_gamma ; Ftsk gamma domain
+Probab=77.64  E-value=0.066  Score=26.78  Aligned_cols=27  Identities=15%  Similarity=0.097  Sum_probs=23.3  Template_Neff=9.500
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkqq  186 (188)
+                      ..+|..+|+..+++++.+.|++-++-+
+T Consensus        18 ~~~s~~~l~~~l~i~~~~~~~li~~L~   44 (63)
+T V5RRF9_9BACT/6   18 GKASASLLQRKLSIGFSRAARIIDEME   44 (63)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHHHH
+Confidence            568999999999999999999876543
+
+
+No 90
+>PF05732.11 ; RepL ; Firmicute plasmid replication protein (RepL)
+Probab=77.33  E-value=0.067  Score=31.25  Aligned_cols=23  Identities=26%  Similarity=0.348  Sum_probs=20.9  Template_Neff=9.700
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      +|..|||..+|+|+.|+|++-++
+T Consensus        76 ~s~~ela~~l~~s~~tv~~~l~~   98 (164)
+T O50587_SELRU/6   76 MTQRKIAEKTGISLETVRQTMKA   98 (164)
+T ss_pred             EeHHHHHHHHCCCHHHHHHHHHH
+Confidence            89999999999999999998654
+
+
+No 91
+>PF07453.13 ; NUMOD1 ; NUMOD1 domain
+Probab=77.30  E-value=0.069  Score=24.53  Aligned_cols=23  Identities=13%  Similarity=0.177  Sum_probs=19.4  Template_Neff=9.400
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       159 qerislkeialflgvtpetlsri  181 (188)
+                      .+-.|++|.|.++|+++.|+++.
+T Consensus        17 ~~f~si~~aa~~l~~~~~~I~~~   39 (40)
+T Q02714_PODAN/4   17 SPFESKTQASNILGISRNVINYF   39 (40)
+T ss_pred             cccCCHHHHHHHHCCCHHHHHhh
+Confidence            35678899999999999998864
+
+
+No 92
+>PF16557.5 ; CUTL ; CUT1-like DNA-binding domain of SATB
+Probab=77.12  E-value=0.067  Score=26.32  Aligned_cols=24  Identities=8%  Similarity=-0.061  Sum_probs=20.8  Template_Neff=10.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++..++|..+|+++.++|++.+.
+T Consensus        22 ~~s~~~la~~~gis~~~i~~~~~g   45 (70)
+T W5M8W0_LEPOC/1   22 VPLFDTQLQLSPSVQSMISSIVNS   45 (70)
+T ss_pred             CCCHHHHHHHCCCCHHHHHHHHcC
+Confidence            567889999999999999998653
+
+
+No 93
+>PF18024.1 ; HTH_50 ; Helix-turn-helix domain
+Probab=77.06  E-value=0.057  Score=20.74  Aligned_cols=24  Identities=29%  Similarity=0.259  Sum_probs=19.6  Template_Neff=13.200
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      .+..++|.-+|+++.++++..++.
+T Consensus        24 ~~~~~~~~~~~~~~~~~~~~~~~~   47 (50)
+T A0A0E3W3S8_9FI   24 KSSRKVAKALGVSQTTIMRKVALY   47 (50)
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHHHc
+Confidence            466789999999999999876654
+
+
+No 94
+>PF05584.11 ; Sulfolobus_pRN ; Sulfolobus plasmid regulatory protein
+Probab=77.01  E-value=0.066  Score=25.66  Aligned_cols=25  Identities=20%  Similarity=0.193  Sum_probs=21.3  Template_Neff=10.800
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirk  183 (188)
+                      ..-++.+|||..+|+++.+++++-+
+T Consensus        16 ~~~~~~~~l~~~~~~~~~~~~~~l~   40 (72)
+T Q971R8_SULTO/6   16 RRCMTLEELQERTGAEKNTLLVYLT   40 (72)
+T ss_pred             cCCCCHHHHHHHHCCCHHHHHHHHH
+Confidence            5668899999999999999987644
+
+
+No 95
+>PF13744.6 ; HTH_37 ; Helix-turn-helix domain
+Probab=77.01  E-value=0.063  Score=25.33  Aligned_cols=24  Identities=21%  Similarity=0.319  Sum_probs=20.3  Template_Neff=11.400
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ..++.+++|..+|+++.+++++.+
+T Consensus        29 ~~~~~~~~a~~~~~~~~~v~~~~~   52 (79)
+T A1WI60_VEREI/1   29 NDWAPSEAAMHCGVAPPRRDDLLR   52 (79)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHc
+Confidence            346888999999999999998765
+
+
+No 96
+>PF13591.6 ; MerR_2 ; MerR HTH family regulatory protein
+Probab=77.01  E-value=0.068  Score=27.07  Aligned_cols=23  Identities=9%  Similarity=0.270  Sum_probs=19.3  Template_Neff=10.300
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      ++.+|+|..+||+++||.+..+.
+T Consensus         1 ~~~~e~a~~~gvs~~tl~~~~~~   23 (84)
+T A4AQL0_MARSH/7    1 VEVRKFCLGHGIETKFMLELHEF   23 (84)
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHHC
+Confidence            36789999999999999887653
+
+
+No 97
+>PF13463.6 ; HTH_27 ; Winged helix DNA-binding domain
+Probab=76.70  E-value=0.063  Score=23.54  Aligned_cols=25  Identities=16%  Similarity=0.101  Sum_probs=20.2  Template_Neff=12.100
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirk  183 (188)
+                      ...++.++||..+|+++.+++++-+
+T Consensus        15 ~~~~~~~~l~~~~~~~~~~~~~~l~   39 (67)
+T E3IXY4_FRAIE/2   15 NPGSSISEITARVEFPQSQVSACVA   39 (67)
+T ss_pred             CCCccHHHHHHHhCCCHHHHHHHHH
+Confidence            3567899999999999988877543
+
+
+No 98
+>PF09048.10 ; Cro ; Cro
+Probab=76.69  E-value=0.067  Score=24.45  Aligned_cols=24  Identities=21%  Similarity=0.239  Sum_probs=20.8  Template_Neff=11.000
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++.+++|.-+|+++.++|++.+.
+T Consensus        13 ~~s~~~la~~~~~~~~~i~~~~~~   36 (60)
+T RCRO_LAMBD/1-6   13 RFGQTKTAKDLGVYQSAINKAIHA   36 (60)
+T ss_pred             HhCHHHHHHHHCCCHHHHHHHHHc
+Confidence            578899999999999999987544
+
+
+No 99
+>PF05491.13 ; RuvB_C ; RuvB C-terminal winged helix domain
+Probab=76.68  E-value=0.067  Score=25.33  Aligned_cols=24  Identities=17%  Similarity=0.213  Sum_probs=20.9  Template_Neff=11.000
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ..++.++||..+|+++.|+++.-+
+T Consensus        22 ~~~~~~~ia~~~~~~~~~v~~~l~   45 (72)
+T L0EUI8_LIBCB/2   22 GPVGVETIAAGLSEPRDAIEDIIE   45 (72)
+T ss_pred             CCCCHHHHHHhcCCCHHHHHHHHH
+Confidence            458999999999999999988765
+
+
+No 100
+>PF02002.17 ; TFIIE_alpha ; TFIIE alpha subunit
+Probab=76.59  E-value=0.073  Score=28.55  Aligned_cols=25  Identities=12%  Similarity=0.198  Sum_probs=22.0  Template_Neff=9.900
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++.++||..+|+++.|+|++-++
+T Consensus        25 ~~~~~~~la~~l~i~~~~v~~~l~~   49 (104)
+T TFE_ARCFU/11-1   25 GEFTDDQLSLELGIEINEIRKALFA   49 (104)
+T ss_pred             CCcCHHHHHHHHCCCHHHHHHHHHH
+Confidence            5789999999999999999987654
+
+
+No 101
+>PF10078.9 ; DUF2316 ; Uncharacterized protein conserved in bacteria (DUF2316)
+Probab=76.48  E-value=0.071  Score=27.11  Aligned_cols=24  Identities=21%  Similarity=0.210  Sum_probs=20.4  Template_Neff=10.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .+|..++|..+|+++.++|++.+.
+T Consensus        23 ~~s~~~~a~~~gi~~~~i~~~e~g   46 (89)
+T F2I7H9_AERUA/1   23 GLSKQELAETLETSESYLDQVFQL   46 (89)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHcC
+Confidence            467889999999999999998653
+
+
+No 102
+>PF09012.10 ; FeoC ; FeoC like transcriptional regulator
+Probab=76.22  E-value=0.079  Score=27.41  Aligned_cols=24  Identities=17%  Similarity=0.300  Sum_probs=20.1  Template_Neff=9.100
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ..++..|||..+|+++.++++.-+
+T Consensus        12 ~~~t~~ela~~~~~s~~~v~~~l~   35 (69)
+T Q3J5H0_RHOS4/3   12 HQASLGDLAHRFRCDPAAMRGMVE   35 (69)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHH
+Confidence            367889999999999999986533
+
+
+No 103
+>PF08822.11 ; DUF1804 ; Protein of unknown function (DUF1804)
+Probab=75.30  E-value=0.086  Score=31.24  Aligned_cols=26  Identities=19%  Similarity=0.360  Sum_probs=22.4  Template_Neff=9.300
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkq  185 (188)
+                      +-.|.+|||..+||++.|+++..++.
+T Consensus        18 ~g~s~~eia~~~gvs~~tv~~W~k~~   43 (163)
+T A1TR81_ACIAC/1   18 QRLPMEAACKKVGVPRSTANRWKSEA   43 (163)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHHHH
+Confidence            45689999999999999999987763
+
+
+No 104
+>PF13309.6 ; HTH_22 ; HTH domain
+Probab=75.13  E-value=0.078  Score=23.87  Aligned_cols=24  Identities=21%  Similarity=0.206  Sum_probs=20.1  Template_Neff=11.400
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrir  182 (188)
+                      +-+.+..+||..+|+++.|+.+..
+T Consensus        39 ~~~~~~~~~a~~~~~s~~tv~~~~   62 (63)
+T R5CZI4_9FIRM/1   39 HTKGSIGQVARELHISEPTVYRYL   62 (63)
+T ss_pred             cccCcHHHHHHHhCCCHHHHHHhc
+Confidence            334899999999999999988764
+
+
+No 105
+>PF12964.7 ; DUF3853 ; Protein of unknown function (DUF3853)
+Probab=75.05  E-value=0.086  Score=28.07  Aligned_cols=28  Identities=25%  Similarity=0.338  Sum_probs=22.9  Template_Neff=9.700
+
+Q SRX3156367_131  157 DLQERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       157 dlqerislkeialflgvtpetlsrirkk  184 (188)
+                      .-..-++.+|+|..+|+++.|+.+..++
+T Consensus        41 ~~~~~~~~~e~a~~lgis~~t~~~~~~~   68 (96)
+T A6L360_BACV8/2   41 EKKYVYGIGGIARLFGCSMPTANRIKKS   68 (96)
+T ss_pred             cccceecHHHHHHHHCCCHHHHHHHHHc
+Confidence            3445678899999999999999887754
+
+
+No 106
+>PF13551.6 ; HTH_29 ; Winged helix-turn helix
+Probab=75.04  E-value=0.075  Score=22.57  Aligned_cols=24  Identities=29%  Similarity=0.239  Sum_probs=20.1  Template_Neff=12.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..+..+||..+|+++.|+++..++
+T Consensus        11 ~~~~~~~~~~~~~~~~~~~~~~~~   34 (60)
+T A6FJU9_9RHOB/1   11 GLSGRAAALRLKLSPATGARWGLA   34 (60)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            356789999999999999988654
+
+
+No 107
+>PF10668.9 ; Phage_terminase ; Phage terminase small subunit
+Probab=74.92  E-value=0.081  Score=24.51  Aligned_cols=24  Identities=21%  Similarity=0.325  Sum_probs=20.9  Template_Neff=11.100
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkkq  185 (188)
+                      ++..+||..+|+++.|+.+..+..
+T Consensus        23 ~~~~~ia~~~~~~~~tv~~~~~~~   46 (67)
+T A5MYN5_CLOK5/1   23 LLCKDIAKVLNVSESQVRNWKAQD   46 (67)
+T ss_pred             ccHHHHHHHhCCCHHHHHHHHHhc
+Confidence            789999999999999999876553
+
+
+No 108
+>PF08221.11 ; HTH_9 ; RNA polymerase III subunit RPC82 helix-turn-helix domain
+Probab=74.62  E-value=0.085  Score=24.47  Aligned_cols=25  Identities=12%  Similarity=-0.020  Sum_probs=21.2  Template_Neff=10.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..+||..+|+++.+++++-++
+T Consensus        26 ~~~~~~~l~~~~~~~~~~v~~~l~~   50 (62)
+T RPC3_YARLI/16-   26 GRQTAAELAKTTKLPLSAVHSGLAA   50 (62)
+T ss_pred             ccCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            3678899999999999999987654
+
+
+No 109
+>PF00440.23 ; TetR_N ; Bacterial regulatory proteins, tetR family
+Probab=74.21  E-value=0.083  Score=21.57  Aligned_cols=22  Identities=32%  Similarity=0.285  Sum_probs=19.0  Template_Neff=11.900
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       162 islkeialflgvtpetlsrirk  183 (188)
+                      +++.+||..+|+++.|+++.-+
+T Consensus        16 ~~~~~i~~~~~~~~~~~~~~~~   37 (46)
+T O53612_MYCTU/1   16 VPVDEIARRAGVGAGTVYRHFP   37 (46)
+T ss_pred             CcHHHHHHHHCCCHHHHHHhCC
+Confidence            7899999999999999977544
+
+
+No 110
+>PF13011.6 ; LZ_Tnp_IS481 ; leucine-zipper of insertion element IS481
+Probab=74.20  E-value=0.082  Score=24.01  Aligned_cols=25  Identities=24%  Similarity=0.340  Sum_probs=21.2  Template_Neff=12.200
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..+..+||..+|+++.|+.+..++
+T Consensus        23 ~~~~~~~~~~~~~~~~~~~~~~~~~   47 (84)
+T O86023_CLAMS/1   23 DRRPVAHVARELGVSRQCAHRWVNR   47 (84)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            4578899999999999999887654
+
+
+No 111
+>PF01978.19 ; TrmB ; Sugar-specific transcriptional regulator TrmB
+Probab=73.64  E-value=0.091  Score=24.22  Aligned_cols=25  Identities=12%  Similarity=0.170  Sum_probs=20.6  Template_Neff=11.200
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +.+|..|||..+|+++.|+++.-+.
+T Consensus        21 ~~~s~~~i~~~~~~~~~~~~~~l~~   45 (68)
+T O27503_METTH/1   21 VSARAVEVAEVSGIPRSRVYEVLRQ   45 (68)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            3678899999999999998876543
+
+
+No 112
+>PF13022.6 ; HTH_Tnp_1_2 ; Helix-turn-helix of insertion element transposase
+Probab=73.43  E-value=0.097  Score=27.84  Aligned_cols=25  Identities=36%  Similarity=0.522  Sum_probs=21.5  Template_Neff=10.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +.+|+.+||..+||++.|+.+..+.
+T Consensus        24 ~~~t~~~ia~~~gis~~t~y~~~~~   48 (124)
+T C8VXN7_DESAS/1   24 HEMSLAQIAEHVGVSQRTLYRWKHD   48 (124)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHhC
+Confidence            4569999999999999999887644
+
+
+No 113
+>PF05043.13 ; Mga ; Mga helix-turn-helix domain
+Probab=73.13  E-value=0.1  Score=27.14  Aligned_cols=27  Identities=15%  Similarity=0.064  Sum_probs=22.7  Template_Neff=9.800
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkkq  185 (188)
+                      .+.++++++|..+|||+.|+.|-.++-
+T Consensus        28 ~~~~~~~~la~~~~iS~~ti~~~l~~l   54 (88)
+T Q8Y9R4_LISMO/7   28 ASFPNLQALAKKVHVSYSGIKKEIKEL   54 (88)
+T ss_pred             CCCCCHHHHHHHcCCCHHHHHHHHHHH
+Confidence            467899999999999999998865543
+
+
+No 114
+>PF06892.11 ; Phage_CP76 ; Phage regulatory protein CII (CP76)
+Probab=72.78  E-value=0.11  Score=31.00  Aligned_cols=35  Identities=20%  Similarity=0.220  Sum_probs=25.1  Template_Neff=8.900
+
+Q SRX3156367_131  148 YQALMKRCPDLQERISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       148 yqalmkrcpdlqerislkeialflgvtpetlsrir  182 (188)
+                      +.++...|-++-.+.+..+||..+|+++.|+++..
+T Consensus         6 ~~~~~~a~~~~~~~~g~~~~A~~lg~s~~tl~~~~   40 (157)
+T U3U1D3_9ENTR/4    6 HNQYDDACRKFALTHSMAELAQRAGMKAQTLRNKL   40 (157)
+T ss_pred             chHHHHHHHHHHHHCCHHHHHHHhCCCHHHHHHhC
+Confidence            33444444444445789999999999999998754
+
+
+No 115
+>PF00196.19 ; GerE ; Bacterial regulatory proteins, luxR family
+Probab=72.66  E-value=0.095  Score=21.94  Aligned_cols=24  Identities=33%  Similarity=0.235  Sum_probs=19.7  Template_Neff=12.200
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ...+.++||..+|+++.++.+..+
+T Consensus        16 ~~~~~~~i~~~l~~~~~~v~~~~~   39 (57)
+T FIMZ_ECOLI/148   16 SGLSNKEIADKLLLSNKTVSAHKS   39 (57)
+T ss_pred             cCCCHHHHHHHhCCCHHHHHHHHH
+Confidence            356889999999999999877644
+
+
+No 116
+>PF05344.11 ; DUF746 ; Domain of Unknown Function (DUF746)
+Probab=72.62  E-value=0.11  Score=24.86  Aligned_cols=25  Identities=32%  Similarity=0.462  Sum_probs=20.5  Template_Neff=10.200
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      .-.|.++||..+||++.|+++..++
+T Consensus        11 ~g~s~~~ia~~~~vs~~~v~~w~~~   35 (62)
+T Q8Y104_RALSO/1   11 QQISLEEASFRLGLDVECISNWLAR   35 (62)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            3457899999999999999876654
+
+
+No 117
+>PF18334.1 ; XRN1_D2_D3 ; Exoribonuclease Xrn1 D2/D3 domain
+Probab=72.48  E-value=0.12  Score=28.67  Aligned_cols=21  Identities=33%  Similarity=0.480  Sum_probs=18.2  Template_Neff=8.300
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       162 islkeialflgvtpetlsrir  182 (188)
+                      .+..++|..||+++.+||||-
+T Consensus        63 ~~~~~~a~~l~is~~~LsrIT   83 (86)
+T S3D7Q9_GLAL2/9   63 TPSYAVAKMLGLHPLVLSKIT   83 (86)
+T ss_pred             ccHHHHHHHHCCCHHHHHHHh
+Confidence            356689999999999999984
+
+
+No 118
+>PF09862.9 ; DUF2089 ; Protein of unknown function (DUF2089)
+Probab=72.26  E-value=0.1  Score=26.40  Aligned_cols=25  Identities=24%  Similarity=0.165  Sum_probs=20.7  Template_Neff=11.100
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ...|+++||..+|+++.|+.++.++
+T Consensus        48 ~~~s~~~ia~~~~~s~~tv~~~~~~   72 (110)
+T E6X0Y6_NITSE/4   48 YGGNLKEMSEALDISYPTLKKRLNA   72 (110)
+T ss_pred             cCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            4567899999999999999887653
+
+
+No 119
+>PF05269.11 ; Phage_CII ; Bacteriophage CII protein
+Probab=72.19  E-value=0.12  Score=28.32  Aligned_cols=25  Identities=20%  Similarity=0.328  Sum_probs=21.4  Template_Neff=8.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..+|.+++|..+||++.|+|++...
+T Consensus        22 ~~lt~~~lA~~~gvs~~~is~~e~g   46 (91)
+T RPC2_LAMBD/1-9   22 AMLGTEKTAEAVGVDKSQISRWKRD   46 (91)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHcC
+Confidence            3578899999999999999998653
+
+
+No 120
+>PF04703.12 ; FaeA ; FaeA-like protein
+Probab=71.85  E-value=0.11  Score=23.15  Aligned_cols=23  Identities=26%  Similarity=-0.047  Sum_probs=19.6  Template_Neff=11.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      .++..+|+..+|+++.|++++-+
+T Consensus        14 ~~~~~~l~~~~~~~~~~~~~~l~   36 (61)
+T KS71A_ECOLX/5-   14 GGKTAEIAEALAVTDYQARYYLL   36 (61)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHH
+Confidence            57889999999999999987654
+
+
+No 121
+>PF17783.1 ; CvfB_WH ; CvfB-like winged helix domain
+Probab=69.91  E-value=0.13  Score=22.24  Aligned_cols=25  Identities=12%  Similarity=0.187  Sum_probs=19.3  Template_Neff=11.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..+||..+|+++.++++.-++
+T Consensus        18 ~~~~~~~l~~~~~~~~~~~~~~l~~   42 (58)
+T R6Y086_9FIRM/2   18 NSSTPEEISRHFNMSKSAFKRAVGA   42 (58)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            4455569999999999999876543
+
+
+No 122
+>PF02082.20 ; Rrf2 ; Transcriptional regulator
+Probab=69.66  E-value=0.13  Score=24.19  Aligned_cols=23  Identities=17%  Similarity=0.317  Sum_probs=19.7  Template_Neff=11.400
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      +|..+||..+|+++.|+++.-+.
+T Consensus        25 ~s~~~l~~~~~~~~~~~~~~l~~   47 (82)
+T Y268_AQUAE/1-8   25 VKVEEIAKVHKIPRPFLAKVMHE   47 (82)
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHHH
+Confidence            78899999999999999886543
+
+
+No 123
+>PF00126.27 ; HTH_1 ; Bacterial regulatory helix-turn-helix protein, lysR family
+Probab=68.58  E-value=0.14  Score=21.71  Aligned_cols=20  Identities=30%  Similarity=0.316  Sum_probs=17.2  Template_Neff=11.900
+
+Q SRX3156367_131  163 SLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       163 slkeialflgvtpetlsrir  182 (188)
+                      +..+||..+++++.++++.-
+T Consensus        13 ~~~~~a~~~~~~~~~v~~~i   32 (57)
+T A6TI51_KLEP7/6   13 SFQSAARALGLAQPTVSQHL   32 (57)
+T ss_pred             CHHHHHHHcCCCHHHHHHHH
+Confidence            78889999999999998643
+
+
+No 124
+>PF03444.15 ; HrcA_DNA-bdg ; Winged helix-turn-helix transcription repressor, HrcA DNA-binding
+Probab=68.29  E-value=0.14  Score=23.74  Aligned_cols=25  Identities=20%  Similarity=0.250  Sum_probs=20.8  Template_Neff=11.500
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..+||..+|+++.|++++-+.
+T Consensus        23 ~~~~~~~l~~~~~~~~~t~~~~l~~   47 (80)
+T O30125_ARCFU/5   23 GSVKGEEIAELINRNPGTVRNQMQA   47 (80)
+T ss_pred             CceeHHHHHHHhCCCHHHHHHHHHH
+Confidence            4578899999999999999886543
+
+
+No 125
+>PF14947.6 ; HTH_45 ; Winged helix-turn-helix
+Probab=67.63  E-value=0.15  Score=23.72  Aligned_cols=26  Identities=12%  Similarity=-0.004  Sum_probs=21.5  Template_Neff=11.300
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      ...++..|||..+|+++.|+++.-+.
+T Consensus        14 ~~~~~~~~i~~~~~~~~~~~~~~l~~   39 (77)
+T Q3Z6R2_DEHM1/6   14 LGEAGKTEIMYSVNMSYFQLQKYLNF   39 (77)
+T ss_pred             cCCCCHHHHHHHcCCCHHHHHHHHHH
+Confidence            55689999999999999998886443
+
+
+No 126
+>PF07848.12 ; PaaX ; PaaX-like protein
+Probab=67.50  E-value=0.16  Score=23.38  Aligned_cols=25  Identities=16%  Similarity=0.227  Sum_probs=19.6  Template_Neff=11.200
+
+Q SRX3156367_131  160 ERISLKEIALF---LGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialf---lgvtpetlsrirkk  184 (188)
+                      ..++..+|+..   +|+++.|+++.-+.
+T Consensus        19 ~~~~~~~i~~~~~~~~~s~~~v~~~l~~   46 (70)
+T Q7VVH9_BORPE/2   19 GAIWLGDLIELLAPIGINERLLRTSVFR   46 (70)
+T ss_pred             CcEeHHHHHHHHHhhCCCHHHHHHHHHH
+Confidence            45777888888   99999999876554
+
+
+No 127
+>PF08220.12 ; HTH_DeoR ; DeoR-like helix-turn-helix domain
+Probab=66.58  E-value=0.16  Score=21.44  Aligned_cols=24  Identities=21%  Similarity=0.279  Sum_probs=19.6  Template_Neff=11.900
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++..+||..+|+++.+++++-+.
+T Consensus        14 ~~~~~~i~~~~~~~~~~~~~~l~~   37 (57)
+T SRLR_ECOLI/6-6   14 KCSVEELAQYFDTTGTTIRKDLVI   37 (57)
+T ss_pred             CeeHHHHHHHhCCCHHHHHHHHHH
+Confidence            578899999999999998776443
+
+
+No 128
+>PF17782.1 ; DprA_WH ; DprA winged helix domain
+Probab=66.36  E-value=0.17  Score=22.22  Aligned_cols=24  Identities=8%  Similarity=0.086  Sum_probs=19.8  Template_Neff=11.500
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ..++..+|+..+|+++.+++++-+
+T Consensus        24 ~~~~~~~i~~~~~~~~~~~~~~l~   47 (61)
+T A5EWL6_DICNV/3   24 DPWRVDDLVEKTHLTAAEISAMLL   47 (61)
+T ss_pred             CCccHHHHHHHcCCCHHHHHHHHH
+Confidence            568999999999999988876543
+
+
+No 129
+>PF16509.5 ; KORA ; TrfB plasmid transcriptional repressor
+Probab=66.28  E-value=0.18  Score=24.96  Aligned_cols=25  Identities=12%  Similarity=0.159  Sum_probs=20.3  Template_Neff=10.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..+.++||.-+|+++.|+++..++
+T Consensus        30 ~g~~~~~ia~~~~~s~~tv~~~~~~   54 (87)
+T D8MJI7_ERWBE/7   30 KDEKQSDVATNLARSKQNVGNAVKR   54 (87)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            3578999999999999999775443
+
+
+No 130
+>PF13560.6 ; HTH_31 ; Helix-turn-helix domain
+Probab=66.05  E-value=0.17  Score=22.02  Aligned_cols=25  Identities=8%  Similarity=0.303  Sum_probs=20.2  Template_Neff=11.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..++..++|..+|+++.+++++.+.
+T Consensus        13 ~~~~~~~~a~~~g~~~~~~~~~~~~   37 (64)
+T D3F7Y3_CONWI/6   13 NRATIQQLGSASGLHHNYVATLERG   37 (64)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHcC
+Confidence            3567889999999999999887653
+
+
+No 131
+>PF09681.10 ; Phage_rep_org_N ; N-terminal phage replisome organiser (Phage_rep_org_N)
+Probab=65.77  E-value=0.19  Score=26.78  Aligned_cols=25  Identities=4%  Similarity=-0.056  Sum_probs=21.0  Template_Neff=10.300
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      .++..+||.-+|++++|+++.-+.-
+T Consensus        53 ~~~~~~ia~~~g~~~~~v~~~l~~L   77 (121)
+T Q8Y4W2_LISMO/6   53 PYTEDMLATLFNRDVGIIRVTLHTL   77 (121)
+T ss_pred             CCCHHHHHHHcCCCHHHHHHHHHHH
+Confidence            5678999999999999998876543
+
+
+No 132
+>PF13518.6 ; HTH_28 ; Helix-turn-helix domain
+Probab=65.52  E-value=0.17  Score=19.55  Aligned_cols=22  Identities=27%  Similarity=0.391  Sum_probs=18.5  Template_Neff=12.900
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       162 islkeialflgvtpetlsrirk  183 (188)
+                      .+.+++|..+|+++.++.+..+
+T Consensus        12 ~~~~~~~~~~~~~~~~~~~~~~   33 (51)
+T A7I016_CAMHC/1   12 HSVKVATEFFGISNKNIYRWIK   33 (51)
+T ss_pred             CCHHHHHHHHCCCHHHHHHHHH
+Confidence            4788999999999999887654
+
+
+No 133
+>PF06530.12 ; Phage_antitermQ ; Phage antitermination protein Q
+Probab=65.50  E-value=0.19  Score=26.75  Aligned_cols=23  Identities=22%  Similarity=0.203  Sum_probs=19.2  Template_Neff=10.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      ..|.++||..+|+|+.|+.+...
+T Consensus        78 ~~s~~~ia~~l~~s~~~v~~~~~  100 (118)
+T T0NXT1_PHOTE/1   78 GLSKRSIARLLEVSDIEVRSRLQ  100 (118)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHH
+Confidence            48899999999999999876543
+
+
+No 134
+>PF12840.7 ; HTH_20 ; Helix-turn-helix domain
+Probab=65.07  E-value=0.19  Score=21.92  Aligned_cols=27  Identities=19%  Similarity=0.112  Sum_probs=21.6  Template_Neff=11.600
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkkq  185 (188)
+                      ...++.++||.-+|++..|++++-++-
+T Consensus        22 ~~~~~~~~l~~~~~~~~~~~~~~l~~l   48 (61)
+T A7I8K5_METB6/5   22 EGPLSLSDIANRLEISMNAAKYHIVNL   48 (61)
+T ss_pred             CCCcCHHHHHHHhCCCHHHHHHHHHHH
+Confidence            456788999999999999988776543
+
+
+No 135
+>PF13443.6 ; HTH_26 ; Cro/C1-type HTH DNA-binding domain
+Probab=64.73  E-value=0.19  Score=22.04  Aligned_cols=23  Identities=13%  Similarity=0.122  Sum_probs=18.9  Template_Neff=11.700
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      .++..++|..+|+++.+++++..
+T Consensus        10 ~~~~~~~a~~~gi~~~~i~~~~~   32 (65)
+T D4J5V8_9FIRM/1   10 GYTKVSFAAKADISRPTLDKLLN   32 (65)
+T ss_pred             CCCHHHHHHHcCCCHHHHHHHHc
+Confidence            46788899999999999888654
+
+
+No 136
+>PF04539.16 ; Sigma70_r3 ; Sigma-70 region 3
+Probab=64.23  E-value=0.2  Score=23.42  Aligned_cols=23  Identities=22%  Similarity=0.209  Sum_probs=18.3  Template_Neff=11.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      ..+.+|||..+|++++.+.++..
+T Consensus        20 ~ps~~eia~~l~~~~~~i~~~~~   42 (78)
+T SIGA_STAA8/214   20 DPAPEEIGEEMDLPAEKVREILK   42 (78)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHH
+Confidence            45778999999999988776643
+
+
+No 137
+>PF10007.9 ; DUF2250 ; Uncharacterized protein conserved in archaea (DUF2250)
+Probab=64.13  E-value=0.21  Score=25.20  Aligned_cols=23  Identities=9%  Similarity=-0.140  Sum_probs=19.9  Template_Neff=10.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      .+++++||..+|+++.|+++.-+
+T Consensus        22 ~~~~~~i~~~~~~~~~~~~~~l~   44 (93)
+T A4YIE5_METS5/1   22 ADHALTYAKLTKKDLEEVNSKLE   44 (93)
+T ss_pred             CccHHHHHHHhCCCHHHHHHHHH
+Confidence            67899999999999999887644
+
+
+No 138
+>PF01371.19 ; Trp_repressor ; Trp repressor protein
+Probab=63.35  E-value=0.22  Score=24.42  Aligned_cols=24  Identities=25%  Similarity=0.299  Sum_probs=20.3  Template_Neff=10.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      +..+.++||..+|+++.|+++...
+T Consensus        47 ~~~~~~~ia~~~~~~~~tv~~~~~   70 (87)
+T Q8ES89_OCEIH/9   47 EGNTYSAIEKETKASTATISRVRR   70 (87)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHH
+Confidence            457889999999999999997644
+
+
+No 139
+>PF03297.15 ; Ribosomal_S25 ; S25 ribosomal protein
+Probab=63.12  E-value=0.25  Score=27.57  Aligned_cols=26  Identities=8%  Similarity=-0.018  Sum_probs=21.8  Template_Neff=8.600
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      .+.++..+||..+|+++.|++++-+.
+T Consensus        54 ~~~~t~~eia~~lgls~~tv~r~l~~   79 (102)
+T C5LC43_PERM5/4   54 AKLITPAIVSERIKVNGSLARQALRM   79 (102)
+T ss_pred             CCCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            34789999999999999999887543
+
+
+No 140
+>PF04936.12 ; DUF658 ; Protein of unknown function (DUF658)
+Probab=61.19  E-value=0.29  Score=29.95  Aligned_cols=24  Identities=17%  Similarity=0.196  Sum_probs=20.4  Template_Neff=8.700
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..|..|||..+||++.|+.+..++
+T Consensus        88 ~~t~~eia~~lgvs~~ti~~~~~~  111 (186)
+T Q9CGR9_LACLA/4   88 TGTAREISQFLKIGKHNVYSYIQV  111 (186)
+T ss_pred             ceeHHHHHHHhCCCHHHHHHHHHc
+Confidence            458999999999999999886543
+
+
+No 141
+>PF07789.12 ; DUF1627 ; Protein of unknown function (DUF1627)
+Probab=61.06  E-value=0.32  Score=30.58  Aligned_cols=25  Identities=20%  Similarity=0.270  Sum_probs=21.5  Template_Neff=7.300
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ..+|.+|||..||++..|+||.-++
+T Consensus         5 ~~iS~~ELA~~Lgls~stvsr~L~~   29 (155)
+T A0A0H3JF00_ECO    5 GPQTADELALMFGITSRRANSSLAM   29 (155)
+T ss_pred             CCcCHHHHHHHHCCCHHHHHHHHHH
+Confidence            4689999999999999999986543
+
+
+No 142
+>PF06242.11 ; DUF1013 ; Protein of unknown function (DUF1013)
+Probab=60.87  E-value=0.39  Score=32.75  Aligned_cols=32  Identities=25%  Similarity=0.508  Sum_probs=26.4  Template_Neff=3.800
+
+Q SRX3156367_131  150 ALMKRCPDLQERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       150 almkrcpdlqerislkeialflgvtpetlsrirkkq  185 (188)
+                      -|.|.||+|    |-.+|+..+|.|..|+..||.+-
+T Consensus        76 Wllk~~Pel----sD~QI~KLiGTTK~TI~aIR~rt  107 (137)
+T G2KQQ1_MICAA/4   76 YILKHHPEI----SDAQICKLVGTTKPTIDAVRTRS  107 (137)
+T ss_pred             HHHHHCCCC----CHHHHHHHHCCCHHHHHHHHhcC
+Confidence            366778875    55799999999999999999763
+
+
+No 143
+>PF06322.11 ; Phage_NinH ; Phage NinH protein
+Probab=60.37  E-value=0.26  Score=21.02  Aligned_cols=23  Identities=17%  Similarity=0.095  Sum_probs=19.2  Template_Neff=11.800
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      .+..++|..+|+++.|+.+..++
+T Consensus        17 ~~~~~~a~~~~i~~~t~~~~~~~   39 (60)
+T NINH_LAMBD/1-6   17 GNQTEVARRLKCSRGTVRKYVDD   39 (60)
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHhc
+Confidence            46789999999999999887655
+
+
+No 144
+>PF04297.14 ; UPF0122 ; Putative helix-turn-helix protein, YlxM / p13 like
+Probab=60.20  E-value=0.28  Score=24.44  Aligned_cols=24  Identities=21%  Similarity=0.297  Sum_probs=20.1  Template_Neff=10.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ...+..+||..+|+++.|+++..+
+T Consensus        32 ~g~~~~~ia~~~~~s~~~v~~~~~   55 (96)
+T Y142_UREPA/4-9   32 KDLSFSEIAELKEISKSAISDCLN   55 (96)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHH
+Confidence            457888999999999999986654
+
+
+No 145
+>PF13994.6 ; PgaD ; PgaD-like protein
+Probab=60.13  E-value=0.31  Score=28.49  Aligned_cols=25  Identities=28%  Similarity=0.489  Sum_probs=21.5  Template_Neff=8.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      -.|..|+|.++|++++.+.++|..+
+T Consensus       101 ~v~~~ela~~~~~~~~~l~~~q~~k  125 (137)
+T Q7NTW3_CHRVO/1  101 AVAEREVAQALGIAETELARGRRSK  125 (137)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHhhCC
+Confidence            3789999999999999998887654
+
+
+No 146
+>PF13338.6 ; AbiEi_4 ; Transcriptional regulator, AbiEi antitoxin
+Probab=59.99  E-value=0.27  Score=20.75  Aligned_cols=24  Identities=21%  Similarity=0.407  Sum_probs=18.7  Template_Neff=11.600
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ..++..||+..+|+++.++++.-+
+T Consensus        12 ~~~~~~~l~~~~~~~~~~~~~~l~   35 (54)
+T A8ZVS7_DESOH/1   12 RYFGYEELARLLGIAPASARVAAN   35 (54)
+T ss_pred             CccCHHHHHHHhCCCHHHHHHHHH
+Confidence            357788999999999988776443
+
+
+No 147
+>PF12824.7 ; MRP-L20 ; Mitochondrial ribosomal protein subunit L20
+Probab=59.75  E-value=0.36  Score=31.39  Aligned_cols=25  Identities=12%  Similarity=0.142  Sum_probs=21.9  Template_Neff=6.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      ..|.++||..+|||+.++++|.+..
+T Consensus       107 ~~S~~~LAkkFgvS~~~V~~I~~~~  131 (167)
+T B6HEW3_PENRW/2  107 TWSRNKLAKRFECSPVFIAMVCQAS  131 (167)
+T ss_pred             cCCHHHHHHHHCCCHHHHHHHhcCC
+Confidence            5799999999999999999987543
+
+
+No 148
+>PF09645.10 ; F-112 ; F-112 protein
+Probab=59.28  E-value=0.47  Score=29.87  Aligned_cols=21  Identities=29%  Similarity=0.414  Sum_probs=18.5  Template_Neff=2.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       161 rislkeialflgvtpetlsri  181 (188)
+                      .||+.|||..+||+|.|.-.+
+T Consensus        19 Els~eDIaa~~~vs~ssayaV   39 (69)
+T Y070_ATV/2-70    19 EITAEDIIAIYNVTPSVAYAI   39 (69)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHH
+Confidence            589999999999999987655
+
+
+No 149
+>PF07141.11 ; Phage_term_sma ; Putative bacteriophage terminase small subunit
+Probab=59.15  E-value=0.34  Score=29.88  Aligned_cols=25  Identities=20%  Similarity=0.215  Sum_probs=21.7  Template_Neff=8.200
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      -.|..+||..+|||+.|+.+.+++.
+T Consensus        31 G~t~~~ia~~lGIs~~T~y~W~~~~   55 (174)
+T A0A023J381_BPL   31 GCNDREIYTSLHCSAKTFRKWRDDN   55 (174)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHHhC
+Confidence            5688999999999999999877653
+
+
+No 150
+>PF01527.20 ; HTH_Tnp_1 ; Transposase
+Probab=57.79  E-value=0.3  Score=21.04  Aligned_cols=25  Identities=40%  Similarity=0.351  Sum_probs=20.9  Template_Neff=12.100
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      ...+..+||.-+|+++.|+++..++
+T Consensus        20 ~~~~~~~~~~~~g~~~~~~~~~~~~   44 (70)
+T Q039U6_LACP3/4   20 SSKPVKIIASELGVPESALYRWRKL   44 (70)
+T ss_pred             CCCcHHHHHHHHCCCHHHHHHHHHH
+Confidence            4678999999999999999886554
+
+
+No 151
+>PF09607.10 ; BrkDBD ; Brinker DNA-binding domain
+Probab=57.33  E-value=0.31  Score=19.65  Aligned_cols=22  Identities=23%  Similarity=0.258  Sum_probs=17.6  Template_Neff=12.200
+
+Q SRX3156367_131  163 SLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       163 slkeialflgvtpetlsrirkkq  185 (188)
+                      +.. ||..+|+++.|+.+..++.
+T Consensus        23 ~~~-i~~~~~i~~~~~~~~~~~~   44 (53)
+T H0WDQ2_CAVPO/1   23 NCQ-AAKQFGVLEKNVRDWRKVK   44 (53)
+T ss_pred             hHH-HHHHHCCCHHHHHHHHHHH
+Confidence            445 9999999999999876543
+
+
+No 152
+>PF01710.16 ; HTH_Tnp_IS630 ; Transposase
+Probab=56.95  E-value=0.32  Score=23.55  Aligned_cols=24  Identities=42%  Similarity=0.451  Sum_probs=19.4  Template_Neff=11.900
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..+..+|+..+|++..|+.++-++
+T Consensus        70 ~~~~~~i~~~~~~s~~ti~~~l~~   93 (120)
+T P74059_SYNY3/1   70 DMLLKERAKKFGITPASLCYQFKK   93 (120)
+T ss_pred             hhhHHHHHHHHCCCHHHHHHHHHH
+Confidence            357889999999999999887543
+
+
+No 153
+>PF07022.13 ; Phage_CI_repr ; Bacteriophage CI repressor helix-turn-helix domain
+Probab=56.73  E-value=0.33  Score=21.31  Aligned_cols=14  Identities=14%  Similarity=0.230  Sum_probs=6.6  Template_Neff=11.500
+
+Q SRX3156367_131  164 LKEIALFLGVTPET  177 (188)
+Q Consensus       164 lkeialflgvtpet  177 (188)
+                      +..|+..+||+++.
+T Consensus        43 ~~~~~~~~~~~~~~   56 (65)
+T Q7MJL1_VIBVY/8   43 IVEISVEHNLSIDD   56 (65)
+T ss_pred             HHHHHHHcCCCHHH
+Confidence            33444555555443
+
+
+No 154
+>PF13601.6 ; HTH_34 ; Winged helix DNA-binding domain
+Probab=56.00  E-value=0.35  Score=22.14  Aligned_cols=25  Identities=24%  Similarity=0.169  Sum_probs=20.0  Template_Neff=11.500
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +.++.++||..+|+++.+++++-++
+T Consensus        13 ~~~~~~~l~~~~~~~~~~~~~~l~~   37 (80)
+T A6KXK7_BACV8/1   13 EEAEFSYLKQQTGATAGNLSVQIDK   37 (80)
+T ss_pred             ChhhHHHHHHHHCCCcchHHHHHHH
+Confidence            4678899999999999888776544
+
+
+No 155
+>PF13171.6 ; DUF4004 ; Protein of unknown function (DUF4004)
+Probab=55.63  E-value=0.43  Score=30.02  Aligned_cols=24  Identities=33%  Similarity=0.462  Sum_probs=20.7  Template_Neff=8.100
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .++.+|+|..+|||+.|+-+..++
+T Consensus         2 llt~~ela~~~gvS~~tl~~~~~~   25 (197)
+T F6D3P3_METPW/4    2 LISKKELLELMGISYGQLYRWKRK   25 (197)
+T ss_pred             cccHHHHHHHHCCCHHHHHHHHHC
+Confidence            368899999999999999887654
+
+
+No 156
+>PF06627.11 ; DUF1153 ; Protein of unknown function (DUF1153)
+Probab=55.33  E-value=0.4  Score=24.31  Aligned_cols=40  Identities=10%  Similarity=0.017  Sum_probs=27.0  Template_Neff=9.900
+
+Q SRX3156367_131  143 TPEQRYQALMKRCPDLQERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       143 tpeqryqalmkrcpdlqerislkeialflgvtpetlsrirkkq  185 (188)
+                      +++.+.+.+...   +....+..+||..+||++.++.+..++-
+T Consensus        31 s~~~k~~i~~~~---~~~~~s~~~ia~~~~is~~~i~~w~~~~   70 (87)
+T J7QL57_METSZ/4   31 VIRRKAEVVAAV---RGGLLSLDEACSRYTLTVDEFLSWQMSI   70 (87)
+T ss_pred             CHHHHHHHHHHH---HCCCCCHHHHHHHhCCCHHHHHHHHHHH
+Confidence            345555554322   1233678999999999999998876653
+
+
+No 157
+>PF18552.1 ; PheRS_DBD1 ; PheRS DNA binding domain 1
+Probab=55.10  E-value=0.44  Score=24.15  Aligned_cols=25  Identities=16%  Similarity=0.113  Sum_probs=21.4  Template_Neff=8.400
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkq  185 (188)
+                      .++..|||.-+|+++.+++++-++-
+T Consensus        18 ~~~~~~la~~l~i~~~~V~~~l~~L   42 (59)
+T F6UF05_CIOIN/2   18 AVDSNVLAAALEVDHQAIVGAIKSI   42 (59)
+T ss_pred             CcCHHHHHHHhCCCHHHHHHHHHHH
+Confidence            6788999999999999998876653
+
+
+No 158
+>PF03965.16 ; Penicillinase_R ; Penicillinase repressor
+Probab=53.58  E-value=0.43  Score=24.59  Aligned_cols=24  Identities=13%  Similarity=0.115  Sum_probs=20.3  Template_Neff=10.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVT-----PETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvt-----petlsrirkk  184 (188)
+                      .++..|||..++++     +.|+++.-++
+T Consensus        18 ~~t~~ei~~~~~~~~~~~~~~~v~~~l~~   46 (117)
+T Q8YAA2_LISMO/6   18 AVQYADVAGKLEEKNYSWKKNTVLTFLTR   46 (117)
+T ss_pred             CccHHHHHHHHHHcCCCCCHHHHHHHHHH
+Confidence            38999999999999     9999886544
+
+
+No 159
+>PF16864.5 ; Dimerisation2 ; Dimerisation domain
+Probab=51.64  E-value=0.49  Score=23.19  Aligned_cols=26  Identities=4%  Similarity=0.026  Sum_probs=21.8  Template_Neff=10.400
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      .+-++..|||..+|++|.++.++.+.
+T Consensus        30 ~~~~~~~~la~~~~~~~~~~~~~l~~   55 (85)
+T G3ULX0_LOXAF/2   30 GAVLTAEDVAGKINASVCGTEQLLDA   55 (85)
+T ss_pred             CCCCCHHHHHHHcCCCHHHHHHHHHH
+Confidence            35688899999999999999887654
+
+
+No 160
+>PF06163.11 ; DUF977 ; Bacterial protein of unknown function (DUF977)
+Probab=51.57  E-value=0.51  Score=25.30  Aligned_cols=24  Identities=21%  Similarity=0.408  Sum_probs=20.3  Template_Neff=9.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirk  183 (188)
+                      ..++..|||..+|+++.|+++.-+
+T Consensus        25 ~~~t~~~la~~~~vs~~tv~~~l~   48 (115)
+T H9L445_SALTY/1   25 GRITTNDVVAIFGVHRTTAEKYLR   48 (115)
+T ss_pred             CCCCHHHHHHHHCCCHHHHHHHHH
+Confidence            347899999999999999988744
+
+
+No 161
+>PF02001.16 ; DUF134 ; Protein of unknown function  DUF134
+Probab=50.02  E-value=0.55  Score=23.93  Aligned_cols=24  Identities=25%  Similarity=0.364  Sum_probs=20.2  Template_Neff=10.000
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..+.++||.-+|+++.|+++...+
+T Consensus        47 g~~~~~ia~~~~~s~~~v~~~~~~   70 (95)
+T Y1178_METTH/1-   47 DIKQKKAAEIMGISQPTFHRTLTS   70 (95)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            467889999999999999877654
+
+
+No 162
+>PF07506.11 ; RepB ; RepB plasmid partitioning protein
+Probab=48.73  E-value=0.64  Score=27.66  Aligned_cols=23  Identities=13%  Similarity=0.111  Sum_probs=19.5  Template_Neff=8.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      -++-++||.-||+++.++|++..
+T Consensus        21 G~~~~~ia~~lg~s~~~vs~~l~   43 (171)
+T Y4CJ_SINFN/147   21 GYDRTIIGSALAANAAAISKMIA   43 (171)
+T ss_pred             CCCHHHHHHHhCCCHHHHHHHHH
+Confidence            34778999999999999998753
+
+
+No 163
+>PF04814.13 ; HNF-1_N ; Hepatocyte nuclear factor 1 (HNF-1), N terminus
+Probab=47.80  E-value=0.71  Score=28.26  Aligned_cols=26  Identities=27%  Similarity=0.340  Sum_probs=22.5  Template_Neff=8.000
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrirkk  184 (188)
+                      +..++.+++|..+||++.++|++.+.
+T Consensus       124 ~~glsq~~lA~~~Gis~s~is~~e~g  149 (167)
+T G1N7V0_MELGA/8  124 QHNIPQREVVDVTGLNQSHLSQHLNK  149 (167)
+T ss_pred             HCCCCHHHHHHHHCCCHHHHHHHHcC
+Confidence            34689999999999999999998764
+
+
+No 164
+>PF13556.6 ; HTH_30 ; PucR C-terminal helix-turn-helix domain
+Probab=46.96  E-value=0.61  Score=20.07  Aligned_cols=23  Identities=26%  Similarity=0.125  Sum_probs=16.9  Template_Neff=11.300
+
+Q SRX3156367_131  162 ISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       162 islkeialflgvtpetlsrirkk  184 (188)
+                      -+...+|.-+|+++.|+++..++
+T Consensus        13 ~~~~~~a~~l~~~~~~~~~~l~~   35 (59)
+T A4FMB9_SACEN/4   13 CRWQESAQRLHVHINTLRHRMSR   35 (59)
+T ss_pred             CCHHHHHHHhCCCHHHHHHHHHH
+Confidence            35667788889999888865544
+
+
+No 165
+>PF15978.5 ; TnsD ; Tn7-like transposition protein D
+Probab=45.16  E-value=0.75  Score=29.53  Aligned_cols=25  Identities=28%  Similarity=0.449  Sum_probs=21.1  Template_Neff=9.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +-.|++|||.-|||++.|+-|+-+.
+T Consensus       202 ~G~s~~~IA~~lgvs~~tv~r~l~~  226 (371)
+T K9W8J8_9CYAN/2  202 RKLNVHEIASQLNIDPRTVNRHAML  226 (371)
+T ss_pred             CCCCHHHHHHHhCCCHHHHHHHHHH
+Confidence            5678999999999999999876544
+
+
+No 166
+>PF00382.19 ; TFIIB ; Transcription factor TFIIB repeat
+Probab=45.02  E-value=0.7  Score=20.98  Aligned_cols=20  Identities=35%  Similarity=0.391  Sum_probs=16.7  Template_Neff=11.000
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETL  178 (188)
+Q Consensus       159 qerislkeialflgvtpetl  178 (188)
+                      ...++++|||.-++|++.||
+T Consensus        52 ~~~~~~~~i~~~~~v~~~~l   71 (71)
+T TF2B_DROME/214   52 EHKRSQKEIGDIAGVADVTI   71 (71)
+T ss_pred             CCCCCHHHHHHHHCCCcccC
+Confidence            45778999999999998775
+
+
+No 167
+>PF12833.7 ; HTH_18 ; Helix-turn-helix domain
+Probab=43.93  E-value=0.79  Score=22.47  Aligned_cols=18  Identities=6%  Similarity=0.091  Sum_probs=14.4  Template_Neff=10.100
+
+Q SRX3156367_131  167 IALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       167 ialflgvtpetlsrirkk  184 (188)
+                      ||..+|+|+.||+++-+.
+T Consensus         1 la~~~~~s~~~l~~~~~~   18 (82)
+T A0JW69_ARTS2/2    1 VVAYSFLSRRALYYLFED   18 (82)
+T ss_pred             ChhhhcCCHHHHHHHHHH
+Confidence            577889999999887554
+
+
+No 168
+>PF04708.12 ; Pox_F16 ; Poxvirus F16 protein
+Probab=41.58  E-value=0.94  Score=26.89  Aligned_cols=26  Identities=4%  Similarity=-0.074  Sum_probs=22.3  Template_Neff=9.500
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKKQQ  186 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkkqq  186 (188)
+                      ..+..+||..+|+++.|++|+.++..
+T Consensus       149 ~~s~~~ia~~~~~~~~tv~r~~~~~~  174 (213)
+T Q6TUY2_YMTV5/3  149 FGNVNVLLKLVKKNVLWITVILSNKN  174 (213)
+T ss_pred             cchHHHHHHHHhcchHHHHHHhhccC
+Confidence            35889999999999999999977654
+
+
+No 169
+>PF18607.1 ; HTH_54 ; ParA helix turn helix domain
+Probab=40.47  E-value=1.1  Score=25.37  Aligned_cols=23  Identities=9%  Similarity=-0.028  Sum_probs=19.4  Template_Neff=7.300
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       159 qerislkeialflgvtpetlsri  181 (188)
+                      ..+.|.+|+|.++|||..|+...
+T Consensus        25 ~~~~sk~~La~~lgvSr~~v~~a   47 (92)
+T Q71TA9_BPP1/14   25 YQVYAKAALAKLPLLTRANVDYA   47 (92)
+T ss_pred             CceecHHHHHhcCCCCHHHHHHH
+Confidence            56789999999999999887653
+
+
+No 170
+>PF07381.11 ; DUF1495 ; Winged helix DNA-binding domain (DUF1495)
+Probab=40.28  E-value=1  Score=22.93  Aligned_cols=23  Identities=4%  Similarity=-0.156  Sum_probs=19.3  Template_Neff=9.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      -++..|||..+++++.|+++.-+
+T Consensus        24 ~~~~~ei~~~~~~~~~~v~~~l~   46 (89)
+T Q0W465_METAR/1   24 AYHPIAIIKSTALKRPHVIGALE   46 (89)
+T ss_pred             CCCHHHHHHHhCCChhHHHHHHh
+Confidence            37889999999999999987544
+
+
+No 171
+>PF06413.11 ; Neugrin ; Neugrin
+Probab=40.01  E-value=1.3  Score=30.95  Aligned_cols=24  Identities=21%  Similarity=0.283  Sum_probs=21.1  Template_Neff=4.900
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      ..|..+||.-+|||+.++++|.+.
+T Consensus        29 ~wS~~~LAk~FGVS~~~V~rIlrg   52 (221)
+T NGRN_MOUSE/73-   29 SWSVPRLAEGFDVSTDVIRRVLKS   52 (221)
+T ss_pred             hcCHHHHHHHcCCCHHHHHHHHhc
+Confidence            357899999999999999999864
+
+
+No 172
+>PF14590.6 ; DUF4447 ; Domain of unknown function (DUF4447)
+Probab=39.33  E-value=1  Score=25.00  Aligned_cols=24  Identities=4%  Similarity=0.108  Sum_probs=20.2  Template_Neff=10.000
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirkk  184 (188)
+                      .+|.+++|..+||++.|++++.+.
+T Consensus        20 glt~~~la~~~gv~~~~i~~~e~g   43 (166)
+T A1S8W3_SHEAM/1   20 GLNPAQVGTVTGHSEDDVIAWEAG   43 (166)
+T ss_pred             CCCHHHHHHHHCCCHHHHHHHHcC
+Confidence            367889999999999999988653
+
+
+No 173
+>PF13565.6 ; HTH_32 ; Homeodomain-like domain
+Probab=37.45  E-value=1  Score=18.48  Aligned_cols=21  Identities=19%  Similarity=0.499  Sum_probs=16.8  Template_Neff=12.300
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       161 rislkeialflgvtpetlsri  181 (188)
+                      .+++.+++.-++++..|+.++
+T Consensus        46 ~~~~~~~~~~~~~s~~ti~~~   66 (67)
+T E2ASB4_CAMFO/3   46 RMTVRDLADAVGISKGSANTI   66 (67)
+T ss_pred             CccHHHHHHHHCCCHHHHhhh
+Confidence            678888888889888887654
+
+
+No 174
+>PF09743.9 ; E3_UFM1_ligase ; E3 UFM1-protein ligase 1
+Probab=37.33  E-value=1.4  Score=29.18  Aligned_cols=44  Identities=20%  Similarity=0.261  Sum_probs=36.0  Template_Neff=7.500
+
+Q SRX3156367_131  138 GFYCDTPEQRYQALMKRCPDLQERISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       138 gfycdtpeqryqalmkrcpdlqerislkeialflgvtpetlsri  181 (188)
+                      |-..-||++--+.+...+-.-..|+|+.|+|..|+|..+++.+.
+T Consensus        47 Gk~yiT~~~L~~eI~~~l~~~gGRvsi~~La~~LnVd~~~ie~~   90 (262)
+T Q4MZ62_THEPA/3   47 GMLFYTLEEVQAEVENELLSRGGRIPIFELNSVLNFQPDHIDRA   90 (262)
+T ss_pred             CCeeecHHHHHHHHHHHHHHCCCCeeHHHHHHHcCCCHHHHHHH
+Confidence            55556787777777777777789999999999999999998543
+
+
+No 175
+>PF05158.12 ; RNA_pol_Rpc34 ; RNA polymerase Rpc34 subunit
+Probab=35.54  E-value=1.5  Score=29.60  Aligned_cols=26  Identities=19%  Similarity=0.140  Sum_probs=22.3  Template_Neff=8.000
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKKQ  185 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkkq  185 (188)
+                      .-++.+|||..+|+++.|+|++-++-
+T Consensus       107 ~git~~eLa~~l~l~~~tvt~~Lk~L  132 (347)
+T Q4WAM7_ASPFU/1  107 NGIWVRAIQSRTNLHKSILDRCLKSL  132 (347)
+T ss_pred             CCccHHHHHHHhCCCHHHHHHHHHHH
+Confidence            34899999999999999999876653
+
+
+No 176
+>PF12324.8 ; HTH_15 ; Helix-turn-helix domain of alkylmercury lyase
+Probab=35.48  E-value=1.6  Score=24.32  Aligned_cols=22  Identities=18%  Similarity=0.341  Sum_probs=18.5  Template_Neff=6.700
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRI  181 (188)
+Q Consensus       160 erislkeialflgvtpetlsri  181 (188)
+                      +-+|+++||..+|++++++..+
+T Consensus        34 ePVs~~~La~~l~~~~~~v~~~   55 (74)
+T F4CKR9_PSEUX/7   34 EPVTLDRLAEAAGTSVDQVRQA   55 (74)
+T ss_pred             CCcCHHHHHHHHCCCHHHHHHH
+Confidence            5689999999999998887554
+
+
+No 177
+>PF07900.11 ; DUF1670 ; Protein of unknown function (DUF1670)
+Probab=32.92  E-value=1.7  Score=26.34  Aligned_cols=25  Identities=20%  Similarity=0.119  Sum_probs=20.9  Template_Neff=8.800
+
+Q SRX3156367_131  160 ERISLKEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       160 erislkeialflgvtpetlsrirkk  184 (188)
+                      +..+..|||..+|+|+.|+.|.-++
+T Consensus       151 ~g~t~~eIa~~~~~s~~tV~r~l~~  175 (209)
+T Q8TH36_METAC/3  151 KGYEYTEIERKTQHSGEAIMRYVKD  175 (209)
+T ss_pred             cCCCHHHHHHHHCCCHHHHHHHHHH
+Confidence            3578899999999999999886554
+
+
+No 178
+>PF03683.13 ; UPF0175 ; Uncharacterised protein family (UPF0175)
+Probab=32.80  E-value=1.8  Score=22.97  Aligned_cols=24  Identities=25%  Similarity=0.252  Sum_probs=18.8  Template_Neff=7.900
+
+Q SRX3156367_131  159 QERISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       159 qerislkeialflgvtpetlsrir  182 (188)
+                      +.+||+.+.|.++|+|...+-.+-
+T Consensus        31 ~g~iS~~~aAe~lg~s~~ef~~~l   54 (75)
+T D4ZW87_ARTPN/7   31 EGKISSGVAAEILGCSRLEFYRLI   54 (75)
+T ss_pred             cCCCCHHHHHHHhCCCHHHHHHHH
+Confidence            468999999999999876654443
+
+
+No 179
+>PF11242.8 ; DUF2774 ; Protein of unknown function (DUF2774)
+Probab=32.63  E-value=2.3  Score=25.46  Aligned_cols=22  Identities=23%  Similarity=0.193  Sum_probs=18.5  Template_Neff=3.600
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIR  182 (188)
+Q Consensus       161 rislkeialflgvtpetlsrir  182 (188)
+                      -.|..|||.-+|+|+..++.+-
+T Consensus        14 G~sFveIAk~~gisa~e~a~~w   35 (64)
+T A0A023ZVJ1_9CA   14 GKSFIEIARELNLQAKEVAVLW   35 (64)
+T ss_pred             CCCHHHHHHHcCCCHHHHHHHH
+Confidence            4689999999999998887653
+
+
+No 180
+>PF04760.15 ; IF2_N ; Translation initiation factor IF-2, N-terminal region
+Probab=32.09  E-value=1.6  Score=19.61  Aligned_cols=18  Identities=33%  Similarity=0.477  Sum_probs=13.1  Template_Neff=9.800
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETL  178 (188)
+Q Consensus       161 rislkeialflgvtpetl  178 (188)
+                      .++++|+|.-+|++++-+
+T Consensus         3 ~~~v~~lA~~l~~~~~~i   20 (53)
+T IF2_SYMTH/2-54    3 RLRVFELARELGVDSKRV   20 (53)
+T ss_pred             CccHHHHHHHHCCCHHHH
+Confidence            567788888888876544
+
+
+No 181
+>PF08667.10 ; BetR ; BetR domain
+Probab=29.62  E-value=2  Score=24.72  Aligned_cols=20  Identities=20%  Similarity=0.182  Sum_probs=17.0  Template_Neff=9.200
+
+Q SRX3156367_131  165 KEIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       165 keialflgvtpetlsrirkk  184 (188)
+                      .++|..+|+++.++|++.+.
+T Consensus        26 ~~la~~~gis~~~i~~~~~g   45 (174)
+T Q7P0M9_CHRVO/4   26 AWLRDLLGIDLSSANRKLKG   45 (174)
+T ss_pred             HHHHHHHCCCHHHHHHHHhC
+Confidence            68999999999999988764
+
+
+No 182
+>PF00292.18 ; PAX ; 'Paired box' domain
+Probab=28.37  E-value=1.9  Score=20.37  Aligned_cols=22  Identities=23%  Similarity=0.060  Sum_probs=16.0  Template_Neff=11.900
+
+Q SRX3156367_131  161 RISLKEIALFLG----------VTPETLSRIR  182 (188)
+Q Consensus       161 rislkeialflg----------vtpetlsrir  182 (188)
+                      +.++++|+..|.          +|..|++|+-
+T Consensus        93 ~~~~~~i~~~l~~~~~~~~~~~~s~~tv~r~l  124 (125)
+T PAX2_HUMAN/16-   93 TMFAWEIRDRLLAEGICDNDTVPSVSSINRII  124 (125)
+T ss_pred             CcCHHHHHHHHHHCCCCCCCCCCChHHHHHHh
+Confidence            456777777776          7888888764
+
+
+No 183
+>PF09821.9 ; AAA_assoc_C ; C-terminal AAA-associated domain
+Probab=26.60  E-value=2.5  Score=22.96  Aligned_cols=19  Identities=21%  Similarity=0.202  Sum_probs=15.9  Template_Neff=9.000
+
+Q SRX3156367_131  166 EIALFLGVTPETLSRIRKK  184 (188)
+Q Consensus       166 eialflgvtpetlsrirkk  184 (188)
+                      +||..||+++.+++++.+.
+T Consensus         2 ~la~~l~~~~~~~~~~~~a   20 (119)
+T B0UHC9_METS4/3    2 ALASTLQLEVDELFPIAET   20 (119)
+T ss_pred             cHHHHcCCCHHHHHHHHHH
+Confidence            6899999999999887543
+
+
+No 184
+>PF04079.16 ; SMC_ScpB ; Segregation and condensation complex subunit ScpB
+Probab=23.32  E-value=3.4  Score=24.99  Aligned_cols=23  Identities=17%  Similarity=0.223  Sum_probs=18.9  Template_Neff=7.500
+
+Q SRX3156367_131  161 RISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       161 rislkeialflgvtpetlsrirk  183 (188)
+                      -+|+++||..+|++++.++.+-+
+T Consensus        13 pl~~~~l~~~l~~~~~~v~~~i~   35 (160)
+T A6LUL7_CLOB8/2   13 PLSLQDLVNHLEEKNKLIEIIIH   35 (160)
+T ss_pred             CcCHHHHHHHhCCCHHHHHHHHH
+Confidence            48999999999999888876543
+
+
+No 185
+>PF04391.12 ; DUF533 ; Protein of unknown function (DUF533)
+Probab=22.98  E-value=3.3  Score=24.67  Aligned_cols=28  Identities=21%  Similarity=0.322  Sum_probs=23.9  Template_Neff=8.600
+
+Q SRX3156367_131  156 PDLQERISLKEIALFLGVTPETLSRIRK  183 (188)
+Q Consensus       156 pdlqerislkeialflgvtpetlsrirk  183 (188)
+                      .+-.|+--|.+||..||++++.+.+|..
+T Consensus       164 ~~~~E~~~L~~la~~L~l~~~~~~~i~~  191 (193)
+T H2FTA1_OCESG/1  164 DEASERAYLDALAHRLQLPAELVAHLEQ  191 (193)
+T ss_pred             CCHHHHHHHHHHHHHcCCCHHHHHHHHH
+Confidence            4567888899999999999999988764
+
+

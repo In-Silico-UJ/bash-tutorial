@@ -1,0 +1,464 @@
+Query         SRX3156367_111884
+Match_columns 147
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 100
+Date          Wed Mar 11 15:29:35 2020
+Command       hhblits -i cluster_fasta/cluster_fastatape5000_intra_76/SRX3156367_111884.fa -o hh_out/cluster_fastatape5000_intra_76/SRX3156367_111884.hhr -n 1 -d pfam/pfam -cpu 6 -blasttab ./hh_out/cluster_fastatape5000_intra_76/SRX3156367_111884.blasttab 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF12681.7 ; Glyoxalase_2 ; Gly  98.6 2.1E-12 7.1E-16   69.2   0.0  115   24-139     3-118 (119)
+  2 PF00903.25 ; Glyoxalase ; Glyo  98.1 1.9E-10 6.5E-14   59.3   0.0  112   22-135     2-120 (120)
+  3 PF14506.6 ; CppA_N ; CppA N-te  98.0 5.5E-10 1.8E-13   61.6   0.0  112   23-142     2-119 (124)
+  4 PF14507.6 ; CppA_C ; CppA C-te  97.9 1.9E-09 6.5E-13   55.8   0.0  102   23-135     2-110 (110)
+  5 PF18029.1 ; Glyoxalase_6 ; Gly  97.4 2.9E-08 9.5E-12   52.0   0.0  101   25-135     2-105 (106)
+  6 PF06983.13 ; 3-dmu-9_3-mt ; 3-  97.3 6.7E-08   2E-11   54.8   0.0   96   26-135     6-116 (117)
+  7 PF15067.6 ; FAM124 ; FAM124 fa  96.8 1.1E-06 2.8E-10   60.2   0.0  103   21-135   124-231 (232)
+  8 PF14696.6 ; Glyoxalase_5 ; Hyd  96.7 1.2E-06   4E-10   47.6   0.0  115   19-141     7-129 (139)
+  9 PF13468.6 ; Glyoxalase_3 ; Gly  95.8 2.3E-05 7.1E-09   44.9   0.0  116   24-139     3-145 (186)
+ 10 PF13669.6 ; Glyoxalase_4 ; Gly  92.7  0.0013 4.3E-07   32.7   0.0   82   25-106     3-88  (104)
+ 11 PF02750.14 ; Synapsin_C ; Syna  66.5    0.17 5.4E-05   26.8   0.0   21   39-59    153-173 (203)
+ 12 PF14398.6 ; ATPgrasp_YheCD ; Y  66.2    0.16 5.5E-05   27.0   0.0   21   40-60    205-225 (256)
+ 13 PF14397.6 ; ATPgrasp_ST ; Suga  65.9    0.17 5.7E-05   27.4   0.0   24   37-60    227-250 (275)
+ 14 PF07478.13 ; Dala_Dala_lig_C ;  63.0    0.21   7E-05   25.6   0.0   21   40-60    152-172 (204)
+ 15 PF13468.6 ; Glyoxalase_3 ; Gly  61.3    0.25   8E-05   26.1   0.0   24   20-43    163-186 (186)
+ 16 PF13535.6 ; ATP-grasp_4 ; ATP-  59.3    0.27 9.1E-05   24.1   0.0   25   35-59    123-147 (160)
+ 17 PF03133.15 ; TTL ; Tubulin-tyr  54.4    0.41 0.00013   28.2   0.0   22   39-60    263-284 (321)
+ 18 PF18299.1 ; R2K_2 ; ATP-grasp   52.1    0.49 0.00014   25.4   0.0   24   36-59    109-132 (152)
+ 19 PF13756.6 ; Stimulus_sens_1 ;   48.1    0.62 0.00018   23.7   0.0   15  120-134    17-31  (109)
+ 20 PF01071.19 ; GARS_A ; Phosphor  42.6    0.77 0.00026   23.2   0.0   20   39-59    170-189 (199)
+ 21 PF08363.10 ; GbpC ; Glucan-bin  33.7     1.7 0.00044   28.0   0.0   18  121-138   149-166 (276)
+ 22 PF04678.13 ; MCU ; Mitochondri  27.6     2.5 0.00065   26.0   0.0   22  119-140     4-25  (207)
+ 23 PF02783.15 ; MCR_beta_N ; Meth  24.7     3.9 0.00079   27.5   0.0   25  123-147     3-27  (182)
+ 24 PF14408.6 ; Actino_peptide ; R  23.7     3.8 0.00085   22.2   0.0   19  122-140    17-35  (59)
+ 25 PF01472.20 ; PUA ; PUA domain   23.0       3  0.0009   18.8   0.0   21  121-141    36-56  (75)
+ 26 PF09779.9 ; Ima1_N ; Ima1 N-te  21.8     3.9 0.00098   23.7   0.0   29   78-106   103-132 (140)
+
+No 1
+>PF12681.7 ; Glyoxalase_2 ; Glyoxalase-like domain
+Probab=98.61  E-value=2.1e-12  Score=69.22  Aligned_cols=115  Identities=35%  Similarity=0.700  Sum_probs=78.2  Template_Neff=12.100
+
+Q SRX3156367_111   24 NILLVVKDIEKSKQFYHDLFGLDMILDNDGNMILTEGLVLQDEKIWTKFL-GKEILPKSNSCELYFEEKNIEAFIKNLEK  102 (147)
+Q Consensus        24 nillvvkdiekskqfyhdlfgldmildndgnmilteglvlqdekiwtkfl-gkeilpksnscelyfeeknieafiknlek  102 (147)
+                      .+.+.|.|++++.+||.++||+..+.+..+...+..+..+.......-.. ...-.+......+.|.-.+++++.+.|++
+T Consensus         3 ~~~l~~~d~~~~~~fy~~~lg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~d~~~~~~~l~~   82 (119)
+T A5HYY7_CLOBH/3    3 LALLAVKNVSVSRQFYEELFDQKVILDLGKNVTFSGGFAIQEDFAWLTNVASDSVIERSNNMELYFEVDDFDAFMQKIQE   82 (119)
+T ss_pred             ceEEEEcCHHHHHHHHHHhcCCEEEEeCCceeeecCcEEEEechHHHhccCCcccccCCCceEEEEEECCHHHHHHHHHH
+Confidence            46788999999999999999999887765544443332222111111000 11122345566788888899999999987
+
+
+Q SRX3156367_111  103 LYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEVGTPM  139 (147)
+Q Consensus       103 lypsiqyvnrltthswgqkavrfydldgnlievgtpm  139 (147)
+                      .- .+..........||.+.+.|.|+||+.+|+-.+.
+T Consensus        83 ~g-~~~~~~~~~~~~~~~~~~~~~dp~G~~~~l~~~~  118 (119)
+T A5HYY7_CLOBH/3   83 YE-NIKYVHQPKKYKWKQRVVRIYDPDHHIIEIGESM  118 (119)
+T ss_pred             cC-CceeeeCCcccCCCceEEEEECCCCCEEEEEeeC
+Confidence            63 1344455666788999999999999999987654
+
+
+No 2
+>PF00903.25 ; Glyoxalase ; Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+Probab=98.15  E-value=1.9e-10  Score=59.32  Aligned_cols=112  Identities=16%  Similarity=0.138  Sum_probs=71.8  Template_Neff=12.700
+
+Q SRX3156367_111   22 LKNILLVVKDIEKSKQFYHDLFGLDMILDND---GNMILTEGLVLQDEKIWTKFLGKEILPKSN---SCELYFEEKNIEA   95 (147)
+Q Consensus        22 lknillvvkdiekskqfyhdlfgldmildnd---gnmilteglvlqdekiwtkflgkeilpksn---scelyfeekniea   95 (147)
+                      +..+.+.|+|++++..||.++||+...-..+   +...-.....+.....+..+...+-.+...   ..-+.+...++++
+T Consensus         2 l~hi~~~v~d~~~~~~fy~~~lg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~   81 (120)
+T YWBC_BACSU/4-1    2 IDHTGIMVRDINASITFYEEVLGMKLKDRITHTNGVIELAFLGFEDGPETEIELIQGYSSELPAEGKVHHIALLTDDIAA   81 (120)
+T ss_pred             CceEEEEeCCHHHHHHHHHHhhCCEEEEeeecCCCceEEEEEEeecCCCceEEEEecCCCCCCCCCceeEEEEEcCCHHH
+Confidence            4567899999999999999999998877665   111111122233333333333322222211   2457788889999
+
+
+Q SRX3156367_111   96 FIKNLEKLYPSIQYVNRLTTHSWGQKAVR-FYDLDGNLIEV  135 (147)
+Q Consensus        96 fiknleklypsiqyvnrltthswgqkavr-fydldgnliev  135 (147)
+                      ..+.|++.--.+  +.....+.++..... +.|.||+.+|+
+T Consensus        82 ~~~~l~~~g~~~--~~~~~~~~~~~~~~~~~~dp~G~~~e~  120 (120)
+T YWBC_BACSU/4-1   82 EYTKAEKMNAKF--IDEEITTLPNGYRYFYIEGPDGEWIEF  120 (120)
+T ss_pred             HHHHHHHCCCeE--eccceeccCCCceeeEEECCCCCEEeC
+Confidence            999888775333  333445567776666 99999999874
+
+
+No 3
+>PF14506.6 ; CppA_N ; CppA N-terminal
+Probab=98.02  E-value=5.5e-10  Score=61.57  Aligned_cols=112  Identities=11%  Similarity=0.205  Sum_probs=74.4  Template_Neff=11.400
+
+Q SRX3156367_111   23 KNILLVVKDIEKSKQFYHDLFGLDMILDNDGNMILTEG------LVLQDEKIWTKFLGKEILPKSNSCELYFEEKNIEAF   96 (147)
+Q Consensus        23 knillvvkdiekskqfyhdlfgldmildndgnmilteg------lvlqdekiwtkflgkeilpksnscelyfeeknieaf   96 (147)
+                      ..+.+.|+|++++.+||.++||+....+.++-..+..+      +.+....-...   ....+.+..+.+.|.-.+++++
+T Consensus         2 ~~v~i~v~d~~~~~~FY~~~lg~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~---~~~~~~~~~~~~~~~v~d~~~~   78 (124)
+T Q8DXW5_STRA5/9    2 KHPVLRVNNRDLNIAFYQESLGFKLISEENAIAVFSAWQNKEASFIIEESPTYRT---RAVNGTKKLAKIIVKSQDAKDI   78 (124)
+T ss_pred             CccEEEcCCHHHHHHHHHhccCCEEEeecCcEEEEeccCCeeeEEEEEeCCCcCC---CcccCCcceEEEEEEeCCHHHH
+Confidence            45778999999999999999999987776555555443      22222211110   1122355677888888899998
+
+
+Q SRX3156367_111   97 IKNLEKLYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEVGTPMKSE  142 (147)
+Q Consensus        97 iknleklypsiqyvnrltthswgqkavrfydldgnlievgtpmkse  142 (147)
+                      .+.+++....    .. .....+.+.+.|.|+||+++|+-.+....
+T Consensus        79 ~~~~~~~~~~----~~-~~~~~~~~~~~~~dp~G~~~~l~~~~~~~  119 (124)
+T Q8DXW5_STRA5/9   79 EKLLANGAQA----IQ-VYQGQNGYAYETVSPEGDLFLLHAEDDLS  119 (124)
+T ss_pred             HHHHHcCCcc----ee-eeecCCeEEEEEECCCCCEEEEEeecchh
+Confidence            8888755433    11 12233457889999999999987765443
+
+
+No 4
+>PF14507.6 ; CppA_C ; CppA C-terminal
+Probab=97.85  E-value=1.9e-09  Score=55.84  Aligned_cols=102  Identities=24%  Similarity=0.257  Sum_probs=63.4  Template_Neff=12.200
+
+Q SRX3156367_111   23 KNILLVVKDIEKSKQFYHDLFGLDMILDNDGNMILTEGLVLQDEKIWTKFLGKEIL-----PKSNSCELYFEEK--NIEA   95 (147)
+Q Consensus        23 knillvvkdiekskqfyhdlfgldmildndgnmilteglvlqdekiwtkflgkeil-----pksnscelyfeek--niea   95 (147)
+                      ..+.+.+.|++++.+||.++||+....+.++...+..+    +..++--.......     +......+.|+-.  ++++
+T Consensus         2 ~~v~l~~~d~~~~~~fy~~~lg~~~~~~~~~~~~~~~~----~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~   77 (110)
+T I6RYF1_ENTHA/1    2 EKIHLNVFDSEEERRFLSDLLGLKVREEKNGLHVLNEG----NFHVGISEANSEALALPTHEVLGLDFLKFVIDQESMEQ   77 (110)
+T ss_pred             ceEEEEeCCHHHHHHHHHHhhCCEEEEeeCceEEEecC----cEEEEEeecChhhcCCCccccccceEEEEEEChHHHHH
+Confidence            34678899999999999999999987766443333311    11111100000000     1122235566666  9999
+
+
+Q SRX3156367_111   96 FIKNLEKLYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEV  135 (147)
+Q Consensus        96 fiknleklypsiqyvnrltthswgqkavrfydldgnliev  135 (147)
+                      ..+.+.+.-..+....       +.+.+.|+|.||+++|+
+T Consensus        78 ~~~~l~~~g~~~~~~~-------~~~~~~~~dp~G~~~~~  110 (110)
+T I6RYF1_ENTHA/1   78 LIQHLNETAVDFFIDQ-------RHTVLTIYDAIGIEWWF  110 (110)
+T ss_pred             HHHHHHHcCCeEEecC-------CCeEEEEEcCCCcEEEC
+Confidence            9988887644433221       77889999999999874
+
+
+No 5
+>PF18029.1 ; Glyoxalase_6 ; Glyoxalase-like domain
+Probab=97.44  E-value=2.9e-08  Score=51.98  Aligned_cols=101  Identities=17%  Similarity=0.195  Sum_probs=62.7  Template_Neff=11.700
+
+Q SRX3156367_111   25 ILLVVKDIEKSKQFYHDLFGLDMILDNDGNMILTEGLVLQDEKIWTKF-LGKEILPKSNSCELYFEEKNI--EAFIKNLE  101 (147)
+Q Consensus        25 illvvkdiekskqfyhdlfgldmildndgnmilteglvlqdekiwtkf-lgkeilpksnscelyfeekni--eafiknle  101 (147)
+                      |.+.|.|++++.+||.++||+....+.++...     ........--+ -+..-.+......+.|.-.++  ++..+.|+
+T Consensus         2 v~~~~~d~~~~~~fy~~~lg~~~~~~~~~~~~-----~~~~~~~~l~l~~~~~~~~~~~~~~~~~~v~~~~~~~~~~~l~   76 (106)
+T D2PVX7_KRIFD/1    2 VVVDCADPLTLGRFWQHLLGGELRKDHHEEFF-----ELRGGAVGLDFAQVPEAKQVKNRLHLDLRVDPAQRQQAIDHAL   76 (106)
+T ss_pred             eEEecCCHHHHHHHHHHHhCCcceecccceeE-----ecCCCeeEEEEEcCCCccccCCeEEEEEEcChHHHHHHHHHHH
+Confidence            55789999999999999999998876644332     11111111111 111112334566677777777  88888887
+
+
+Q SRX3156367_111  102 KLYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEV  135 (147)
+Q Consensus       102 klypsiqyvnrltthswgqkavrfydldgnliev  135 (147)
+                      +.-..+.  .....   +.+.+.+.|.||+.+|+
+T Consensus        77 ~~g~~~~--~~~~~---~~~~~~~~dp~G~~~~~  105 (106)
+T D2PVX7_KRIFD/1   77 ALGATTA--DDLYD---GDRWQVMRDPEGNEFCI  105 (106)
+T ss_pred             HCCCeee--ecCCC---CCceEEEECCCCCeEEe
+Confidence            6543322  22222   66677889999999875
+
+
+No 6
+>PF06983.13 ; 3-dmu-9_3-mt ; 3-demethylubiquinone-9 3-methyltransferase
+Probab=97.31  E-value=6.7e-08  Score=54.76  Aligned_cols=96  Identities=11%  Similarity=0.067  Sum_probs=56.0  Template_Neff=10.300
+
+Q SRX3156367_111   26 LLVVK-DIEKSKQFYHDLFGLDMILD-----------NDGNMILTEGLVLQDEKIWTKFLGKEILPKSNSCELYFEEK--   91 (147)
+Q Consensus        26 llvvk-diekskqfyhdlfgldmild-----------ndgnmilteglvlqdekiwtkflgkeilpksnscelyfeek--   91 (147)
+                      .|.|. |++++..||.++||+.-+..           .++.....+ +...+..+.-.-.. .-.+..+...++|.-.  
+T Consensus         6 ~l~v~~d~~~a~~fY~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~-~~~~~~~~~~i~~~v~~~   83 (117)
+T Q74AD9_GEOSL/5    6 CLWYDGDAEDAARFYARTFPDSSVGAVFRAPGDFPSGKKGDVLTVE-FTVMGIPCLGLNGG-PEFTHNEAFSFQVATVDQ   83 (117)
+T ss_pred             EEEECCCHHHHHHHHHHHCCCCccceEEEcCCCCCCCCCCCeEEEE-EEECCEEEEEEeCC-CCCCCCCceEEEEEeCCH
+Confidence            34556 99999999999999864431           111111111 11111111100001 1122345556777776  
+
+
+Q SRX3156367_111   92 -NIEAFIKNLEKLYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEV  135 (147)
+Q Consensus        92 -nieafiknleklypsiqyvnrltthswgqkavrfydldgnliev  135 (147)
+                       +++++.+.+.+.--           .|| ....|.|+||+.+|+
+T Consensus        84 ~d~~~~~~~~~~~G~-----------~~g-~~~~~~Dp~G~~~~~  116 (117)
+T Q74AD9_GEOSL/5   84 DETDRYWNAIVGNGG-----------QES-VCGWCKDKWGISWQI  116 (117)
+T ss_pred             HHHHHHHHHHHhcCC-----------ccc-cceEEEcCCCCeEEE
+Confidence             88888777765421           688 888999999999986
+
+
+No 7
+>PF15067.6 ; FAM124 ; FAM124 family
+Probab=96.78  E-value=1.1e-06  Score=60.23  Aligned_cols=103  Identities=18%  Similarity=0.156  Sum_probs=65.5  Template_Neff=7.800
+
+Q SRX3156367_111   21 KLKNILLVVK--DIEKSKQFYHDLFGLDMILDNDGNMILTEGLVLQD--EKIWTKFLGKEILPK-SNSCELYFEEKNIEA   95 (147)
+Q Consensus        21 klknillvvk--diekskqfyhdlfgldmildndgnmilteglvlqd--ekiwtkflgkeilpk-snscelyfeekniea   95 (147)
+                      +.-.+.+.|+  |.+++..||.+++|+.......+-..++=+-- +.  -.+..+-+.....|. ..+..+.|.-.|+++
+T Consensus       124 ~i~~v~l~v~~~d~e~sv~FY~~iLG~~~~~~~~~~~~f~l~~~-~~~~i~L~l~~~p~~~~~~p~~~~~l~f~V~di~~  202 (232)
+T G1LZX6_AILME/4  124 EIVRFTIYCRHDNYADILKFYELILRRSPSQRKTDFCIFPIFSN-LDVDIQFSLKRLPCDQTPVPTDSSVLEFRVKDIGE  202 (232)
+T ss_pred             CeEEEEEEecccCHHHHHHHHHHHhCCccccccCCeEEEEeecC-CceeEEEEEEeCCCCCCCCCCCceEEEEEECCHHH
+Confidence            3467889999  99999999999999998865544322211100 00  011111111112222 466788888888888
+
+
+Q SRX3156367_111   96 FIKNLEKLYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEV  135 (147)
+Q Consensus        96 fiknleklypsiqyvnrltthswgqkavrfydldgnliev  135 (147)
+                      +.+.|...-           ..|+.....+.|.|||.|++
+T Consensus       203 l~~~L~~~g-----------~~~~~~~~~~~DPDGn~I~l  231 (232)
+T G1LZX6_AILME/4  203 LVPLLPNPC-----------SPISEGRWQTEDLDGNKILL  231 (232)
+T ss_pred             HHHHCCCCC-----------CCCccceEEEECCCCCEEEE
+Confidence            877665432           44667777899999999875
+
+
+No 8
+>PF14696.6 ; Glyoxalase_5 ; Hydroxyphenylpyruvate dioxygenase, HPPD, N-terminal
+Probab=96.69  E-value=1.2e-06  Score=47.62  Aligned_cols=115  Identities=8%  Similarity=-0.006  Sum_probs=72.7  Template_Neff=11.500
+
+Q SRX3156367_111   19 RMKLKNILLVVKDIEKSKQFYHDLFGLDMILDNDGNMILTEGLVLQDEKIWTKFLGKEI--------LPKSNSCELYFEE   90 (147)
+Q Consensus        19 rmklknillvvkdiekskqfyhdlfgldmildndgnmilteglvlqdekiwtkflgkei--------lpksnscelyfee   90 (147)
+                      .+++..|.+.|.|+ ++..||.++||+.......+.-+    ..++...+.-.+...+-        ........+.|+-
+T Consensus         7 ~~~l~hi~i~v~d~-~~~~fy~~~lg~~~~~~~~~~~~----~~~~~~~~~l~l~~~~~~~~~~~~~~~~~~~~~~~f~v   81 (139)
+T A6VYX1_MARMS/5    7 LDGFEFVEFAGPNP-EKIAEVFQLMGFELVAKHRSKDV----ELYRQGGINFILNKEKGSEAYYFGQEHGNAAAGMGFRV   81 (139)
+T ss_pred             CCceeEEEEECCCH-HHHHHHHHhhCCEEEEEeCCceE----EEEeeCcEEEEEEcCCCCchhcchhhhCCceeEEEEEe
+Confidence            35677889999999 66899999999988765422111    11111111111111110        1123445778888
+
+
+Q SRX3156367_111   91 KNIEAFIKNLEKLYPSIQYVNRLTTHSWGQKAVRFYDLDGNLIEVGTPMKS  141 (147)
+Q Consensus        91 knieafiknleklypsiqyvnrltthswgqkavrfydldgnlievgtpmks  141 (147)
+                      +|+++..+.|++.--.  .+.... ..+|.+...+.|.||+.+|+-.+-+.
+T Consensus        82 ~d~~~~~~~l~~~g~~--~~~~~~-~~~~~~~~~~~dp~g~~~~l~~~~~~  129 (139)
+T A6VYX1_MARMS/5   82 KNAHKAYEYVLSKGAK--PMDIPT-GPMELRLPAIKGIGGAPIYLIDRYDD  129 (139)
+T ss_pred             CCHHHHHHHHHHCCCc--cCCCCC-CCcceEeeEEEcCCCceEEEEecCCC
+Confidence            9999999999875422  222221 36778889999999999998776543
+
+
+No 9
+>PF13468.6 ; Glyoxalase_3 ; Glyoxalase-like domain
+Probab=95.81  E-value=2.3e-05  Score=44.92  Aligned_cols=116  Identities=7%  Similarity=-0.058  Sum_probs=66.1  Template_Neff=11.100
+
+Q SRX3156367_111   24 NILLVVKDIEKSKQFYHDLFGLDMILDNDGNMILTEGLVLQD-EKI--------------------WTKFLGKEILPKSN   82 (147)
+Q Consensus        24 nillvvkdiekskqfyhdlfgldmildndgnmilteglvlqd-eki--------------------wtkflgkeilpksn   82 (147)
+                      .|.+.|.|++++.+||.+.||+...-.....-.-+....++- ...                    ...++..+.-....
+T Consensus         3 hv~i~v~d~~~~~~fy~~~lG~~~~~~~~~~~~~~~~~~~~~~~~~~lel~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g   82 (186)
+T C5BVV5_BEUC1/6    3 HVTLGVSHLYEGAERLRRTTGLRSVEGGWLTEMPTAHRVVPLPGGAYINVESVIARPADLPPPVRLFAGWFEGVTATGDH   82 (186)
+T ss_pred             eEEEEeCCHHHHHHHHHHHhCCEEecCcccCCCCceeEEEECCCCcEEEEEEecCCCCCCCCCccccceeecccccCCCc
+Confidence            467899999999999999999987654220000000000100 000                    11111100012334
+
+
+Q SRX3156367_111   83 SCELYFEEKNIEAFIKNLEKLYPSIQYVNRLTTHSWGQKAVRFYDL------DGNLIEVGTPM  139 (147)
+Q Consensus        83 scelyfeeknieafiknleklypsiqyvnrltthswgqkavrfydl------dgnlievgtpm  139 (147)
+                      .+.+.|+-.|+++..+.+++.--.+..-.......++...+.+.|.      ||+++|.-...
+T Consensus        83 ~~~~~~~v~di~~~~~~l~~~G~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~g~~~el~~~~  145 (186)
+T C5BVV5_BEUC1/6   83 WMTWNLRARSRADLEEVARRLGGDVVVARGANRPDGTHATTIMAPGNAATTWARGLPNFYFHE  145 (186)
+T ss_pred             eeEEEEEeCCHHHHHHHHHHcCCceeccCCCCCCCCceEEEEEcCCCccccccCCcceEeecC
+Confidence            5667788899999999988754222110000125567788888998      99999876443
+
+
+No 10
+>PF13669.6 ; Glyoxalase_4 ; Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+Probab=92.70  E-value=0.0013  Score=32.68  Aligned_cols=82  Identities=9%  Similarity=0.002  Sum_probs=42.9  Template_Neff=11.500
+
+Q SRX3156367_111   25 ILLVVKDIEKSKQFYHDLFGLDMILDNDGNMIL-TEGLVLQDEKIWTKFLGKEIL---PKSNSCELYFEEKNIEAFIKNL  100 (147)
+Q Consensus        25 illvvkdiekskqfyhdlfgldmildndgnmil-teglvlqdekiwtkflgkeil---pksnscelyfeeknieafiknl  100 (147)
+                      +.+.|.|++++.+||.++||+...-+.+...-. .-.+...+....-.+......   ...+...++|.-.+++++.+.+
+T Consensus         3 v~l~v~d~~~~~~fy~~~lg~~~~~~~~~~~~~~~~~~~~~~~~~~i~l~~~~~~~~~~~~~~~~~~~~v~d~~~~~~~~   82 (104)
+T D5URS6_TSUPD/1    3 VVLTSPNSDRIIATLCGRLDFDLRLDRVQSWGVHQLFFRRGDLLVEVVLAEGDDVDPSGPDALWGIAWRTTDADATSARL   82 (104)
+T ss_pred             EEEecCCHHHHHHHHHhhcCcEEEecccCCCeeEEEEEEeCCeEEEEEEeecCCCCCCCCCceEEEEEEECCHHHHHHHH
+Confidence            567899999999999999998765541110000 000111111011111111000   3334566777777888887777
+
+
+Q SRX3156367_111  101 EKLYPS  106 (147)
+Q Consensus       101 eklyps  106 (147)
+                      .+.--.
+T Consensus        83 ~~~g~~   88 (104)
+T D5URS6_TSUPD/1   83 TDQGVT   88 (104)
+T ss_pred             HHCCCC
+Confidence            655433
+
+
+No 11
+>PF02750.14 ; Synapsin_C ; Synapsin, ATP binding domain
+Probab=66.46  E-value=0.17  Score=26.76  Aligned_cols=21  Identities=19%  Similarity=0.281  Sum_probs=18.7  Template_Neff=11.500
+
+Q SRX3156367_111   39 YHDLFGLDMILDNDGNMILTE   59 (147)
+Q Consensus        39 yhdlfgldmildndgnmilte   59 (147)
+                      +.+.+++|+++|.+|...+.|
+T Consensus       153 ~~~~~~vD~~~~~~~~~~~~E  173 (203)
+T SYN2_HUMAN/214  153 GLDICAVKAVHGKDGKDYIFE  173 (203)
+T ss_pred             CCCeeEEEEEEcCCCCEEEEE
+Confidence            778999999999989888877
+
+
+No 12
+>PF14398.6 ; ATPgrasp_YheCD ; YheC/D like ATP-grasp
+Probab=66.24  E-value=0.16  Score=26.97  Aligned_cols=21  Identities=29%  Similarity=0.423  Sum_probs=18.3  Template_Neff=12.100
+
+Q SRX3156367_111   40 HDLFGLDMILDNDGNMILTEG   60 (147)
+Q Consensus        40 hdlfgldmildndgnmilteg   60 (147)
+                      ...+|+|+++|.||...+.|-
+T Consensus       205 ~~~~~~D~~~~~~g~~~liEi  225 (256)
+T D5XE96_THEPJ/2  205 FAELGLDVGISKTGHVWLIEV  225 (256)
+T ss_pred             hheEEEEEEECCCCCEEEEEE
+Confidence            788999999999998887773
+
+
+No 13
+>PF14397.6 ; ATPgrasp_ST ; Sugar-transfer associated ATP-grasp
+Probab=65.90  E-value=0.17  Score=27.36  Aligned_cols=24  Identities=25%  Similarity=0.307  Sum_probs=20.1  Template_Neff=12.000
+
+Q SRX3156367_111   37 QFYHDLFGLDMILDNDGNMILTEG   60 (147)
+Q Consensus        37 qfyhdlfgldmildndgnmilteg   60 (147)
+                      ..+...+|+|+++|.+|+..+.|-
+T Consensus       227 ~~~~~~~~iD~~~~~~g~~~liEi  250 (275)
+T M5DQK3_9GAMM/2  227 VTQLGYLGIDIVLDRYKGPMLLEL  250 (275)
+T ss_pred             ccCCcEEEEEEEEcCCCCeEEEEe
+Confidence            456789999999999998887774
+
+
+No 14
+>PF07478.13 ; Dala_Dala_lig_C ; D-ala D-ala ligase C-terminus
+Probab=63.04  E-value=0.21  Score=25.63  Aligned_cols=21  Identities=24%  Similarity=0.321  Sum_probs=17.4  Template_Neff=12.000
+
+Q SRX3156367_111   40 HDLFGLDMILDNDGNMILTEG   60 (147)
+Q Consensus        40 hdlfgldmildndgnmilteg   60 (147)
+                      +..+++|+++|.||...+.|-
+T Consensus       152 ~g~~~iD~~~~~~g~~~~iEv  172 (204)
+T DDL_ENTFA/138-  152 SGLSRCDFFLTSKNELFLNEL  172 (204)
+T ss_pred             CceeEEEEEEcCCCcEEEEEe
+Confidence            378999999998888877763
+
+
+No 15
+>PF13468.6 ; Glyoxalase_3 ; Glyoxalase-like domain
+Probab=61.25  E-value=0.25  Score=26.11  Aligned_cols=24  Identities=8%  Similarity=0.084  Sum_probs=21.0  Template_Neff=11.100
+
+Q SRX3156367_111   20 MKLKNILLVVKDIEKSKQFYHDLF   43 (147)
+Q Consensus        20 mklknillvvkdiekskqfyhdlf   43 (147)
+                      ..+..+.+.|.|++++..||.++|
+T Consensus       163 ~~l~~v~i~~~d~~~~~~~y~~~l  186 (186)
+T C5BVV5_BEUC1/6  163 TEVAWLEIGAREDELVEHIGVETF  186 (186)
+T ss_pred             ceEEEEEEeeCcHHHHHHhhhhcC
+Confidence            457789999999999999999875
+
+
+No 16
+>PF13535.6 ; ATP-grasp_4 ; ATP-grasp domain
+Probab=59.32  E-value=0.27  Score=24.09  Aligned_cols=25  Identities=16%  Similarity=0.248  Sum_probs=18.1  Template_Neff=12.000
+
+Q SRX3156367_111   35 SKQFYHDLFGLDMILDNDGNMILTE   59 (147)
+Q Consensus        35 skqfyhdlfgldmildndgnmilte   59 (147)
+                      .-.+.+..+++|+++|.+|+..+.|
+T Consensus       123 ~l~~~~g~~~~d~~~~~~g~~~~iE  147 (160)
+T F0JGT9_DESDE/1  123 ECGFRDFVSHIEVRVTETGDIIPIE  147 (160)
+T ss_pred             HcCCCCcEEEEEEEEcCCCCEEEEE
+Confidence            3334446789999999988777666
+
+
+No 17
+>PF03133.15 ; TTL ; Tubulin-tyrosine ligase family
+Probab=54.38  E-value=0.41  Score=28.24  Aligned_cols=22  Identities=32%  Similarity=0.531  Sum_probs=18.6  Template_Neff=10.500
+
+Q SRX3156367_111   39 YHDLFGLDMILDNDGNMILTEG   60 (147)
+Q Consensus        39 yhdlfgldmildndgnmilteg   60 (147)
+                      ...++|+|+++|++|+..+-|.
+T Consensus       263 ~~~~~g~D~~id~~~~~~liEv  284 (321)
+T Q9VX74_DROME/1  263 CFEVYGYDIIIDNNLKPWLIEI  284 (321)
+T ss_pred             ceEEEEEEEEEcCCCCEEEEEE
+Confidence            5688999999999998877664
+
+
+No 18
+>PF18299.1 ; R2K_2 ; ATP-grasp domain, R2K clade family 2
+Probab=52.05  E-value=0.49  Score=25.43  Aligned_cols=24  Identities=21%  Similarity=0.342  Sum_probs=19.9  Template_Neff=9.900
+
+Q SRX3156367_111   36 KQFYHDLFGLDMILDNDGNMILTE   59 (147)
+Q Consensus        36 kqfyhdlfgldmildndgnmilte   59 (147)
+                      +.+.++.+++|++.+.||...+.|
+T Consensus       109 ~~~~~~~~~vDi~~~~~g~~~viE  132 (152)
+T A0A142XM32_9BA  109 SPIAPAGYGIDFGVLTTGRTVLVE  132 (152)
+T ss_pred             cccCCCeEEEEEEEeCCCCEEEEE
+Confidence            456789999999999988777766
+
+
+No 19
+>PF13756.6 ; Stimulus_sens_1 ; Stimulus-sensing domain
+Probab=48.14  E-value=0.62  Score=23.65  Aligned_cols=15  Identities=40%  Similarity=0.638  Sum_probs=12.5  Template_Neff=9.800
+
+Q SRX3156367_111  120 QKAVRFYDLDGNLIE  134 (147)
+Q Consensus       120 qkavrfydldgnlie  134 (147)
+                      ..-||.||.+|++|-
+T Consensus        17 ~~rvrvfd~~G~lia   31 (109)
+T F2IVA4_POLGS/1   17 KTRARIYDPEGILIL   31 (109)
+T ss_pred             CceEEEECCCCCEEE
+Confidence            446899999999884
+
+
+No 20
+>PF01071.19 ; GARS_A ; Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+Probab=42.61  E-value=0.77  Score=23.23  Aligned_cols=20  Identities=30%  Similarity=0.466  Sum_probs=16.2  Template_Neff=11.800
+
+Q SRX3156367_111   39 YHDLFGLDMILDNDGNMILTE   59 (147)
+Q Consensus        39 yhdlfgldmildndgnmilte   59 (147)
+                      |...+++|+++|++| ..+.|
+T Consensus       170 ~~g~~~vd~~~~~~g-~~~iE  189 (199)
+T PUR2_METTH/100  170 YRGILYGQFMLSADG-PKLIE  189 (199)
+T ss_pred             CCeeEEeEEEEcCCe-eEEEE
+Confidence            567899999999988 66655
+
+
+No 21
+>PF08363.10 ; GbpC ; Glucan-binding protein C
+Probab=33.69  E-value=1.7  Score=28.03  Aligned_cols=18  Identities=44%  Similarity=0.757  Sum_probs=14.6  Template_Neff=7.300
+
+Q SRX3156367_111  121 KAVRFYDLDGNLIEVGTP  138 (147)
+Q Consensus       121 kavrfydldgnlievgtp  138 (147)
+                      --++|||.||++|....+
+T Consensus       149 ~~~~fYde~G~~I~~~~a  166 (276)
+T C7MLU5_CRYCD/1  149 MKVKFYDEDGNVIDPTGA  166 (276)
+T ss_pred             EEEEEECCCCCEeCCCCC
+Confidence            457899999999987554
+
+
+No 22
+>PF04678.13 ; MCU ; Mitochondrial calcium uniporter
+Probab=27.59  E-value=2.5  Score=25.97  Aligned_cols=22  Identities=14%  Similarity=0.199  Sum_probs=18.7  Template_Neff=7.300
+
+Q SRX3156367_111  119 GQKAVRFYDLDGNLIEVGTPMK  140 (147)
+Q Consensus       119 gqkavrfydldgnlievgtpmk  140 (147)
+                      |-+.|++|+.||..|-.+|++.
+T Consensus         4 gi~~~~~~~~~G~rIa~st~i~   25 (207)
+T E4X901_OIKDI/6    4 GVDHAAIYAQGEIRLASATTIS   25 (207)
+T ss_pred             ccceEEEEccCCCEEeecCcHH
+Confidence            5567899999999999999664
+
+
+No 23
+>PF02783.15 ; MCR_beta_N ; Methyl-coenzyme M reductase beta subunit, N-terminal domain
+Probab=24.74  E-value=3.9  Score=27.54  Aligned_cols=25  Identities=20%  Similarity=0.371  Sum_probs=20.5  Template_Neff=3.500
+
+Q SRX3156367_111  123 VRFYDLDGNLIEVGTPMKSESAVIN  147 (147)
+Q Consensus       123 vrfydldgnlievgtpmksesavin  147 (147)
+                      +-.||..|++++-+-|...-|...|
+T Consensus         3 IDLYdD~GklL~s~VpLeaiSPl~N   27 (182)
+T G7WN21_METH6/3    3 IDLYSDRGVLLKSDVDLSAVSPLKN   27 (182)
+T ss_pred             eecccCCCcccccCCCHHHhCccCC
+Confidence            5689999999999999887665543
+
+
+No 24
+>PF14408.6 ; Actino_peptide ; Ribosomally synthesised peptide in actinomycetes
+Probab=23.74  E-value=3.8  Score=22.23  Aligned_cols=19  Identities=26%  Similarity=0.499  Sum_probs=14.8  Template_Neff=5.000
+
+Q SRX3156367_111  122 AVRFYDLDGNLIEVGTPMK  140 (147)
+Q Consensus       122 avrfydldgnlievgtpmk  140 (147)
+                      .-||+|.+|..+|.|.--+
+T Consensus        17 tav~~D~~G~~vemgkhgt   35 (59)
+T Q9KZT1_STRCO/3   17 TARYTDAVGRVVEMGKHGT   35 (59)
+T ss_pred             EEEEECCCCCEEEcCCCcc
+Confidence            4578999999999885433
+
+
+No 25
+>PF01472.20 ; PUA ; PUA domain
+Probab=22.95  E-value=3  Score=18.82  Aligned_cols=21  Identities=29%  Similarity=0.224  Sum_probs=16.9  Template_Neff=10.100
+
+Q SRX3156367_111  121 KAVRFYDLDGNLIEVGTPMKS  141 (147)
+Q Consensus       121 kavrfydldgnlievgtpmks  141 (147)
+                      ..|++||.+|.++-+|....+
+T Consensus        36 ~~V~v~~~~~~~ia~g~~~~~   56 (75)
+T PROB_CALS4/273   36 DCVAVVDHQGREIARGLVNYS   56 (75)
+T ss_pred             CEEEEEcCCCCEEEEEEEecC
+Confidence            568899999999998886544
+
+
+No 26
+>PF09779.9 ; Ima1_N ; Ima1 N-terminal domain
+Probab=21.77  E-value=3.9  Score=23.69  Aligned_cols=29  Identities=21%  Similarity=0.376  Sum_probs=18.4  Template_Neff=7.100
+
+Q SRX3156367_111   78 LPKSNSCELYFEEKN-IEAFIKNLEKLYPS  106 (147)
+Q Consensus        78 lpksnscelyfeekn-ieafiknleklyps  106 (147)
+                      +|....-|--.-+.+ +++|.+.||+.||-
+T Consensus       103 ~Pd~~dpey~~~~~~~~~~Yr~~LE~rYP~  132 (140)
+T U4L9H4_PYROM/1  103 MPPEDHPDYDKHVNVLYPRYIKEFEARYPQ  132 (140)
+T ss_pred             CCCCCCchHHHHHHHHHHHHHHHHHHHChh
+Confidence            453333332223445 89999999999993
+
+
